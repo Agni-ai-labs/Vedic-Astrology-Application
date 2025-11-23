@@ -6,6 +6,7 @@ import { IntelligentRemedyRecommender } from '@/lib/ai/remedyRecommender';
 import { PredictionCacheManager } from '@/lib/cache/predictionCache';
 import { KnowledgeBaseManager } from '@/lib/knowledge/knowledgeBaseManager';
 import { initSupabase } from '@/lib/db/supabase';
+import scrapingRoutes from '@/routes/scraping.routes';
 
 dotenv.config();
 
@@ -43,6 +44,10 @@ const kbManager = new KnowledgeBaseManager();
 // Initialize with API Key from env
 const semanticSearch = new SemanticYogaSearch(process.env.GEMINI_API_KEY || '');
 const remedyRecommender = new IntelligentRemedyRecommender();
+
+// Register routes
+app.use('/api/scraping', scrapingRoutes);
+app.use('/api/knowledge', scrapingRoutes); // Reuse the same router for knowledge endpoints
 
 // Routes
 
