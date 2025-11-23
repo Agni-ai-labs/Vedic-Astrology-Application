@@ -1,18 +1,113 @@
 export interface YogaKnowledgeBase {
     id: string;
     name: string;
-    category: string;
-    rarity: string;
+    category: 'Raj' | 'Dhana' | 'Daridra' | 'Arishta' | 'Nabhasa' | 'Special' | string;
+    rarity: 'Common' | 'Moderate' | 'Rare' | 'Very Rare' | string;
+
+    formation?: {
+        rule: string;
+        conditions?: any[];
+        cancellationFactors?: string[];
+        strengtheningFactors?: string[];
+    };
+
     effects: {
         general: string;
+        timing?: string;
         lifeAreas: {
-            [key: string]: number; // Impact score 1-10
+            [key: string]: number | { impact: number; description: string };
+        };
+        strengthLevels?: {
+            weak: string;
+            moderate: string;
+            strong: string;
+            veryStrong: string;
         };
     };
+
+    examples?: {
+        celebrities: string[];
+        historicalFigures?: string[];
+    };
+
     remedies: {
         primary: Remedy[];
         secondary: Remedy[];
+        mantras?: string[];
+        gemstones?: string[];
+        charities?: string[];
+        rituals?: string[];
     };
+
+    classicalReferences?: {
+        text: string;
+        chapter: string;
+        verse: string;
+        translation: string;
+    }[];
+
+    modernInterpretation?: string;
+    relatedYogas?: string[];
+
+    scrapedFrom?: {
+        source: string;
+        url: string;
+        dateScraped: Date | string;
+        reliability: number;
+    }[];
+
+    searchVector?: number[];
+}
+
+export interface DoshaKnowledgeBase {
+    id: string;
+    name: string;
+    alternateName?: string[];
+    severity: 'Mild' | 'Moderate' | 'Severe' | 'Critical' | string;
+
+    detection?: {
+        rule: string;
+        conditions?: any[];
+        variations?: any[];
+    };
+
+    effects: {
+        primaryImpact: string[];
+        lifeAreaAffected: {
+            [key: string]: { severity: number; issues: string[] };
+        };
+        manifestationAge?: string;
+        duration?: string;
+    };
+
+    cancellation?: {
+        fullCancellation: string[];
+        partialCancellation: string[];
+        naturalResolution?: string;
+    };
+
+    remedies: {
+        primary: Remedy[];
+        secondary: Remedy[];
+        emergency?: Remedy[];
+        lifeStyleChanges?: string[];
+    };
+
+    compatibilityRules?: {
+        matchWith: string[];
+        avoid: string[];
+    };
+
+    classicalView?: string;
+    modernView?: string;
+    psychologicalInterpretation?: string;
+
+    caseStudies?: {
+        case: string;
+        outcome: string;
+        remedyUsed: string;
+    }[];
+
     searchVector?: number[];
 }
 
