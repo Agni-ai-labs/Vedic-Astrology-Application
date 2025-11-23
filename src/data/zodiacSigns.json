@@ -1,0 +1,634 @@
+[
+    {
+        "name": "Aries",
+        "symbol": "♈",
+        "dateRange": {
+            "start": "March 21",
+            "end": "April 19"
+        },
+        "element": "Fire",
+        "modality": "Cardinal",
+        "rulingPlanet": "Mars",
+        "coreTraits": [
+            "Bold",
+            "Energetic",
+            "Passionate",
+            "Independent",
+            "Pioneering"
+        ],
+        "strengths": [
+            "Courageous",
+            "Determined",
+            "Confident",
+            "Enthusiastic",
+            "Optimistic"
+        ],
+        "challenges": [
+            "Impatient",
+            "Impulsive",
+            "Short-tempered",
+            "Aggressive"
+        ],
+        "keywords": [
+            "Action",
+            "Leadership",
+            "Courage",
+            "Initiative",
+            "Competition"
+        ],
+        "colors": [
+            "Red",
+            "Scarlet",
+            "Carmine"
+        ],
+        "luckyNumbers": [
+            1,
+            9
+        ],
+        "compatibleSigns": [
+            "Leo",
+            "Sagittarius",
+            "Gemini",
+            "Aquarius"
+        ]
+    },
+    {
+        "name": "Taurus",
+        "symbol": "♉",
+        "dateRange": {
+            "start": "April 20",
+            "end": "May 20"
+        },
+        "element": "Earth",
+        "modality": "Fixed",
+        "rulingPlanet": "Venus",
+        "coreTraits": [
+            "Reliable",
+            "Patient",
+            "Practical",
+            "Devoted",
+            "Stable"
+        ],
+        "strengths": [
+            "Dependable",
+            "Persistent",
+            "Loyal",
+            "Generous"
+        ],
+        "challenges": [
+            "Stubborn",
+            "Possessive",
+            "Uncompromising"
+        ],
+        "keywords": [
+            "Stability",
+            "Persistence",
+            "Sensuality",
+            "Security"
+        ],
+        "colors": [
+            "Green",
+            "Pink"
+        ],
+        "luckyNumbers": [
+            2,
+            6
+        ],
+        "compatibleSigns": [
+            "Virgo",
+            "Capricorn",
+            "Cancer",
+            "Pisces"
+        ]
+    },
+    {
+        "name": "Gemini",
+        "symbol": "♊",
+        "dateRange": {
+            "start": "May 21",
+            "end": "June 20"
+        },
+        "element": "Air",
+        "modality": "Mutable",
+        "rulingPlanet": "Mercury",
+        "coreTraits": [
+            "Adaptable",
+            "Curious",
+            "Sociable",
+            "Witty",
+            "Versatile"
+        ],
+        "strengths": [
+            "Communicative",
+            "Intellectual",
+            "Quick-witted",
+            "Expressive"
+        ],
+        "challenges": [
+            "Inconsistent",
+            "Indecisive",
+            "Nervous",
+            "Superficial"
+        ],
+        "keywords": [
+            "Communication",
+            "Duality",
+            "Versatility",
+            "Curiosity"
+        ],
+        "colors": [
+            "Yellow",
+            "Light Blue"
+        ],
+        "luckyNumbers": [
+            5,
+            7
+        ],
+        "compatibleSigns": [
+            "Libra",
+            "Aquarius",
+            "Aries",
+            "Leo"
+        ]
+    },
+    {
+        "name": "Cancer",
+        "symbol": "♋",
+        "dateRange": {
+            "start": "June 21",
+            "end": "July 22"
+        },
+        "element": "Water",
+        "modality": "Cardinal",
+        "rulingPlanet": "Moon",
+        "coreTraits": [
+            "Emotional",
+            "Nurturing",
+            "Intuitive",
+            "Protective",
+            "Sympathetic"
+        ],
+        "strengths": [
+            "Loyal",
+            "Caring",
+            "Imaginative",
+            "Tenacious"
+        ],
+        "challenges": [
+            "Moody",
+            "Oversensitive",
+            "Clingy",
+            "Pessimistic"
+        ],
+        "keywords": [
+            "Emotion",
+            "Home",
+            "Family",
+            "Intuition",
+            "Protection"
+        ],
+        "colors": [
+            "White",
+            "Silver"
+        ],
+        "luckyNumbers": [
+            2,
+            7
+        ],
+        "compatibleSigns": [
+            "Scorpio",
+            "Pisces",
+            "Taurus",
+            "Virgo"
+        ]
+    },
+    {
+        "name": "Leo",
+        "symbol": "♌",
+        "dateRange": {
+            "start": "July 23",
+            "end": "August 22"
+        },
+        "element": "Fire",
+        "modality": "Fixed",
+        "rulingPlanet": "Sun",
+        "coreTraits": [
+            "Confident",
+            "Generous",
+            "Creative",
+            "Warm-hearted",
+            "Charismatic"
+        ],
+        "strengths": [
+            "Leadership",
+            "Loyalty",
+            "Passion",
+            "Creativity"
+        ],
+        "challenges": [
+            "Arrogant",
+            "Stubborn",
+            "Self-centered",
+            "Inflexible"
+        ],
+        "keywords": [
+            "Creativity",
+            "Leadership",
+            "Drama",
+            "Pride",
+            "Generosity"
+        ],
+        "colors": [
+            "Gold",
+            "Orange",
+            "Yellow"
+        ],
+        "luckyNumbers": [
+            1,
+            3,
+            10,
+            19
+        ],
+        "compatibleSigns": [
+            "Aries",
+            "Sagittarius",
+            "Gemini",
+            "Libra"
+        ]
+    },
+    {
+        "name": "Virgo",
+        "symbol": "♍",
+        "dateRange": {
+            "start": "August 23",
+            "end": "September 22"
+        },
+        "element": "Earth",
+        "modality": "Mutable",
+        "rulingPlanet": "Mercury",
+        "coreTraits": [
+            "Analytical",
+            "Practical",
+            "Meticulous",
+            "Modest",
+            "Helpful"
+        ],
+        "strengths": [
+            "Diligent",
+            "Reliable",
+            "Intelligent",
+            "Perfectionist"
+        ],
+        "challenges": [
+            "Overcritical",
+            "Worrier",
+            "Perfectionist",
+            "Conservative"
+        ],
+        "keywords": [
+            "Precision",
+            "Service",
+            "Analysis",
+            "Health",
+            "Efficiency"
+        ],
+        "colors": [
+            "Gray",
+            "Beige",
+            "Pale Yellow"
+        ],
+        "luckyNumbers": [
+            5,
+            14,
+            23
+        ],
+        "compatibleSigns": [
+            "Taurus",
+            "Capricorn",
+            "Cancer",
+            "Scorpio"
+        ]
+    },
+    {
+        "name": "Libra",
+        "symbol": "♎",
+        "dateRange": {
+            "start": "September 23",
+            "end": "October 22"
+        },
+        "element": "Air",
+        "modality": "Cardinal",
+        "rulingPlanet": "Venus",
+        "coreTraits": [
+            "Diplomatic",
+            "Fair",
+            "Social",
+            "Gracious",
+            "Cooperative"
+        ],
+        "strengths": [
+            "Balanced",
+            "Charming",
+            "Idealistic",
+            "Peaceful"
+        ],
+        "challenges": [
+            "Indecisive",
+            "Avoids confrontation",
+            "Self-pity"
+        ],
+        "keywords": [
+            "Balance",
+            "Harmony",
+            "Justice",
+            "Partnership",
+            "Beauty"
+        ],
+        "colors": [
+            "Pink",
+            "Green"
+        ],
+        "luckyNumbers": [
+            4,
+            6,
+            13,
+            15,
+            24
+        ],
+        "compatibleSigns": [
+            "Gemini",
+            "Aquarius",
+            "Leo",
+            "Sagittarius"
+        ]
+    },
+    {
+        "name": "Scorpio",
+        "symbol": "♏",
+        "dateRange": {
+            "start": "October 23",
+            "end": "November 21"
+        },
+        "element": "Water",
+        "modality": "Fixed",
+        "rulingPlanet": "Pluto",
+        "coreTraits": [
+            "Passionate",
+            "Intense",
+            "Resourceful",
+            "Brave",
+            "Mysterious"
+        ],
+        "strengths": [
+            "Determined",
+            "Powerful",
+            "Emotional depth",
+            "Loyal"
+        ],
+        "challenges": [
+            "Jealous",
+            "Secretive",
+            "Resentful",
+            "Manipulative"
+        ],
+        "keywords": [
+            "Transformation",
+            "Intensity",
+            "Power",
+            "Mystery",
+            "Passion"
+        ],
+        "colors": [
+            "Scarlet",
+            "Red",
+            "Rust"
+        ],
+        "luckyNumbers": [
+            8,
+            11,
+            18,
+            22
+        ],
+        "compatibleSigns": [
+            "Cancer",
+            "Pisces",
+            "Virgo",
+            "Capricorn"
+        ]
+    },
+    {
+        "name": "Sagittarius",
+        "symbol": "♐",
+        "dateRange": {
+            "start": "November 22",
+            "end": "December 21"
+        },
+        "element": "Fire",
+        "modality": "Mutable",
+        "rulingPlanet": "Jupiter",
+        "coreTraits": [
+            "Optimistic",
+            "Freedom-loving",
+            "Philosophical",
+            "Adventurous",
+            "Honest"
+        ],
+        "strengths": [
+            "Generous",
+            "Idealistic",
+            "Great sense of humor"
+        ],
+        "challenges": [
+            "Tactless",
+            "Impatient",
+            "Overconfident",
+            "Irresponsible"
+        ],
+        "keywords": [
+            "Adventure",
+            "Philosophy",
+            "Freedom",
+            "Truth",
+            "Expansion"
+        ],
+        "colors": [
+            "Blue",
+            "Purple"
+        ],
+        "luckyNumbers": [
+            3,
+            7,
+            9,
+            12,
+            21
+        ],
+        "compatibleSigns": [
+            "Aries",
+            "Leo",
+            "Libra",
+            "Aquarius"
+        ]
+    },
+    {
+        "name": "Capricorn",
+        "symbol": "♑",
+        "dateRange": {
+            "start": "December 22",
+            "end": "January 19"
+        },
+        "element": "Earth",
+        "modality": "Cardinal",
+        "rulingPlanet": "Saturn",
+        "coreTraits": [
+            "Responsible",
+            "Disciplined",
+            "Ambitious",
+            "Patient",
+            "Practical"
+        ],
+        "strengths": [
+            "Resourceful",
+            "Master planner",
+            "Persistent",
+            "Responsible"
+        ],
+        "challenges": [
+            "Pessimistic",
+            "Stubborn",
+            "Unforgiving",
+            "Condescending"
+        ],
+        "keywords": [
+            "Ambition",
+            "Structure",
+            "Discipline",
+            "Authority",
+            "Achievement"
+        ],
+        "colors": [
+            "Brown",
+            "Black"
+        ],
+        "luckyNumbers": [
+            4,
+            8,
+            13,
+            22
+        ],
+        "compatibleSigns": [
+            "Taurus",
+            "Virgo",
+            "Scorpio",
+            "Pisces"
+        ]
+    },
+    {
+        "name": "Aquarius",
+        "symbol": "♒",
+        "dateRange": {
+            "start": "January 20",
+            "end": "February 18"
+        },
+        "element": "Air",
+        "modality": "Fixed",
+        "rulingPlanet": "Uranus",
+        "coreTraits": [
+            "Progressive",
+            "Original",
+            "Humanitarian",
+            "Independent",
+            "Inventive"
+        ],
+        "strengths": [
+            "Visionary",
+            "Intellectual",
+            "Friendly",
+            "Innovative"
+        ],
+        "challenges": [
+            "Aloof",
+            "Unpredictable",
+            "Detached",
+            "Extreme"
+        ],
+        "keywords": [
+            "Innovation",
+            "Humanity",
+            "Freedom",
+            "Originality",
+            "Revolution"
+        ],
+        "colors": [
+            "Light Blue",
+            "Silver"
+        ],
+        "luckyNumbers": [
+            4,
+            7,
+            11,
+            22,
+            29
+        ],
+        "compatibleSigns": [
+            "Gemini",
+            "Libra",
+            "Sagittarius",
+            "Aries"
+        ]
+    },
+    {
+        "name": "Pisces",
+        "symbol": "♓",
+        "dateRange": {
+            "start": "February 19",
+            "end": "March 20"
+        },
+        "element": "Water",
+        "modality": "Mutable",
+        "rulingPlanet": "Neptune",
+        "coreTraits": [
+            "Compassionate",
+            "Artistic",
+            "Intuitive",
+            "Gentle",
+            "Wise"
+        ],
+        "strengths": [
+            "Empathetic",
+            "Spiritual",
+            "Creative",
+            "Selfless"
+        ],
+        "challenges": [
+            "Overly trusting",
+            "Escapist",
+            "Lack of boundaries",
+            "Victim mentality"
+        ],
+        "keywords": [
+            "Spirituality",
+            "Compassion",
+            "Imagination",
+            "Intuition",
+            "Transcendence"
+        ],
+        "colors": [
+            "Sea Green",
+            "Lavender"
+        ],
+        "luckyNumbers": [
+            3,
+            9,
+            12,
+            15,
+            18,
+            24
+        ],
+        "compatibleSigns": [
+            "Cancer",
+            "Scorpio",
+            "Taurus",
+            "Capricorn"
+        ]
+    }
+]

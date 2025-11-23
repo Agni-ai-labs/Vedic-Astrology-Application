@@ -1,0 +1,66 @@
+[
+    {
+        "sign": "Leo",
+        "month": "November",
+        "year": 2025,
+        "overview": "This month brings powerful opportunities for career advancement and creative expression. Jupiter's favorable aspect to your Sun encourages bold moves in professional matters. Mid-month, a New Moon in your romance sector ignites passion and artistic inspiration. Financial gains are likely through collaborative ventures, but watch impulsive spending around the 20th.",
+        "keyDates": [
+            {
+                "date": "November 5",
+                "event": "New Moon in Scorpio (4th house)",
+                "significance": "Perfect time for starting new projects or renovating your home"
+            },
+            {
+                "date": "November 12",
+                "event": "Jupiter stations direct",
+                "significance": "Career opportunities expand, long-term goals become clearer"
+            },
+            {
+                "date": "November 20",
+                "event": "Full Moon in Taurus (10th house)",
+                "significance": "Recognition and achievement in professional matters peak"
+            }
+        ],
+        "opportunities": [
+            "Leadership position or promotion at work",
+            "Creative projects gain recognition",
+            "Romantic connections deepen",
+            "Financial partnerships prove lucrative"
+        ],
+        "challenges": [
+            "Avoid ego clashes with authority figures mid-month",
+            "Balance work ambitions with personal relationships",
+            "Watch impulsive financial decisions around the 20th"
+        ],
+        "advice": "Focus on collaborative ventures this month. Your natural leadership shines brightest when you empower others. The Full Moon on the 20th brings career recognition - be ready to step into the spotlight. In romance, vulnerability strengthens bonds.",
+        "luckyDays": [
+            5,
+            12,
+            20,
+            27
+        ],
+        "colors": [
+            "Gold",
+            "Orange",
+            "Deep Red"
+        ],
+        "areas": {
+            "love": {
+                "rating": 8,
+                "description": "Romance flourishes, especially around the New Moon. Existing relationships deepen through honest communication."
+            },
+            "career": {
+                "rating": 9,
+                "description": "Exceptional month for professional advancement. Jupiter direct brings long-awaited opportunities."
+            },
+            "finance": {
+                "rating": 7,
+                "description": "Income increases through partnerships, but avoid impulsive purchases. Focus on long-term investments."
+            },
+            "health": {
+                "rating": 6,
+                "description": "Energy levels fluctuate. Prioritize rest mid-month. Exercise and stress management are crucial."
+            }
+        }
+    }
+]

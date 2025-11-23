@@ -1,0 +1,2030 @@
+[
+    {
+        "id": "major-0",
+        "name": "The Fool",
+        "number": 0,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "New beginnings",
+                "Innocence",
+                "Spontaneity"
+            ],
+            "description": "The Fool represents new beginnings, innocence, spontaneity. It signifies a time of new beginnings and innocence."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked new beginnings",
+                "Blocked innocence",
+                "Blocked spontaneity"
+            ],
+            "description": "Reversed, The Fool suggests issues with new beginnings, innocence, spontaneity. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Uranus",
+        "element": "Air",
+        "imageUrl": "/tarot/major-00-the-fool.svg"
+    },
+    {
+        "id": "major-1",
+        "name": "The Magician",
+        "number": 1,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Manifestation",
+                "Power",
+                "Action"
+            ],
+            "description": "The Magician represents manifestation, power, action. It signifies a time of manifestation and power."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked manifestation",
+                "Blocked power",
+                "Blocked action"
+            ],
+            "description": "Reversed, The Magician suggests issues with manifestation, power, action. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Mercury",
+        "element": "Air",
+        "imageUrl": "/tarot/major-01-the-magician.svg"
+    },
+    {
+        "id": "major-2",
+        "name": "The High Priestess",
+        "number": 2,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Intuition",
+                "Mystery",
+                "Subconscious"
+            ],
+            "description": "The High Priestess represents intuition, mystery, subconscious. It signifies a time of intuition and mystery."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked intuition",
+                "Blocked mystery",
+                "Blocked subconscious"
+            ],
+            "description": "Reversed, The High Priestess suggests issues with intuition, mystery, subconscious. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Moon",
+        "element": "Water",
+        "imageUrl": "/tarot/major-02-the-high-priestess.svg"
+    },
+    {
+        "id": "major-3",
+        "name": "The Empress",
+        "number": 3,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Fertility",
+                "Nurturing",
+                "Abundance"
+            ],
+            "description": "The Empress represents fertility, nurturing, abundance. It signifies a time of fertility and nurturing."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked fertility",
+                "Blocked nurturing",
+                "Blocked abundance"
+            ],
+            "description": "Reversed, The Empress suggests issues with fertility, nurturing, abundance. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Venus",
+        "element": "Earth",
+        "imageUrl": "/tarot/major-03-the-empress.svg"
+    },
+    {
+        "id": "major-4",
+        "name": "The Emperor",
+        "number": 4,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Authority",
+                "Structure",
+                "Control"
+            ],
+            "description": "The Emperor represents authority, structure, control. It signifies a time of authority and structure."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked authority",
+                "Blocked structure",
+                "Blocked control"
+            ],
+            "description": "Reversed, The Emperor suggests issues with authority, structure, control. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Aries",
+        "element": "Fire",
+        "imageUrl": "/tarot/major-04-the-emperor.svg"
+    },
+    {
+        "id": "major-5",
+        "name": "The Hierophant",
+        "number": 5,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Tradition",
+                "Beliefs",
+                "Conformity"
+            ],
+            "description": "The Hierophant represents tradition, beliefs, conformity. It signifies a time of tradition and beliefs."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked tradition",
+                "Blocked beliefs",
+                "Blocked conformity"
+            ],
+            "description": "Reversed, The Hierophant suggests issues with tradition, beliefs, conformity. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Taurus",
+        "element": "Earth",
+        "imageUrl": "/tarot/major-05-the-hierophant.svg"
+    },
+    {
+        "id": "major-6",
+        "name": "The Lovers",
+        "number": 6,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Love",
+                "Union",
+                "Choices"
+            ],
+            "description": "The Lovers represents love, union, choices. It signifies a time of love and union."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked love",
+                "Blocked union",
+                "Blocked choices"
+            ],
+            "description": "Reversed, The Lovers suggests issues with love, union, choices. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Gemini",
+        "element": "Air",
+        "imageUrl": "/tarot/major-06-the-lovers.svg"
+    },
+    {
+        "id": "major-7",
+        "name": "The Chariot",
+        "number": 7,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Willpower",
+                "Victory",
+                "Determination"
+            ],
+            "description": "The Chariot represents willpower, victory, determination. It signifies a time of willpower and victory."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked willpower",
+                "Blocked victory",
+                "Blocked determination"
+            ],
+            "description": "Reversed, The Chariot suggests issues with willpower, victory, determination. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Cancer",
+        "element": "Water",
+        "imageUrl": "/tarot/major-07-the-chariot.svg"
+    },
+    {
+        "id": "major-8",
+        "name": "Strength",
+        "number": 8,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Courage",
+                "Patience",
+                "Compassion"
+            ],
+            "description": "Strength represents courage, patience, compassion. It signifies a time of courage and patience."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked courage",
+                "Blocked patience",
+                "Blocked compassion"
+            ],
+            "description": "Reversed, Strength suggests issues with courage, patience, compassion. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Leo",
+        "element": "Fire",
+        "imageUrl": "/tarot/major-08-strength.svg"
+    },
+    {
+        "id": "major-9",
+        "name": "The Hermit",
+        "number": 9,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Introspection",
+                "Solitude",
+                "Guidance"
+            ],
+            "description": "The Hermit represents introspection, solitude, guidance. It signifies a time of introspection and solitude."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked introspection",
+                "Blocked solitude",
+                "Blocked guidance"
+            ],
+            "description": "Reversed, The Hermit suggests issues with introspection, solitude, guidance. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Virgo",
+        "element": "Earth",
+        "imageUrl": "/tarot/major-09-the-hermit.svg"
+    },
+    {
+        "id": "major-10",
+        "name": "Wheel of Fortune",
+        "number": 10,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Change",
+                "Cycles",
+                "Destiny"
+            ],
+            "description": "Wheel of Fortune represents change, cycles, destiny. It signifies a time of change and cycles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked change",
+                "Blocked cycles",
+                "Blocked destiny"
+            ],
+            "description": "Reversed, Wheel of Fortune suggests issues with change, cycles, destiny. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Jupiter",
+        "element": "Fire",
+        "imageUrl": "/tarot/major-10-wheel-of-fortune.svg"
+    },
+    {
+        "id": "major-11",
+        "name": "Justice",
+        "number": 11,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Fairness",
+                "Truth",
+                "Law"
+            ],
+            "description": "Justice represents fairness, truth, law. It signifies a time of fairness and truth."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked fairness",
+                "Blocked truth",
+                "Blocked law"
+            ],
+            "description": "Reversed, Justice suggests issues with fairness, truth, law. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Libra",
+        "element": "Air",
+        "imageUrl": "/tarot/major-11-justice.svg"
+    },
+    {
+        "id": "major-12",
+        "name": "The Hanged Man",
+        "number": 12,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Surrender",
+                "Perspective",
+                "Sacrifice"
+            ],
+            "description": "The Hanged Man represents surrender, perspective, sacrifice. It signifies a time of surrender and perspective."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked surrender",
+                "Blocked perspective",
+                "Blocked sacrifice"
+            ],
+            "description": "Reversed, The Hanged Man suggests issues with surrender, perspective, sacrifice. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Neptune",
+        "element": "Water",
+        "imageUrl": "/tarot/major-12-the-hanged-man.svg"
+    },
+    {
+        "id": "major-13",
+        "name": "Death",
+        "number": 13,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Endings",
+                "Transformation",
+                "Transition"
+            ],
+            "description": "Death represents endings, transformation, transition. It signifies a time of endings and transformation."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked endings",
+                "Blocked transformation",
+                "Blocked transition"
+            ],
+            "description": "Reversed, Death suggests issues with endings, transformation, transition. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Scorpio",
+        "element": "Water",
+        "imageUrl": "/tarot/major-13-death.svg"
+    },
+    {
+        "id": "major-14",
+        "name": "Temperance",
+        "number": 14,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Balance",
+                "Moderation",
+                "Patience"
+            ],
+            "description": "Temperance represents balance, moderation, patience. It signifies a time of balance and moderation."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked balance",
+                "Blocked moderation",
+                "Blocked patience"
+            ],
+            "description": "Reversed, Temperance suggests issues with balance, moderation, patience. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Sagittarius",
+        "element": "Fire",
+        "imageUrl": "/tarot/major-14-temperance.svg"
+    },
+    {
+        "id": "major-15",
+        "name": "The Devil",
+        "number": 15,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Addiction",
+                "Materialism",
+                "Bondage"
+            ],
+            "description": "The Devil represents addiction, materialism, bondage. It signifies a time of addiction and materialism."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked addiction",
+                "Blocked materialism",
+                "Blocked bondage"
+            ],
+            "description": "Reversed, The Devil suggests issues with addiction, materialism, bondage. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Capricorn",
+        "element": "Earth",
+        "imageUrl": "/tarot/major-15-the-devil.svg"
+    },
+    {
+        "id": "major-16",
+        "name": "The Tower",
+        "number": 16,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Disaster",
+                "Upheaval",
+                "Revelation"
+            ],
+            "description": "The Tower represents disaster, upheaval, revelation. It signifies a time of disaster and upheaval."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked disaster",
+                "Blocked upheaval",
+                "Blocked revelation"
+            ],
+            "description": "Reversed, The Tower suggests issues with disaster, upheaval, revelation. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Mars",
+        "element": "Fire",
+        "imageUrl": "/tarot/major-16-the-tower.svg"
+    },
+    {
+        "id": "major-17",
+        "name": "The Star",
+        "number": 17,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Hope",
+                "Faith",
+                "Rejuvenation"
+            ],
+            "description": "The Star represents hope, faith, rejuvenation. It signifies a time of hope and faith."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked hope",
+                "Blocked faith",
+                "Blocked rejuvenation"
+            ],
+            "description": "Reversed, The Star suggests issues with hope, faith, rejuvenation. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Aquarius",
+        "element": "Air",
+        "imageUrl": "/tarot/major-17-the-star.svg"
+    },
+    {
+        "id": "major-18",
+        "name": "The Moon",
+        "number": 18,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Illusion",
+                "Fear",
+                "Anxiety"
+            ],
+            "description": "The Moon represents illusion, fear, anxiety. It signifies a time of illusion and fear."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked illusion",
+                "Blocked fear",
+                "Blocked anxiety"
+            ],
+            "description": "Reversed, The Moon suggests issues with illusion, fear, anxiety. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Pisces",
+        "element": "Water",
+        "imageUrl": "/tarot/major-18-the-moon.svg"
+    },
+    {
+        "id": "major-19",
+        "name": "The Sun",
+        "number": 19,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Joy",
+                "Success",
+                "Vitality"
+            ],
+            "description": "The Sun represents joy, success, vitality. It signifies a time of joy and success."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked joy",
+                "Blocked success",
+                "Blocked vitality"
+            ],
+            "description": "Reversed, The Sun suggests issues with joy, success, vitality. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Sun",
+        "element": "Fire",
+        "imageUrl": "/tarot/major-19-the-sun.svg"
+    },
+    {
+        "id": "major-20",
+        "name": "Judgement",
+        "number": 20,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Rebirth",
+                "Calling",
+                "Absolution"
+            ],
+            "description": "Judgement represents rebirth, calling, absolution. It signifies a time of rebirth and calling."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked rebirth",
+                "Blocked calling",
+                "Blocked absolution"
+            ],
+            "description": "Reversed, Judgement suggests issues with rebirth, calling, absolution. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Pluto",
+        "element": "Fire",
+        "imageUrl": "/tarot/major-20-judgement.svg"
+    },
+    {
+        "id": "major-21",
+        "name": "The World",
+        "number": 21,
+        "arcana": "Major",
+        "suit": null,
+        "uprightMeaning": {
+            "keywords": [
+                "Completion",
+                "Integration",
+                "Travel"
+            ],
+            "description": "The World represents completion, integration, travel. It signifies a time of completion and integration."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked completion",
+                "Blocked integration",
+                "Blocked travel"
+            ],
+            "description": "Reversed, The World suggests issues with completion, integration, travel. You may be experiencing blocked energy or resistance."
+        },
+        "zodiacSign": "Saturn",
+        "element": "Earth",
+        "imageUrl": "/tarot/major-21-the-world.svg"
+    },
+    {
+        "id": "wands-ace",
+        "name": "Ace of Wands",
+        "number": 1,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "New beginnings",
+                "Potential",
+                "Pure energy",
+                "Wands"
+            ],
+            "description": "The Ace of Wands represents new beginnings, potential, pure energy in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked new beginnings",
+                "Blocked potential",
+                "Blocked pure energy"
+            ],
+            "description": "Reversed, the Ace of Wands suggests challenges with new beginnings, potential, pure energy."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-ace.svg"
+    },
+    {
+        "id": "wands-two",
+        "name": "Two of Wands",
+        "number": 2,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Balance",
+                "Partnership",
+                "Duality",
+                "Wands"
+            ],
+            "description": "The Two of Wands represents balance, partnership, duality in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked balance",
+                "Blocked partnership",
+                "Blocked duality"
+            ],
+            "description": "Reversed, the Two of Wands suggests challenges with balance, partnership, duality."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-two.svg"
+    },
+    {
+        "id": "wands-three",
+        "name": "Three of Wands",
+        "number": 3,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Growth",
+                "Creativity",
+                "Groups",
+                "Wands"
+            ],
+            "description": "The Three of Wands represents growth, creativity, groups in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked growth",
+                "Blocked creativity",
+                "Blocked groups"
+            ],
+            "description": "Reversed, the Three of Wands suggests challenges with growth, creativity, groups."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-three.svg"
+    },
+    {
+        "id": "wands-four",
+        "name": "Four of Wands",
+        "number": 4,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Stability",
+                "Structure",
+                "Rest",
+                "Wands"
+            ],
+            "description": "The Four of Wands represents stability, structure, rest in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked stability",
+                "Blocked structure",
+                "Blocked rest"
+            ],
+            "description": "Reversed, the Four of Wands suggests challenges with stability, structure, rest."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-four.svg"
+    },
+    {
+        "id": "wands-five",
+        "name": "Five of Wands",
+        "number": 5,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Conflict",
+                "Change",
+                "Loss",
+                "Wands"
+            ],
+            "description": "The Five of Wands represents conflict, change, loss in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked conflict",
+                "Blocked change",
+                "Blocked loss"
+            ],
+            "description": "Reversed, the Five of Wands suggests challenges with conflict, change, loss."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-five.svg"
+    },
+    {
+        "id": "wands-six",
+        "name": "Six of Wands",
+        "number": 6,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Harmony",
+                "Adjustment",
+                "Help",
+                "Wands"
+            ],
+            "description": "The Six of Wands represents harmony, adjustment, help in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked harmony",
+                "Blocked adjustment",
+                "Blocked help"
+            ],
+            "description": "Reversed, the Six of Wands suggests challenges with harmony, adjustment, help."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-six.svg"
+    },
+    {
+        "id": "wands-seven",
+        "name": "Seven of Wands",
+        "number": 7,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Strategy",
+                "Choices",
+                "Assessment",
+                "Wands"
+            ],
+            "description": "The Seven of Wands represents strategy, choices, assessment in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked strategy",
+                "Blocked choices",
+                "Blocked assessment"
+            ],
+            "description": "Reversed, the Seven of Wands suggests challenges with strategy, choices, assessment."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-seven.svg"
+    },
+    {
+        "id": "wands-eight",
+        "name": "Eight of Wands",
+        "number": 8,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Movement",
+                "Power",
+                "Action",
+                "Wands"
+            ],
+            "description": "The Eight of Wands represents movement, power, action in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked movement",
+                "Blocked power",
+                "Blocked action"
+            ],
+            "description": "Reversed, the Eight of Wands suggests challenges with movement, power, action."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-eight.svg"
+    },
+    {
+        "id": "wands-nine",
+        "name": "Nine of Wands",
+        "number": 9,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Fulfillment",
+                "Completion",
+                "Solitude",
+                "Wands"
+            ],
+            "description": "The Nine of Wands represents fulfillment, completion, solitude in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked fulfillment",
+                "Blocked completion",
+                "Blocked solitude"
+            ],
+            "description": "Reversed, the Nine of Wands suggests challenges with fulfillment, completion, solitude."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-nine.svg"
+    },
+    {
+        "id": "wands-ten",
+        "name": "Ten of Wands",
+        "number": 10,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Culmination",
+                "End of cycle",
+                "Legacy",
+                "Wands"
+            ],
+            "description": "The Ten of Wands represents culmination, end of cycle, legacy in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked culmination",
+                "Blocked end of cycle",
+                "Blocked legacy"
+            ],
+            "description": "Reversed, the Ten of Wands suggests challenges with culmination, end of cycle, legacy."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-ten.svg"
+    },
+    {
+        "id": "wands-page",
+        "name": "Page of Wands",
+        "number": 11,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Message",
+                "Youth",
+                "Potential",
+                "Wands"
+            ],
+            "description": "The Page of Wands represents message, youth, potential in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked message",
+                "Blocked youth",
+                "Blocked potential"
+            ],
+            "description": "Reversed, the Page of Wands suggests challenges with message, youth, potential."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-page.svg"
+    },
+    {
+        "id": "wands-knight",
+        "name": "Knight of Wands",
+        "number": 12,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Action",
+                "Quest",
+                "Movement",
+                "Wands"
+            ],
+            "description": "The Knight of Wands represents action, quest, movement in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked action",
+                "Blocked quest",
+                "Blocked movement"
+            ],
+            "description": "Reversed, the Knight of Wands suggests challenges with action, quest, movement."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-knight.svg"
+    },
+    {
+        "id": "wands-queen",
+        "name": "Queen of Wands",
+        "number": 13,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Nurturing",
+                "Maturity",
+                "Intuition",
+                "Wands"
+            ],
+            "description": "The Queen of Wands represents nurturing, maturity, intuition in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked nurturing",
+                "Blocked maturity",
+                "Blocked intuition"
+            ],
+            "description": "Reversed, the Queen of Wands suggests challenges with nurturing, maturity, intuition."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-queen.svg"
+    },
+    {
+        "id": "wands-king",
+        "name": "King of Wands",
+        "number": 14,
+        "arcana": "Minor",
+        "suit": "Wands",
+        "uprightMeaning": {
+            "keywords": [
+                "Authority",
+                "Mastery",
+                "Control",
+                "Wands"
+            ],
+            "description": "The King of Wands represents authority, mastery, control in the realm of Wands."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked authority",
+                "Blocked mastery",
+                "Blocked control"
+            ],
+            "description": "Reversed, the King of Wands suggests challenges with authority, mastery, control."
+        },
+        "element": "Fire",
+        "imageUrl": "/tarot/wands-king.svg"
+    },
+    {
+        "id": "cups-ace",
+        "name": "Ace of Cups",
+        "number": 1,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "New beginnings",
+                "Potential",
+                "Pure energy",
+                "Cups"
+            ],
+            "description": "The Ace of Cups represents new beginnings, potential, pure energy in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked new beginnings",
+                "Blocked potential",
+                "Blocked pure energy"
+            ],
+            "description": "Reversed, the Ace of Cups suggests challenges with new beginnings, potential, pure energy."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-ace.svg"
+    },
+    {
+        "id": "cups-two",
+        "name": "Two of Cups",
+        "number": 2,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Balance",
+                "Partnership",
+                "Duality",
+                "Cups"
+            ],
+            "description": "The Two of Cups represents balance, partnership, duality in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked balance",
+                "Blocked partnership",
+                "Blocked duality"
+            ],
+            "description": "Reversed, the Two of Cups suggests challenges with balance, partnership, duality."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-two.svg"
+    },
+    {
+        "id": "cups-three",
+        "name": "Three of Cups",
+        "number": 3,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Growth",
+                "Creativity",
+                "Groups",
+                "Cups"
+            ],
+            "description": "The Three of Cups represents growth, creativity, groups in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked growth",
+                "Blocked creativity",
+                "Blocked groups"
+            ],
+            "description": "Reversed, the Three of Cups suggests challenges with growth, creativity, groups."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-three.svg"
+    },
+    {
+        "id": "cups-four",
+        "name": "Four of Cups",
+        "number": 4,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Stability",
+                "Structure",
+                "Rest",
+                "Cups"
+            ],
+            "description": "The Four of Cups represents stability, structure, rest in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked stability",
+                "Blocked structure",
+                "Blocked rest"
+            ],
+            "description": "Reversed, the Four of Cups suggests challenges with stability, structure, rest."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-four.svg"
+    },
+    {
+        "id": "cups-five",
+        "name": "Five of Cups",
+        "number": 5,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Conflict",
+                "Change",
+                "Loss",
+                "Cups"
+            ],
+            "description": "The Five of Cups represents conflict, change, loss in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked conflict",
+                "Blocked change",
+                "Blocked loss"
+            ],
+            "description": "Reversed, the Five of Cups suggests challenges with conflict, change, loss."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-five.svg"
+    },
+    {
+        "id": "cups-six",
+        "name": "Six of Cups",
+        "number": 6,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Harmony",
+                "Adjustment",
+                "Help",
+                "Cups"
+            ],
+            "description": "The Six of Cups represents harmony, adjustment, help in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked harmony",
+                "Blocked adjustment",
+                "Blocked help"
+            ],
+            "description": "Reversed, the Six of Cups suggests challenges with harmony, adjustment, help."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-six.svg"
+    },
+    {
+        "id": "cups-seven",
+        "name": "Seven of Cups",
+        "number": 7,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Strategy",
+                "Choices",
+                "Assessment",
+                "Cups"
+            ],
+            "description": "The Seven of Cups represents strategy, choices, assessment in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked strategy",
+                "Blocked choices",
+                "Blocked assessment"
+            ],
+            "description": "Reversed, the Seven of Cups suggests challenges with strategy, choices, assessment."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-seven.svg"
+    },
+    {
+        "id": "cups-eight",
+        "name": "Eight of Cups",
+        "number": 8,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Movement",
+                "Power",
+                "Action",
+                "Cups"
+            ],
+            "description": "The Eight of Cups represents movement, power, action in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked movement",
+                "Blocked power",
+                "Blocked action"
+            ],
+            "description": "Reversed, the Eight of Cups suggests challenges with movement, power, action."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-eight.svg"
+    },
+    {
+        "id": "cups-nine",
+        "name": "Nine of Cups",
+        "number": 9,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Fulfillment",
+                "Completion",
+                "Solitude",
+                "Cups"
+            ],
+            "description": "The Nine of Cups represents fulfillment, completion, solitude in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked fulfillment",
+                "Blocked completion",
+                "Blocked solitude"
+            ],
+            "description": "Reversed, the Nine of Cups suggests challenges with fulfillment, completion, solitude."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-nine.svg"
+    },
+    {
+        "id": "cups-ten",
+        "name": "Ten of Cups",
+        "number": 10,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Culmination",
+                "End of cycle",
+                "Legacy",
+                "Cups"
+            ],
+            "description": "The Ten of Cups represents culmination, end of cycle, legacy in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked culmination",
+                "Blocked end of cycle",
+                "Blocked legacy"
+            ],
+            "description": "Reversed, the Ten of Cups suggests challenges with culmination, end of cycle, legacy."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-ten.svg"
+    },
+    {
+        "id": "cups-page",
+        "name": "Page of Cups",
+        "number": 11,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Message",
+                "Youth",
+                "Potential",
+                "Cups"
+            ],
+            "description": "The Page of Cups represents message, youth, potential in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked message",
+                "Blocked youth",
+                "Blocked potential"
+            ],
+            "description": "Reversed, the Page of Cups suggests challenges with message, youth, potential."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-page.svg"
+    },
+    {
+        "id": "cups-knight",
+        "name": "Knight of Cups",
+        "number": 12,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Action",
+                "Quest",
+                "Movement",
+                "Cups"
+            ],
+            "description": "The Knight of Cups represents action, quest, movement in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked action",
+                "Blocked quest",
+                "Blocked movement"
+            ],
+            "description": "Reversed, the Knight of Cups suggests challenges with action, quest, movement."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-knight.svg"
+    },
+    {
+        "id": "cups-queen",
+        "name": "Queen of Cups",
+        "number": 13,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Nurturing",
+                "Maturity",
+                "Intuition",
+                "Cups"
+            ],
+            "description": "The Queen of Cups represents nurturing, maturity, intuition in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked nurturing",
+                "Blocked maturity",
+                "Blocked intuition"
+            ],
+            "description": "Reversed, the Queen of Cups suggests challenges with nurturing, maturity, intuition."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-queen.svg"
+    },
+    {
+        "id": "cups-king",
+        "name": "King of Cups",
+        "number": 14,
+        "arcana": "Minor",
+        "suit": "Cups",
+        "uprightMeaning": {
+            "keywords": [
+                "Authority",
+                "Mastery",
+                "Control",
+                "Cups"
+            ],
+            "description": "The King of Cups represents authority, mastery, control in the realm of Cups."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked authority",
+                "Blocked mastery",
+                "Blocked control"
+            ],
+            "description": "Reversed, the King of Cups suggests challenges with authority, mastery, control."
+        },
+        "element": "Water",
+        "imageUrl": "/tarot/cups-king.svg"
+    },
+    {
+        "id": "swords-ace",
+        "name": "Ace of Swords",
+        "number": 1,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "New beginnings",
+                "Potential",
+                "Pure energy",
+                "Swords"
+            ],
+            "description": "The Ace of Swords represents new beginnings, potential, pure energy in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked new beginnings",
+                "Blocked potential",
+                "Blocked pure energy"
+            ],
+            "description": "Reversed, the Ace of Swords suggests challenges with new beginnings, potential, pure energy."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-ace.svg"
+    },
+    {
+        "id": "swords-two",
+        "name": "Two of Swords",
+        "number": 2,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Balance",
+                "Partnership",
+                "Duality",
+                "Swords"
+            ],
+            "description": "The Two of Swords represents balance, partnership, duality in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked balance",
+                "Blocked partnership",
+                "Blocked duality"
+            ],
+            "description": "Reversed, the Two of Swords suggests challenges with balance, partnership, duality."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-two.svg"
+    },
+    {
+        "id": "swords-three",
+        "name": "Three of Swords",
+        "number": 3,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Growth",
+                "Creativity",
+                "Groups",
+                "Swords"
+            ],
+            "description": "The Three of Swords represents growth, creativity, groups in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked growth",
+                "Blocked creativity",
+                "Blocked groups"
+            ],
+            "description": "Reversed, the Three of Swords suggests challenges with growth, creativity, groups."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-three.svg"
+    },
+    {
+        "id": "swords-four",
+        "name": "Four of Swords",
+        "number": 4,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Stability",
+                "Structure",
+                "Rest",
+                "Swords"
+            ],
+            "description": "The Four of Swords represents stability, structure, rest in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked stability",
+                "Blocked structure",
+                "Blocked rest"
+            ],
+            "description": "Reversed, the Four of Swords suggests challenges with stability, structure, rest."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-four.svg"
+    },
+    {
+        "id": "swords-five",
+        "name": "Five of Swords",
+        "number": 5,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Conflict",
+                "Change",
+                "Loss",
+                "Swords"
+            ],
+            "description": "The Five of Swords represents conflict, change, loss in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked conflict",
+                "Blocked change",
+                "Blocked loss"
+            ],
+            "description": "Reversed, the Five of Swords suggests challenges with conflict, change, loss."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-five.svg"
+    },
+    {
+        "id": "swords-six",
+        "name": "Six of Swords",
+        "number": 6,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Harmony",
+                "Adjustment",
+                "Help",
+                "Swords"
+            ],
+            "description": "The Six of Swords represents harmony, adjustment, help in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked harmony",
+                "Blocked adjustment",
+                "Blocked help"
+            ],
+            "description": "Reversed, the Six of Swords suggests challenges with harmony, adjustment, help."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-six.svg"
+    },
+    {
+        "id": "swords-seven",
+        "name": "Seven of Swords",
+        "number": 7,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Strategy",
+                "Choices",
+                "Assessment",
+                "Swords"
+            ],
+            "description": "The Seven of Swords represents strategy, choices, assessment in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked strategy",
+                "Blocked choices",
+                "Blocked assessment"
+            ],
+            "description": "Reversed, the Seven of Swords suggests challenges with strategy, choices, assessment."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-seven.svg"
+    },
+    {
+        "id": "swords-eight",
+        "name": "Eight of Swords",
+        "number": 8,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Movement",
+                "Power",
+                "Action",
+                "Swords"
+            ],
+            "description": "The Eight of Swords represents movement, power, action in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked movement",
+                "Blocked power",
+                "Blocked action"
+            ],
+            "description": "Reversed, the Eight of Swords suggests challenges with movement, power, action."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-eight.svg"
+    },
+    {
+        "id": "swords-nine",
+        "name": "Nine of Swords",
+        "number": 9,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Fulfillment",
+                "Completion",
+                "Solitude",
+                "Swords"
+            ],
+            "description": "The Nine of Swords represents fulfillment, completion, solitude in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked fulfillment",
+                "Blocked completion",
+                "Blocked solitude"
+            ],
+            "description": "Reversed, the Nine of Swords suggests challenges with fulfillment, completion, solitude."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-nine.svg"
+    },
+    {
+        "id": "swords-ten",
+        "name": "Ten of Swords",
+        "number": 10,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Culmination",
+                "End of cycle",
+                "Legacy",
+                "Swords"
+            ],
+            "description": "The Ten of Swords represents culmination, end of cycle, legacy in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked culmination",
+                "Blocked end of cycle",
+                "Blocked legacy"
+            ],
+            "description": "Reversed, the Ten of Swords suggests challenges with culmination, end of cycle, legacy."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-ten.svg"
+    },
+    {
+        "id": "swords-page",
+        "name": "Page of Swords",
+        "number": 11,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Message",
+                "Youth",
+                "Potential",
+                "Swords"
+            ],
+            "description": "The Page of Swords represents message, youth, potential in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked message",
+                "Blocked youth",
+                "Blocked potential"
+            ],
+            "description": "Reversed, the Page of Swords suggests challenges with message, youth, potential."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-page.svg"
+    },
+    {
+        "id": "swords-knight",
+        "name": "Knight of Swords",
+        "number": 12,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Action",
+                "Quest",
+                "Movement",
+                "Swords"
+            ],
+            "description": "The Knight of Swords represents action, quest, movement in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked action",
+                "Blocked quest",
+                "Blocked movement"
+            ],
+            "description": "Reversed, the Knight of Swords suggests challenges with action, quest, movement."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-knight.svg"
+    },
+    {
+        "id": "swords-queen",
+        "name": "Queen of Swords",
+        "number": 13,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Nurturing",
+                "Maturity",
+                "Intuition",
+                "Swords"
+            ],
+            "description": "The Queen of Swords represents nurturing, maturity, intuition in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked nurturing",
+                "Blocked maturity",
+                "Blocked intuition"
+            ],
+            "description": "Reversed, the Queen of Swords suggests challenges with nurturing, maturity, intuition."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-queen.svg"
+    },
+    {
+        "id": "swords-king",
+        "name": "King of Swords",
+        "number": 14,
+        "arcana": "Minor",
+        "suit": "Swords",
+        "uprightMeaning": {
+            "keywords": [
+                "Authority",
+                "Mastery",
+                "Control",
+                "Swords"
+            ],
+            "description": "The King of Swords represents authority, mastery, control in the realm of Swords."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked authority",
+                "Blocked mastery",
+                "Blocked control"
+            ],
+            "description": "Reversed, the King of Swords suggests challenges with authority, mastery, control."
+        },
+        "element": "Air",
+        "imageUrl": "/tarot/swords-king.svg"
+    },
+    {
+        "id": "pentacles-ace",
+        "name": "Ace of Pentacles",
+        "number": 1,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "New beginnings",
+                "Potential",
+                "Pure energy",
+                "Pentacles"
+            ],
+            "description": "The Ace of Pentacles represents new beginnings, potential, pure energy in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked new beginnings",
+                "Blocked potential",
+                "Blocked pure energy"
+            ],
+            "description": "Reversed, the Ace of Pentacles suggests challenges with new beginnings, potential, pure energy."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-ace.svg"
+    },
+    {
+        "id": "pentacles-two",
+        "name": "Two of Pentacles",
+        "number": 2,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Balance",
+                "Partnership",
+                "Duality",
+                "Pentacles"
+            ],
+            "description": "The Two of Pentacles represents balance, partnership, duality in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked balance",
+                "Blocked partnership",
+                "Blocked duality"
+            ],
+            "description": "Reversed, the Two of Pentacles suggests challenges with balance, partnership, duality."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-two.svg"
+    },
+    {
+        "id": "pentacles-three",
+        "name": "Three of Pentacles",
+        "number": 3,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Growth",
+                "Creativity",
+                "Groups",
+                "Pentacles"
+            ],
+            "description": "The Three of Pentacles represents growth, creativity, groups in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked growth",
+                "Blocked creativity",
+                "Blocked groups"
+            ],
+            "description": "Reversed, the Three of Pentacles suggests challenges with growth, creativity, groups."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-three.svg"
+    },
+    {
+        "id": "pentacles-four",
+        "name": "Four of Pentacles",
+        "number": 4,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Stability",
+                "Structure",
+                "Rest",
+                "Pentacles"
+            ],
+            "description": "The Four of Pentacles represents stability, structure, rest in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked stability",
+                "Blocked structure",
+                "Blocked rest"
+            ],
+            "description": "Reversed, the Four of Pentacles suggests challenges with stability, structure, rest."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-four.svg"
+    },
+    {
+        "id": "pentacles-five",
+        "name": "Five of Pentacles",
+        "number": 5,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Conflict",
+                "Change",
+                "Loss",
+                "Pentacles"
+            ],
+            "description": "The Five of Pentacles represents conflict, change, loss in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked conflict",
+                "Blocked change",
+                "Blocked loss"
+            ],
+            "description": "Reversed, the Five of Pentacles suggests challenges with conflict, change, loss."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-five.svg"
+    },
+    {
+        "id": "pentacles-six",
+        "name": "Six of Pentacles",
+        "number": 6,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Harmony",
+                "Adjustment",
+                "Help",
+                "Pentacles"
+            ],
+            "description": "The Six of Pentacles represents harmony, adjustment, help in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked harmony",
+                "Blocked adjustment",
+                "Blocked help"
+            ],
+            "description": "Reversed, the Six of Pentacles suggests challenges with harmony, adjustment, help."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-six.svg"
+    },
+    {
+        "id": "pentacles-seven",
+        "name": "Seven of Pentacles",
+        "number": 7,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Strategy",
+                "Choices",
+                "Assessment",
+                "Pentacles"
+            ],
+            "description": "The Seven of Pentacles represents strategy, choices, assessment in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked strategy",
+                "Blocked choices",
+                "Blocked assessment"
+            ],
+            "description": "Reversed, the Seven of Pentacles suggests challenges with strategy, choices, assessment."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-seven.svg"
+    },
+    {
+        "id": "pentacles-eight",
+        "name": "Eight of Pentacles",
+        "number": 8,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Movement",
+                "Power",
+                "Action",
+                "Pentacles"
+            ],
+            "description": "The Eight of Pentacles represents movement, power, action in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked movement",
+                "Blocked power",
+                "Blocked action"
+            ],
+            "description": "Reversed, the Eight of Pentacles suggests challenges with movement, power, action."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-eight.svg"
+    },
+    {
+        "id": "pentacles-nine",
+        "name": "Nine of Pentacles",
+        "number": 9,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Fulfillment",
+                "Completion",
+                "Solitude",
+                "Pentacles"
+            ],
+            "description": "The Nine of Pentacles represents fulfillment, completion, solitude in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked fulfillment",
+                "Blocked completion",
+                "Blocked solitude"
+            ],
+            "description": "Reversed, the Nine of Pentacles suggests challenges with fulfillment, completion, solitude."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-nine.svg"
+    },
+    {
+        "id": "pentacles-ten",
+        "name": "Ten of Pentacles",
+        "number": 10,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Culmination",
+                "End of cycle",
+                "Legacy",
+                "Pentacles"
+            ],
+            "description": "The Ten of Pentacles represents culmination, end of cycle, legacy in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked culmination",
+                "Blocked end of cycle",
+                "Blocked legacy"
+            ],
+            "description": "Reversed, the Ten of Pentacles suggests challenges with culmination, end of cycle, legacy."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-ten.svg"
+    },
+    {
+        "id": "pentacles-page",
+        "name": "Page of Pentacles",
+        "number": 11,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Message",
+                "Youth",
+                "Potential",
+                "Pentacles"
+            ],
+            "description": "The Page of Pentacles represents message, youth, potential in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked message",
+                "Blocked youth",
+                "Blocked potential"
+            ],
+            "description": "Reversed, the Page of Pentacles suggests challenges with message, youth, potential."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-page.svg"
+    },
+    {
+        "id": "pentacles-knight",
+        "name": "Knight of Pentacles",
+        "number": 12,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Action",
+                "Quest",
+                "Movement",
+                "Pentacles"
+            ],
+            "description": "The Knight of Pentacles represents action, quest, movement in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked action",
+                "Blocked quest",
+                "Blocked movement"
+            ],
+            "description": "Reversed, the Knight of Pentacles suggests challenges with action, quest, movement."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-knight.svg"
+    },
+    {
+        "id": "pentacles-queen",
+        "name": "Queen of Pentacles",
+        "number": 13,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Nurturing",
+                "Maturity",
+                "Intuition",
+                "Pentacles"
+            ],
+            "description": "The Queen of Pentacles represents nurturing, maturity, intuition in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked nurturing",
+                "Blocked maturity",
+                "Blocked intuition"
+            ],
+            "description": "Reversed, the Queen of Pentacles suggests challenges with nurturing, maturity, intuition."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-queen.svg"
+    },
+    {
+        "id": "pentacles-king",
+        "name": "King of Pentacles",
+        "number": 14,
+        "arcana": "Minor",
+        "suit": "Pentacles",
+        "uprightMeaning": {
+            "keywords": [
+                "Authority",
+                "Mastery",
+                "Control",
+                "Pentacles"
+            ],
+            "description": "The King of Pentacles represents authority, mastery, control in the realm of Pentacles."
+        },
+        "reversedMeaning": {
+            "keywords": [
+                "Blocked authority",
+                "Blocked mastery",
+                "Blocked control"
+            ],
+            "description": "Reversed, the King of Pentacles suggests challenges with authority, mastery, control."
+        },
+        "element": "Earth",
+        "imageUrl": "/tarot/pentacles-king.svg"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "diwali-2025",
+        "name": "Diwali",
+        "date": "2025-10-20",
+        "description": "The festival of lights, celebrating the victory of light over darkness.",
+        "significance": "Major Hindu festival honoring Goddess Lakshmi."
+    },
+    {
+        "id": "holi-2025",
+        "name": "Holi",
+        "date": "2025-03-14",
+        "description": "The festival of colors, celebrating the arrival of spring.",
+        "significance": "Victory of good over evil (Prahlada over Holika)."
+    },
+    {
+        "id": "raksha-bandhan-2025",
+        "name": "Raksha Bandhan",
+        "date": "2025-08-09",
+        "description": "Celebration of the bond between brothers and sisters.",
+        "significance": "Symbol of protection and love."
+    },
+    {
+        "id": "dussehra-2025",
+        "name": "Dussehra",
+        "date": "2025-10-02",
+        "description": "Vijayadashami, marking the end of Navaratri.",
+        "significance": "Victory of Lord Rama over Ravana."
+    },
+    {
+        "id": "janmashtami-2025",
+        "name": "Janmashtami",
+        "date": "2025-08-16",
+        "description": "Birth anniversary of Lord Krishna.",
+        "significance": "Celebration of the divine incarnation of Vishnu."
+    }
+]
