@@ -38,8 +38,9 @@ export function calculateD1Chart(details: BirthDetails): D1Chart {
     const birthDate = new Date(details.date);
 
     // Calculate ascendant (simplified - real implementation needs sidereal time)
-    const ascendantIndex = Math.floor((details.longitude / 30)) % 12;
-    const ascendantDegree = (details.longitude % 30);
+    const normalizedLon = ((details.longitude % 360) + 360) % 360;
+    const ascendantIndex = Math.floor(normalizedLon / 30);
+    const ascendantDegree = normalizedLon % 30;
     const ascendant = ZODIAC_SIGNS[ascendantIndex];
 
     // Calculate planetary positions

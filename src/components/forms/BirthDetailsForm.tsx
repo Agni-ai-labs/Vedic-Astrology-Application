@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Calendar, Clock, MapPin, User } from 'lucide-react';
+import { Calendar, Clock, MapPin, User, Heart, Briefcase, GraduationCap, DollarSign, Baby } from 'lucide-react';
 import type { BirthDetails } from '@/services/calculations/chartCalculations';
 
 interface BirthDetailsFormProps {
@@ -13,6 +13,16 @@ export function BirthDetailsForm({ onSubmit }: BirthDetailsFormProps) {
     const [city, setCity] = useState('New York');
     const [latitude, setLatitude] = useState(40.7128);
     const [longitude, setLongitude] = useState(-74.0060);
+    const [gender, setGender] = useState('male');
+    const [concerns, setConcerns] = useState<string[]>([]);
+
+    const toggleConcern = (concern: string) => {
+        setConcerns(prev =>
+            prev.includes(concern)
+                ? prev.filter(c => c !== concern)
+                : [...prev, concern]
+        );
+    };
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -23,9 +33,19 @@ export function BirthDetailsForm({ onSubmit }: BirthDetailsFormProps) {
             time,
             latitude,
             longitude,
-            timezone: 'America/New_York' // Simplified for now
+            timezone: 'America/New_York', // Simplified for now
+            gender,
+            concerns
         });
     };
+
+    const concernOptions = [
+        { id: 'career', label: 'Career', icon: Briefcase },
+        { id: 'relationships', label: 'Relationships', icon: Heart },
+        { id: 'finance', label: 'Finance', icon: DollarSign },
+        { id: 'education', label: 'Education', icon: GraduationCap },
+        { id: 'children', label: 'Children', icon: Baby },
+    ];
 
     return (
         <form onSubmit={handleSubmit} className="bg-bg-secondary p-6 rounded-lg border border-border-primary">
@@ -46,6 +66,29 @@ export function BirthDetailsForm({ onSubmit }: BirthDetailsFormProps) {
                         className="w-full px-3 py-2 bg-bg-tertiary border border-border-secondary rounded text-text-primary focus:border-accent-purple focus:outline-none"
                         required
                     />
+                </div>
+
+                {/* Gender Selection */}
+                <div>
+                    <label className="flex items-center gap-2 text-sm text-text-secondary mb-2">
+                        <User className="w-4 h-4" />
+                        Gender
+                    </label>
+                    <div className="flex gap-4">
+                        {['male', 'female', 'other'].map((g) => (
+                            <label key={g} className="flex items-center gap-2 cursor-pointer">
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value={g}
+                                    checked={gender === g}
+                                    onChange={(e) => setGender(e.target.value)}
+                                    className="text-accent-purple focus:ring-accent-purple"
+                                />
+                                <span className="capitalize text-text-primary">{g}</span>
+                            </label>
+                        ))}
+                    </div>
                 </div>
 
                 {/* Date Input */}
@@ -115,6 +158,34 @@ export function BirthDetailsForm({ onSubmit }: BirthDetailsFormProps) {
                     <p className="text-xs text-text-tertiary mt-1">
                         Enter coordinates manually or use a city lookup service
                     </p>
+                </div>
+
+                {/* Concerns Multi-select */}
+                <div>
+                    <label className="flex items-center gap-2 text-sm text-text-secondary mb-2">
+                        <Heart className="w-4 h-4" />
+                        Areas of Concern
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                        {concernOptions.map((option) => {
+                            const Icon = option.icon;
+                            const isSelected = concerns.includes(option.id);
+                            return (
+                                <button
+                                    key={option.id}
+                                    type="button"
+                                    onClick={() => toggleConcern(option.id)}
+                                    className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium transition-colors border ${isSelected
+                                            ? 'bg-accent-purple text-white border-accent-purple'
+                                            : 'bg-bg-tertiary text-text-secondary border-border-secondary hover:border-accent-purple'
+                                        }`}
+                                >
+                                    <Icon className="w-3 h-3" />
+                                    {option.label}
+                                </button>
+                            );
+                        })}
+                    </div>
                 </div>
 
                 {/* Submit Button */}

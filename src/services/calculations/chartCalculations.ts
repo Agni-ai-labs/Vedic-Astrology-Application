@@ -9,6 +9,8 @@ export interface BirthDetails {
     latitude: number;
     longitude: number;
     timezone: string;
+    gender?: string;
+    concerns?: string[];
 }
 
 export interface PlanetaryPosition {

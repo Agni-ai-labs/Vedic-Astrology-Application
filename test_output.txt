@@ -1,0 +1,304 @@
+
+ RUN  v2.1.9 D:/Vedic Astrology Application
+
+stdout | src/services/calculations/__tests__/vedicCalculations.test.ts > calculateVedicChart > should calculate D1 chart
+Debug Chart: {
+  "birthDetails": {
+    "name": "Test User",
+    "date": "1990-01-01T00:00:00.000Z",
+    "time": "12:00",
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "timezone": "America/New_York"
+  },
+  "d1": {
+    "ascendantDegree": -14.006,
+    "planets": [
+      {
+        "planet": "Sun",
+        "sign": "Scorpio",
+        "degree": 8.25,
+        "house": 11,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Moon",
+        "sign": "Sagittarius",
+        "degree": 8.76,
+        "house": 12,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Mars",
+        "sign": "Aquarius",
+        "degree": 20.8,
+        "house": 3,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Mercury",
+        "sign": "Libra",
+        "degree": 19.29,
+        "house": 11,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Jupiter",
+        "sign": "Scorpio",
+        "degree": 16.68,
+        "house": 12,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Venus",
+        "sign": "Libra",
+        "degree": 23.38,
+        "house": 11,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Saturn",
+        "sign": "Sagittarius",
+        "degree": 2.68,
+        "house": 12,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Rahu",
+        "sign": "Scorpio",
+        "degree": 4.61,
+        "house": 11,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Ketu",
+        "sign": "Aquarius",
+        "degree": 0.8,
+        "house": 2,
+        "isRetrograde": false
+      }
+    ],
+    "houses": [
+      {
+        "number": 1,
+        "degree": -14.006
+      },
+      {
+        "number": 2,
+        "degree": 0
+      },
+      {
+        "number": 3,
+        "degree": 0
+      },
+      {
+        "number": 4,
+        "sign": "Aries",
+        "degree": 0,
+        "lord": "Mars"
+      },
+      {
+        "number": 5,
+        "sign": "Taurus",
+        "degree": 0,
+        "lord": "Venus"
+      },
+      {
+        "number": 6,
+        "sign": "Gemini",
+        "degree": 0,
+        "lord": "Mercury"
+      },
+      {
+        "number": 7,
+        "sign": "Cancer",
+        "degree": 0,
+        "lord": "Moon"
+      },
+      {
+        "number": 8,
+        "sign": "Leo",
+        "degree": 0,
+        "lord": "Sun"
+      },
+      {
+        "number": 9,
+        "sign": "Virgo",
+        "degree": 0,
+        "lord": "Mercury"
+      },
+      {
+        "number": 10,
+        "sign": "Libra",
+        "degree": 0,
+        "lord": "Venus"
+      },
+      {
+        "number": 11,
+        "sign": "Scorpio",
+        "degree": 0,
+        "lord": "Mars"
+      },
+      {
+        "number": 12,
+        "sign": "Sagittarius",
+        "degree": 0,
+        "lord": "Jupiter"
+      }
+    ]
+  },
+  "d9": {
+    "planets": [
+      {
+        "planet": "Sun",
+        "sign": "Virgo",
+        "degree": 14.249999999999996,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Moon",
+        "sign": "Gemini",
+        "degree": 18.839999999999996,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Mars",
+        "sign": "Aries",
+        "degree": 7.199999999999998,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Mercury",
+        "sign": "Pisces",
+        "degree": 23.609999999999985,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Jupiter",
+        "sign": "Sagittarius",
+        "degree": 0.11999999999999078,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Venus",
+        "sign": "Taurus",
+        "degree": 0.4199999999999817,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Saturn",
+        "sign": "Aries",
+        "degree": 24.12,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Rahu",
+        "sign": "Leo",
+        "degree": 11.490000000000002,
+        "house": 0,
+        "isRetrograde": false
+      },
+      {
+        "planet": "Ketu",
+        "sign": "Libra",
+        "degree": 7.2,
+        "house": 0,
+        "isRetrograde": false
+      }
+    ]
+  },
+  "currentDasha": [
+    {
+      "planet": "Moon",
+      "startDate": "1990-01-01T00:00:00.000Z",
+      "endDate": "2000-01-01T00:00:00.000Z",
+      "level": "Mahadasha"
+    },
+    {
+      "planet": "Mars",
+      "startDate": "2000-01-01T00:00:00.000Z",
+      "endDate": "2007-01-01T00:00:00.000Z",
+      "level": "Mahadasha"
+    },
+    {
+      "planet": "Rahu",
+      "startDate": "2007-01-01T00:00:00.000Z",
+      "endDate": "2025-01-01T00:00:00.000Z",
+      "level": "Mahadasha"
+    }
+  ],
+  "yogas": [
+    {
+      "name": "Raja Yoga",
+      "type": "Raj",
+      "planets": [
+        "Jupiter",
+        "Venus"
+      ],
+      "description": "Combination of benefic planets in favorable houses",
+      "effects": "Success, authority, respect, and prosperity",
+      "strength": "Moderate"
+    },
+    {
+      "name": "Dhana Yoga",
+      "type": "Dhana",
+      "planets": [
+        "Sun",
+        "Mercury",
+        "Venus",
+        "Rahu",
+        "Ketu"
+      ],
+      "description": "Planets in wealth-giving houses",
+      "effects": "Financial prosperity and material abundance",
+      "strength": "Strong"
+    }
+  ],
+  "doshas": [
+    {
+      "name": "Manglik",
+      "present": false,
+      "severity": "None",
+      "details": "No Manglik Dosha present",
+      "remedies": []
+    },
+    {
+      "name": "Kaal Sarp",
+      "present": false,
+      "severity": "None",
+      "details": "No Kaal Sarp Dosha",
+      "remedies": []
+    }
+  ]
+}
+
+ ❯ src/services/calculations/__tests__/vedicCalculations.test.ts (5 tests | 1 failed) 22ms
+   × calculateVedicChart > should calculate D1 chart 16ms
+     → expected undefined to be defined
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/services/calculations/__tests__/vedicCalculations.test.ts > calculateVedicChart > should calculate D1 chart
+AssertionError: expected undefined to be defined
+ ❯ src/services/calculations/__tests__/vedicCalculations.test.ts:21:36
+     19|         expect(chart.d1.planets).toHaveLength(9); // Sun to Ketu
+     20|         expect(chart.d1.houses).toHaveLength(12);
+     21|         expect(chart.d1.ascendant).toBeDefined();
+       |                                    ^
+     22|     });
+     23| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 4 passed (5)
+   Start at  10:40:17
+   Duration  3.31s (transform 147ms, setup 430ms, collect 104ms, tests 22ms, environment 1.39s, prepare 698ms)
+
