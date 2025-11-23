@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Calendar, Clock, MapPin } from 'lucide-react';
+import { Calendar, Clock, MapPin, User } from 'lucide-react';
 import type { BirthDetails } from '@/services/calculations/chartCalculations';
 
 interface BirthDetailsFormProps {
@@ -7,6 +7,7 @@ interface BirthDetailsFormProps {
 }
 
 export function BirthDetailsForm({ onSubmit }: BirthDetailsFormProps) {
+    const [name, setName] = useState('John Doe');
     const [date, setDate] = useState('1990-08-15');
     const [time, setTime] = useState('10:30');
     const [city, setCity] = useState('New York');
@@ -17,6 +18,7 @@ export function BirthDetailsForm({ onSubmit }: BirthDetailsFormProps) {
         e.preventDefault();
 
         onSubmit({
+            name,
             date: new Date(date),
             time,
             latitude,
@@ -30,6 +32,22 @@ export function BirthDetailsForm({ onSubmit }: BirthDetailsFormProps) {
             <h3 className="text-lg font-semibold text-text-primary mb-4">Enter Birth Details</h3>
 
             <div className="space-y-4">
+                {/* Name Input */}
+                <div>
+                    <label className="flex items-center gap-2 text-sm text-text-secondary mb-2">
+                        <User className="w-4 h-4" />
+                        Full Name
+                    </label>
+                    <input
+                        type="text"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        placeholder="Enter full name"
+                        className="w-full px-3 py-2 bg-bg-tertiary border border-border-secondary rounded text-text-primary focus:border-accent-purple focus:outline-none"
+                        required
+                    />
+                </div>
+
                 {/* Date Input */}
                 <div>
                     <label className="flex items-center gap-2 text-sm text-text-secondary mb-2">

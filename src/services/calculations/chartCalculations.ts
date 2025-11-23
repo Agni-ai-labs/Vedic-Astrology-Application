@@ -3,6 +3,7 @@ import { getZodiacSignData } from '@/data/zodiacSigns';
 import { ZodiacSign } from '@/types/western.types';
 
 export interface BirthDetails {
+    name: string;
     date: Date;
     time: string; // HH:MM format
     latitude: number;
