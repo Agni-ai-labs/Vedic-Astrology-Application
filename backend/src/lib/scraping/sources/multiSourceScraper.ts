@@ -2,12 +2,12 @@ import * as cheerio from 'cheerio';
 import { IntelligentAstrologyScraper } from '../scraper'; // Adjust path as needed
 import { YogaKnowledgeBase, DoshaKnowledgeBase } from '@/types/ai.types'; // Adjust path as needed
 import { v4 as uuidv4 } from 'uuid';
-import { COMPREHENSIVE_YOGA_DATASET } from '@/data/yogaDataset'; // Import the dataset
+import { COMPREHENSIVE_YOGA_DATASET, COMPREHENSIVE_DOSHA_DATASET } from '@/data/yogaDataset'; // Import both datasets
 
 /**
- * Multi-Source Scraper for Yoga Data
+ * Multi-Source Scraper for Yoga and Dosha Data
  * Scrapes from publicly accessible astrology resources
- * Falls back to internal Comprehensive Yoga Dataset
+ * Falls back to internal Comprehensive Datasets
  */
 export class MultiSourceYogaScraper extends IntelligentAstrologyScraper {
     constructor() {
@@ -23,6 +23,10 @@ export class MultiSourceYogaScraper extends IntelligentAstrologyScraper {
         });
     }
 
+    /**
+     * Primary method to retrieve Yoga definitions
+     * Combines scraped web data with the internal static dataset (31 Yogas)
+     */
     async scrapeYogas(): Promise<YogaKnowledgeBase[]> {
         const yogas: YogaKnowledgeBase[] = [];
 
@@ -63,6 +67,139 @@ export class MultiSourceYogaScraper extends IntelligentAstrologyScraper {
         console.log(`Total yogas available: ${yogas.length}`);
         return yogas;
     }
+
+    /**
+     * Primary method to retrieve Dosha definitions
+     * Loads the internal static dataset (10 Doshas)
+     */
+    async scrapeDoshas(): Promise<DoshaKnowledgeBase[]> {
+        console.log('Loading internal comprehensive dosha dataset...');
+
+        // Currently relying primarily on internal data for Doshas as web scraping 
+        // for structured dosha remedies is often inconsistent.
+        const internalDoshas = this.getInternalComprehensiveDoshas();
+
+        console.log(`✓ Loaded ${internalDoshas.length} high-quality internal dosha definitions.`);
+        return internalDoshas;
+    }
+
+    // ------------------------------------------------------------------
+    // INTERNAL DATASET LOADERS
+    // ------------------------------------------------------------------
+
+    /**
+     * Loads the high-quality Comprehensive Yoga Dataset (31 Yogas)
+     */
+    private getInternalComprehensiveYogas(): YogaKnowledgeBase[] {
+        console.log(`[DEBUG] COMPREHENSIVE_YOGA_DATASET has ${COMPREHENSIVE_YOGA_DATASET.length} entries`);
+        return COMPREHENSIVE_YOGA_DATASET.map((data: any) => {
+            // Map the raw data structure to the Application Knowledge Base structure
+            return {
+                id: uuidv4(),
+                name: data.name,
+                category: data.category,
+                rarity: data.rarity,
+                formation: {
+                    rule: data.formation.rule,
+                    cancellationFactors: data.formation.cancellationFactors,
+                    strengtheningFactors: data.formation.strengtheningFactors
+                },
+                effects: {
+                    general: data.effects.general,
+                    lifeAreas: data.effects.lifeAreas
+                },
+                remedies: data.remedies,
+                classicalReferences: data.classicalReferences,
+                modernInterpretation: data.modernInterpretation,
+                relatedYogas: (data as any).relatedYogas || [],
+
+                // Metadata for the system
+                scrapedFrom: [{
+                    source: 'Verified Internal Database',
+                    url: 'internal://static/yoga-dataset',
+                    dateScraped: new Date().toISOString(),
+                    reliability: 10 // Highest reliability score for manually verified data
+                }]
+            };
+        });
+    }
+
+    /**
+     * Loads the high-quality Comprehensive Dosha Dataset (10 Doshas)
+     */
+    private getInternalComprehensiveDoshas(): DoshaKnowledgeBase[] {
+        console.log(`[DEBUG] COMPREHENSIVE_DOSHA_DATASET has ${COMPREHENSIVE_DOSHA_DATASET.length} entries`);
+        return COMPREHENSIVE_DOSHA_DATASET.map((data: any) => {
+            return {
+                id: uuidv4(),
+                name: data.name,
+                severity: data.formation.severity, // Move severity to top level
+                detection: {
+                    rule: data.formation.rule,
+                    variations: data.formation.nuances || []
+                },
+                classicalView: data.effects.general,
+                effects: {
+                    primaryImpact: data.effects.impactAreas || [],
+                    lifeAreaAffected: {
+                        health: {
+                            severity: this.scoreLifeArea(data.effects.general, ['health', 'body', 'illness']),
+                            issues: this.extractIssues(data.effects.general, ['health', 'body', 'illness'])
+                        },
+                        wealth: {
+                            severity: this.scoreLifeArea(data.effects.general, ['wealth', 'money', 'prosperity']),
+                            issues: this.extractIssues(data.effects.general, ['wealth', 'money', 'prosperity'])
+                        },
+                        relationships: {
+                            severity: this.scoreLifeArea(data.effects.general, ['relationship', 'marriage', 'family']),
+                            issues: this.extractIssues(data.effects.general, ['relationship', 'marriage', 'family'])
+                        },
+                        career: {
+                            severity: this.scoreLifeArea(data.effects.general, ['career', 'work', 'profession']),
+                            issues: this.extractIssues(data.effects.general, ['career', 'work', 'profession'])
+                        },
+                        spiritual: {
+                            severity: this.scoreLifeArea(data.effects.general, ['spiritual', 'meditation', 'enlightenment']),
+                            issues: this.extractIssues(data.effects.general, ['spiritual', 'meditation', 'enlightenment'])
+                        }
+                    }
+                },
+                remedies: {
+                    primary: (data.remedies.poojas || []).map((pooja: string) => ({
+                        type: 'Pooja',
+                        details: pooja,
+                        effectiveness: 8,
+                        description: `Perform ${pooja} to mitigate the effects of ${data.name}`
+                    })),
+                    secondary: [
+                        ...(data.remedies.mantras || []).map((mantra: string) => ({
+                            type: 'Mantra',
+                            details: mantra,
+                            effectiveness: 7,
+                            description: `Chant ${mantra} regularly`
+                        })),
+                        ...(data.remedies.gemstones || []).map((gemstone: string) => ({
+                            type: 'Gemstone',
+                            details: gemstone,
+                            effectiveness: 6,
+                            description: `Wear ${gemstone} for protection`
+                        }))
+                    ],
+                    lifestyle: data.remedies.lifestyle || []
+                },
+                scrapedFrom: [{
+                    source: 'Verified Internal Database',
+                    url: 'internal://static/dosha-dataset',
+                    dateScraped: new Date().toISOString(),
+                    reliability: 10
+                }]
+            };
+        });
+    }
+
+    // ------------------------------------------------------------------
+    // WEB SCRAPING PARSERS (Helpers for scraping logic)
+    // ------------------------------------------------------------------
 
     private async parseGaneshaSpeaks(html: string, sourceUrl: string): Promise<YogaKnowledgeBase[]> {
         const yogas: YogaKnowledgeBase[] = [];
@@ -132,7 +269,10 @@ export class MultiSourceYogaScraper extends IntelligentAstrologyScraper {
         };
     }
 
-    // Helper methods
+    // ------------------------------------------------------------------
+    // TEXT ANALYSIS HELPERS
+    // ------------------------------------------------------------------
+
     private categorizeYoga(name: string, content: string): string {
         const nameLower = name.toLowerCase();
         const contentLower = content.toLowerCase();
@@ -169,6 +309,16 @@ export class MultiSourceYogaScraper extends IntelligentAstrologyScraper {
         return Math.min(score, 10);
     }
 
+    private extractIssues(content: string, keywords: string[]): string[] {
+        const issues: string[] = [];
+        keywords.forEach(kw => {
+            if (content.toLowerCase().includes(kw)) {
+                issues.push(`Issues related to ${kw}`);
+            }
+        });
+        return issues;
+    }
+
     private extractRemedies(content: string): any {
         const contentLower = content.toLowerCase();
         const remedies: any = { primary: [], secondary: [] };
@@ -183,7 +333,7 @@ export class MultiSourceYogaScraper extends IntelligentAstrologyScraper {
     }
 
     private determineRarity(name: string, content: string): string {
-        if (name.toLowerCase().includes('mahapurusha')) return 'Moderate'; // Pancha Mahapurusha are moderate
+        if (name.toLowerCase().includes('mahapurusha')) return 'Moderate';
         if (name.toLowerCase().includes('rare') || content.toLowerCase().includes('rare')) return 'Rare';
         if (name.toLowerCase().includes('common')) return 'Common';
         return 'Moderate';
@@ -205,46 +355,7 @@ export class MultiSourceYogaScraper extends IntelligentAstrologyScraper {
         return factors;
     }
 
-    /**
-     * Loads the high-quality Comprehensive Yoga Dataset
-     * Replaces the old hardcoded VedAstro getter
-     */
-    private getInternalComprehensiveYogas(): YogaKnowledgeBase[] {
-        console.log(`[DEBUG] COMPREHENSIVE_YOGA_DATASET has ${COMPREHENSIVE_YOGA_DATASET.length} entries`);
-        return COMPREHENSIVE_YOGA_DATASET.map((data: any) => {
-            // Map the raw data structure to the Application Knowledge Base structure
-            return {
-                id: uuidv4(), // Generate unique ID
-                name: data.name,
-                category: data.category,
-                rarity: data.rarity,
-                formation: {
-                    rule: data.formation.rule,
-                    cancellationFactors: data.formation.cancellationFactors,
-                    strengtheningFactors: data.formation.strengtheningFactors
-                },
-                effects: {
-                    general: data.effects.general,
-                    lifeAreas: data.effects.lifeAreas
-                },
-                remedies: data.remedies, // Structure matches
-                classicalReferences: data.classicalReferences,
-                modernInterpretation: data.modernInterpretation,
-                relatedYogas: (data as any).relatedYogas || [],
-
-                // Metadata for the system
-                scrapedFrom: [{
-                    source: 'Verified Internal Database',
-                    url: 'internal://static/yoga-dataset',
-                    dateScraped: new Date().toISOString(),
-                    reliability: 10 // Highest reliability score for manually verified data
-                }]
-            };
-        });
-    }
-
-    async scrapeDoshas(): Promise<DoshaKnowledgeBase[]> {
-        // Placeholder for future implementation
-        return [];
+    protected normalizeText(text: string): string {
+        return text.replace(/\s+/g, ' ').trim();
     }
 }

@@ -9,10 +9,11 @@ import { VedicChart, Yoga, Dosha } from '@/types/vedic.types'
 import { Star, TrendingUp, AlertTriangle } from 'lucide-react'
 
 export function VedicTab() {
-    const { birthDetails, clearAllData } = useAstrology();
+    const { birthDetails, setBirthDetails, clearAllData } = useAstrology();
     const [vedicChart, setVedicChart] = useState<VedicChart | null>(null);
 
     const handleBirthDetailsSubmit = (details: BirthDetails) => {
+        setBirthDetails(details); // Save to context for other tabs
         const chart = calculateVedicChart(details);
         setVedicChart(chart);
     };
@@ -72,8 +73,8 @@ export function VedicTab() {
                                 <div className="flex items-start justify-between mb-2">
                                     <h4 className="font-semibold text-text-primary">{yoga.name}</h4>
                                     <span className={`text-xs px-2 py-1 rounded-full ${yoga.strength === 'Strong' ? 'bg-status-success/20 text-status-success' :
-                                            yoga.strength === 'Moderate' ? 'bg-accent-blue/20 text-accent-blue' :
-                                                'bg-text-tertiary/20 text-text-tertiary'
+                                        yoga.strength === 'Moderate' ? 'bg-accent-blue/20 text-accent-blue' :
+                                            'bg-text-tertiary/20 text-text-tertiary'
                                         }`}>
                                         {yoga.strength}
                                     </span>
@@ -98,17 +99,17 @@ export function VedicTab() {
                 <div className="space-y-4">
                     {vedicChart.doshas.map((dosha: Dosha, idx: number) => (
                         <div key={idx} className={`border rounded-lg p-4 ${dosha.present
-                                ? dosha.severity === 'High' ? 'border-status-error bg-status-error/5' :
-                                    dosha.severity === 'Medium' ? 'border-status-warning bg-status-warning/5' :
-                                        'border-accent-blue bg-accent-blue/5'
-                                : 'border-border-secondary bg-bg-tertiary opacity-60'
+                            ? dosha.severity === 'High' ? 'border-status-error bg-status-error/5' :
+                                dosha.severity === 'Medium' ? 'border-status-warning bg-status-warning/5' :
+                                    'border-accent-blue bg-accent-blue/5'
+                            : 'border-border-secondary bg-bg-tertiary opacity-60'
                             }`}>
                             <div className="flex items-start justify-between mb-2">
                                 <h4 className="font-semibold text-text-primary">{dosha.name} Dosha</h4>
                                 <span className={`text-xs px-3 py-1 rounded-full ${!dosha.present ? 'bg-status-success/20 text-status-success' :
-                                        dosha.severity === 'High' ? 'bg-status-error/20 text-status-error' :
-                                            dosha.severity === 'Medium' ? 'bg-status-warning/20 text-status-warning' :
-                                                'bg-accent-blue/20 text-accent-blue'
+                                    dosha.severity === 'High' ? 'bg-status-error/20 text-status-error' :
+                                        dosha.severity === 'Medium' ? 'bg-status-warning/20 text-status-warning' :
+                                            'bg-accent-blue/20 text-accent-blue'
                                     }`}>
                                     {dosha.present ? dosha.severity : 'Not Present'}
                                 </span>

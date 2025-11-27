@@ -7,10 +7,11 @@ import { VedicTab } from './components/tabs/VedicTab'
 import { LalKitabTab } from './components/tabs/LalKitabTab'
 import { NumerologyTab } from './components/tabs/NumerologyTab'
 import { CombinedTab } from './components/tabs/CombinedTab'
+import { PersonalizedGuidanceTab } from './components/tabs/PersonalizedGuidanceTab'
 import { AstrologyProvider } from './context/AstrologyContext'
 import { Sparkles, Calendar, Sun, Star, BookOpen, Hash, Layers } from 'lucide-react'
 
-type TabType = 'vedic' | 'lalkitab' | 'numerology' | 'combined' | 'western' | 'tarot' | 'panchang'
+type TabType = 'vedic' | 'lalkitab' | 'numerology' | 'combined' | 'western' | 'tarot' | 'panchang' | 'personalized'
 
 function App() {
     const [activeTab, setActiveTab] = useState<TabType>('vedic')
@@ -71,6 +72,16 @@ function App() {
                                 Combined Analysis
                             </button>
                             <button
+                                onClick={() => setActiveTab('personalized')}
+                                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all whitespace-nowrap ${activeTab === 'personalized'
+                                    ? 'bg-accent-pink text-white'
+                                    : 'bg-bg-tertiary text-text-tertiary hover:bg-bg-elevated'
+                                    }`}
+                            >
+                                <Sparkles className="w-4 h-4" />
+                                Personalized
+                            </button>
+                            <button
                                 onClick={() => setActiveTab('western')}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all whitespace-nowrap ${activeTab === 'western'
                                     ? 'bg-accent-purple text-white'
@@ -110,6 +121,7 @@ function App() {
                     {activeTab === 'lalkitab' && <LalKitabTab />}
                     {activeTab === 'numerology' && <NumerologyTab />}
                     {activeTab === 'combined' && <CombinedTab />}
+                    {activeTab === 'personalized' && <PersonalizedGuidanceTab />}
                     {activeTab === 'western' && <WesternTab />}
                     {activeTab === 'tarot' && <TarotTab />}
                     {activeTab === 'panchang' && <PanchangTab />}

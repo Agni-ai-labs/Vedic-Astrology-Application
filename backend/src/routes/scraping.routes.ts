@@ -19,14 +19,23 @@ router.post('/trigger', async (req: Request, res: Response) => {
             const yogas = await scraper.scrapeYogas();
             console.log(`Scraped ${yogas.length} yogas from AstroSage`);
 
-            // Save to knowledge base
+            // Save yogas to knowledge base
             for (const yoga of yogas) {
                 await kbManager.addYoga(yoga);
             }
 
+            // Scrape Doshas
+            const doshas = await scraper.scrapeDoshas();
+            console.log(`Scraped ${doshas.length} doshas from Internal Source`);
+
+            // Save doshas to knowledge base
+            for (const dosha of doshas) {
+                await kbManager.addDosha(dosha);
+            }
+
             results.astrosage = {
                 yogas: yogas.length,
-                doshas: 0
+                doshas: doshas.length
             };
         }
 

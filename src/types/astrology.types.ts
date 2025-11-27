@@ -181,3 +181,58 @@ export interface ActionPlan {
         expectedOutcome: string;
     }[];
 }
+
+// Personalized Guidance Types
+export interface UserConcern {
+    type: 'relationship' | 'finance' | 'health' | 'addiction' | 'career' | 'legal' | 'business';
+    details?: string; // e.g., "alcohol habit", "debt problems"
+}
+
+export interface TargetedRemedy {
+    concernType: UserConcern['type'];
+    remedyType: 'Mantra' | 'Gemstone' | 'Ritual' | 'Lifestyle' | 'Donation';
+    title: string;
+    description: string;
+    instructions: string;
+    timing?: string;
+    priority: 'high' | 'medium' | 'low';
+    cost: 'free' | 'low' | 'medium' | 'high';
+    difficulty: 'easy' | 'medium' | 'hard';
+    effectiveness: number; // 1-10
+}
+
+export interface BusinessDetails {
+    name: string;
+    type: string;
+    startDate: Date;
+    logoColor?: string;
+}
+
+export interface BusinessAnalysis {
+    growthPrediction: {
+        willGrow: boolean;
+        timeline: string;
+        confidence: number;
+    };
+    nameAnalysis: {
+        score: number; // 1-100
+        vibration: number;
+        assessment: 'Excellent' | 'Good' | 'Average' | 'Poor';
+    };
+    recommendations: {
+        suggestedNames: string[];
+        logoColors: string[];
+        luckyNumbers: number[];
+        bestDirection: string;
+        rebrandingDates: Date[];
+    };
+}
+
+export interface BusinessSuggestion {
+    sector: string;
+    matchScore: number; // 1-100
+    reasoning: string;
+    timing: string;
+    investmentRange: string;
+    successProbability: number;
+}

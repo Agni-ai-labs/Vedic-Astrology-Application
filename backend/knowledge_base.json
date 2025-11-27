@@ -1,7 +1,7 @@
 {
   "yogas": [
     {
-      "id": "1fbd13ec-b7a3-425c-acd4-d4c5d7f95c88",
+      "id": "2d52b547-bf68-447d-87d3-de68db548701",
       "name": "Gaja Kesari Yoga",
       "category": "Raj",
       "rarity": "Common",
@@ -67,7 +67,7 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.253Z",
+          "dateScraped": "2025-11-23T10:47:10.944Z",
           "reliability": 10
         }
       ]
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "id": "3ef022c8-d513-40c7-b78d-3ec75a0160da",
+      "id": "772be9d6-1938-440e-bf9d-4bfb5f707baa",
       "name": "Budhaditya Yoga",
       "category": "General",
       "rarity": "Common",
@@ -169,7 +169,7 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
           "reliability": 10
         }
       ],
@@ -184,7 +184,7 @@
       "relatedYogas": []
     },
     {
-      "id": "7e560b71-05c2-4523-bda6-94a97dd129bf",
+      "id": "f07cd727-86c9-4f69-800d-fe126e26f66f",
       "name": "Hamsa Yoga (Pancha Mahapurusha)",
       "category": "Raj",
       "rarity": "Moderate",
@@ -234,13 +234,13 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.945Z",
           "reliability": 10
         }
       ]
     },
     {
-      "id": "97434e07-5a40-4cd0-8439-b1faa8ab23b1",
+      "id": "b610e933-9a63-4f39-8c73-3eb1c027153a",
       "name": "Malavya Yoga (Pancha Mahapurusha)",
       "category": "Raj",
       "rarity": "Moderate",
@@ -291,13 +291,13 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.945Z",
           "reliability": 10
         }
       ]
     },
     {
-      "id": "d16051ac-fb1c-40ca-a0ff-7f846cbb08b5",
+      "id": "f5f8d196-cfd4-4d91-9789-358aa464784e",
       "name": "Ruchaka Yoga (Pancha Mahapurusha)",
       "category": "Raj",
       "rarity": "Moderate",
@@ -347,13 +347,13 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.945Z",
           "reliability": 10
         }
       ]
     },
     {
-      "id": "4564f332-71ca-427f-a19a-f731d1663288",
+      "id": "f30deeb4-be77-483a-a0f9-56858166e995",
       "name": "Bhadra Yoga (Pancha Mahapurusha)",
       "category": "Raj",
       "rarity": "Moderate",
@@ -403,13 +403,13 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.945Z",
           "reliability": 10
         }
       ]
     },
     {
-      "id": "84e13e74-f407-41c3-9bf0-31acf333e5d9",
+      "id": "1177bfe1-bd32-45ce-96b1-cefdce5516a4",
       "name": "Shasha Yoga (Pancha Mahapurusha)",
       "category": "Raj",
       "rarity": "Rare",
@@ -459,13 +459,13 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.945Z",
           "reliability": 10
         }
       ]
     },
     {
-      "id": "e1564696-8845-4eba-a957-c0b380f44103",
+      "id": "d7627e7b-31d8-42e2-9273-186a7754dad9",
       "name": "Adhi Yoga",
       "category": "Dhana",
       "rarity": "Common",
@@ -511,13 +511,13 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.945Z",
           "reliability": 10
         }
       ]
     },
     {
-      "id": "5d3c2c89-63eb-4dd6-9897-1ad473f7d741",
+      "id": "a329f28a-8dab-483a-83d4-27db0ad2dcd4",
       "name": "Lakshmi Yoga",
       "category": "Dhana",
       "rarity": "Moderate",
@@ -573,13 +573,13 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
           "reliability": 10
         }
       ]
     },
     {
-      "id": "8b3fa855-d901-41ce-a3bc-1fb8d56c357a",
+      "id": "da0faa60-7e1a-4518-b274-a37fb262bd17",
       "name": "Saraswati Yoga",
       "category": "Special",
       "rarity": "Rare",
@@ -635,11 +635,1733 @@
         {
           "source": "Verified Internal Database",
           "url": "internal://static/yoga-dataset",
-          "dateScraped": "2025-11-23T09:51:21.255Z",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "9b54b4dd-73c9-4f79-90ba-e2175236fb7d",
+      "name": "Chandra-Mangala Yoga",
+      "category": "Dhana",
+      "rarity": "Common",
+      "formation": {
+        "rule": "Moon and Mars conjunct or mutual aspect",
+        "cancellationFactors": [
+          "Planets debilitated",
+          "Aspect from Saturn"
+        ],
+        "strengtheningFactors": [
+          "In favorable houses (2, 9, 10, 11)",
+          "Supported by Venus"
+        ]
+      },
+      "effects": {
+        "general": "Grants wealth through earnings, business acumen, and restless energy. May indicate earnings through women or liquid products.",
+        "lifeAreas": {
+          "wealth": 9,
+          "career": 7,
+          "relationships": 5,
+          "courage": 8
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Angarkaya Namaha",
+          "Om Som Somaya Namaha"
+        ],
+        "gemstones": [
+          "Pearl",
+          "Red Coral (with caution)"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Phaladeepika",
+          "chapter": "Yogas",
+          "translation": "One who deals in drinks, earthern jars, women and is wealthy."
+        }
+      ],
+      "modernInterpretation": "Success in chemical engineering, beverage industry, nursing, or finance.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "401689d7-a850-4196-88a6-1a5455e69c8c",
+      "name": "Dhana Yoga (2nd Lord in 11th)",
+      "category": "Dhana",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "Lord of 2nd house placed in 11th house",
+        "cancellationFactors": [
+          "Lords in enemy sign",
+          "Combust"
+        ],
+        "strengtheningFactors": [
+          "Aspect by Jupiter",
+          "Exalted lords"
+        ]
+      },
+      "effects": {
+        "general": "Significant accumulation of wealth. Earnings come from multiple sources and investments grow rapidly.",
+        "lifeAreas": {
+          "wealth": 10,
+          "career": 8,
+          "investments": 10
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Shreem Mahalakshmiyei Namaha"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "chapter": "Dhana Yogas",
+          "translation": "The native will be famous and wealthy through his own efforts."
+        }
+      ],
+      "modernInterpretation": "Excellent for investors, bankers, and entrepreneurs.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "400b021e-539b-4716-9309-5e723130631e",
+      "name": "Dhana Yoga (5th Lord in 9th)",
+      "category": "Dhana",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "Lord of 5th house placed in 9th house",
+        "cancellationFactors": [
+          "Lords debilitated",
+          "Afflicted by Rahu/Ketu"
+        ],
+        "strengtheningFactors": [
+          "Parivartana Yoga between 5th and 9th lords"
+        ]
+      },
+      "effects": {
+        "general": "Wealth through speculation, creativity, children, or publications. Indicates strong past-life merit.",
+        "lifeAreas": {
+          "wealth": 9,
+          "career": 7,
+          "fortune": 10,
+          "creativity": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Vishnuve Namaha"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "chapter": "Dhana Yogas",
+          "translation": "The person will be a king or equal to a king, very wealthy and fortunate."
+        }
+      ],
+      "modernInterpretation": "Authors, stock traders, and creative directors.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "833e02e6-511d-40e5-a6f0-1f05314a1f64",
+      "name": "Dhana Yoga (9th Lord in 2nd)",
+      "category": "Dhana",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "Lord of 9th house placed in 2nd house",
+        "cancellationFactors": [
+          "Malefic aspects"
+        ],
+        "strengtheningFactors": [
+          "9th lord exalted"
+        ]
+      },
+      "effects": {
+        "general": "Wealth through inheritance, family business, or higher knowledge. Lucky with money management.",
+        "lifeAreas": {
+          "wealth": 10,
+          "family": 9,
+          "knowledge": 8
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Brihaspataye Namaha"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Jataka Parijata",
+          "translation": "Native will be wealthy, learned and happy."
+        }
+      ],
+      "modernInterpretation": "Family business successors, professors, financial advisors.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "b331f6e0-f927-4f09-b70d-f3d18a8e2715",
+      "name": "Dhana Yoga (11th Lord in 2nd)",
+      "category": "Dhana",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "Lord of 11th house placed in 2nd house",
+        "cancellationFactors": [
+          "Affliction by 6/8/12 lords"
+        ],
+        "strengtheningFactors": [
+          "Both lords natural benefics"
+        ]
+      },
+      "effects": {
+        "general": "High liquidity and cash flow. The native creates large financial networks.",
+        "lifeAreas": {
+          "wealth": 10,
+          "networking": 9,
+          "business": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Kuberaya Namaha"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "Native will be endowed with wealth, grains and family happiness."
+        }
+      ],
+      "modernInterpretation": "Large scale traders, network marketers, CFOs.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "2727324e-6293-4948-96ca-45df1e93c15f",
+      "name": "Dhana Yoga (Lagnesha-Dhana Parivartana)",
+      "category": "Dhana",
+      "rarity": "Rare",
+      "formation": {
+        "rule": "Exchange of signs between 1st Lord and 2nd Lord",
+        "cancellationFactors": [
+          "Lords debilitated"
+        ],
+        "strengtheningFactors": [
+          "Both lords in friendly signs"
+        ]
+      },
+      "effects": {
+        "general": "Self-made wealth. The person accumulates riches through personal effort and personality.",
+        "lifeAreas": {
+          "wealth": 9,
+          "self": 10,
+          "career": 8
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Adityaya Namaha"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Saravali",
+          "translation": "One gains wealth through his own valour and efforts."
+        }
+      ],
+      "modernInterpretation": "Self-made billionaires, celebrities, personal brands.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "fdea5723-6d40-4e06-a268-10393564bf97",
+      "name": "Harsha Yoga (Viparita)",
+      "category": "Raj",
+      "rarity": "Rare",
+      "formation": {
+        "rule": "6th Lord placed in 6th, 8th, or 12th house",
+        "cancellationFactors": [
+          "Conjunction with non-dusthana lords"
+        ],
+        "strengtheningFactors": [
+          "No aspect from benefics (pure maleficence reinforces defense)"
+        ]
+      },
+      "effects": {
+        "general": "Protection from enemies, strong constitution, and success through overcoming obstacles.",
+        "lifeAreas": {
+          "health": 8,
+          "enemies": 10,
+          "career": 7
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Durgayei Namaha"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Phaladeepika",
+          "translation": "One is happy, invincible, physically strong, and wealthy."
+        }
+      ],
+      "modernInterpretation": "Success in litigation, competitive sports, or defense.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "7c92305e-29ef-4a8f-a204-6df97687cbe7",
+      "name": "Sarala Yoga (Viparita)",
+      "category": "Raj",
+      "rarity": "Rare",
+      "formation": {
+        "rule": "8th Lord placed in 6th, 8th, or 12th house",
+        "cancellationFactors": [
+          "Conjunction with benefic lords"
+        ],
+        "strengtheningFactors": [
+          "8th lord in 8th"
+        ]
+      },
+      "effects": {
+        "general": "Longevity, fearlessness, and sudden gains. Ability to survive crises and prosper.",
+        "lifeAreas": {
+          "longevity": 10,
+          "wealth": 8,
+          "occult": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Mrityunjayaya Namaha"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Phaladeepika",
+          "translation": "Long lived, fearless, learned, a terror to enemies and wealthy."
+        }
+      ],
+      "modernInterpretation": "Risk management, insurance, research, mining.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "e602825a-6f27-4d15-a262-6aed96dacfb1",
+      "name": "Vimala Yoga (Viparita)",
+      "category": "Raj",
+      "rarity": "Rare",
+      "formation": {
+        "rule": "12th Lord placed in 6th, 8th, or 12th house",
+        "cancellationFactors": [
+          "Conjunction with Lagna lord"
+        ],
+        "strengtheningFactors": [
+          "12th lord in 12th"
+        ]
+      },
+      "effects": {
+        "general": "Frugal, independent, happy, and spiritually inclined. Accumulates wealth through saving.",
+        "lifeAreas": {
+          "spirituality": 9,
+          "wealth": 7,
+          "independence": 10
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Namah Shivaya"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Phaladeepika",
+          "translation": "Frugal, happy, independent and possessed of good qualities."
+        }
+      ],
+      "modernInterpretation": "Foreign services, auditors, spiritual healers.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "5e23ce82-ffe7-43ea-8f7b-82793c8f76ba",
+      "name": "Kemudruma Yoga",
+      "category": "Aristha",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "No planets (except Sun/Rahu/Ketu) in 2nd or 12th from Moon",
+        "cancellationFactors": [
+          "Planets in Kendra from Moon or Lagna (Kemudruma Bhanga)"
+        ],
+        "strengtheningFactors": [
+          "Moon isolated and debilitated"
+        ]
+      },
+      "effects": {
+        "general": "Can cause mental loneliness, poverty, and struggle. However, often found in charts of great leaders who feel isolated.",
+        "lifeAreas": {
+          "wealth": 3,
+          "mentalPeace": 2,
+          "career": 5
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Namah Shivaya"
+        ],
+        "gemstones": [
+          "Pearl"
+        ],
+        "charities": [
+          "Donate milk on Mondays"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "The person will be dirty, sorrowful, doing unrighteous deeds, and poor."
+        }
+      ],
+      "modernInterpretation": "Depression, isolation, but potential for great spiritual depth if cancelled.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "85ff0b49-ebc7-42fb-8723-5988a5c22928",
+      "name": "Shakata Yoga",
+      "category": "Aristha",
+      "rarity": "Common",
+      "formation": {
+        "rule": "Moon in 6th, 8th, or 12th from Jupiter",
+        "cancellationFactors": [
+          "Moon in Kendra to Lagna"
+        ],
+        "strengtheningFactors": [
+          "Moon debilitated"
+        ]
+      },
+      "effects": {
+        "general": "Fluctuating fortune. Life moves like a wheel—sometimes high, sometimes low.",
+        "lifeAreas": {
+          "wealth": 4,
+          "stability": 3,
+          "career": 5
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Gurave Namaha"
+        ],
+        "charities": [
+          "Yellow items on Thursday"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Jataka Parijata",
+          "translation": "Native loses wealth and regains it, undergoing much mental anguish."
+        }
+      ],
+      "modernInterpretation": "Freelancers, seasonal business owners, cyclical financial status.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "028e89d8-9198-4109-b8f2-1bd81da59df9",
+      "name": "Daridra Yoga",
+      "category": "Aristha",
+      "rarity": "Common",
+      "formation": {
+        "rule": "Lord of 11th house in 6th, 8th, or 12th house",
+        "cancellationFactors": [
+          "11th lord exalted"
+        ],
+        "strengtheningFactors": [
+          "Aspect by malefics"
+        ]
+      },
+      "effects": {
+        "general": "Difficulty in retaining gains, debts, or limited income sources.",
+        "lifeAreas": {
+          "wealth": 3,
+          "debt": 8,
+          "career": 4
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Kanakadhara Stotram"
+        ],
+        "charities": [
+          "Service to poor"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "The native will be in debts, cruel, poor and mean."
+        }
+      ],
+      "modernInterpretation": "Financial instability, bad investments.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "602796ef-072f-4486-9dc0-a17a3cc02620",
+      "name": "Mahabhagya Yoga",
+      "category": "Raj",
+      "rarity": "Rare",
+      "formation": {
+        "rule": "Males: Day birth, Sun, Moon, Lagna in odd signs. Females: Night birth, Sun, Moon, Lagna in even signs.",
+        "cancellationFactors": [
+          "Weak Sun or Moon"
+        ],
+        "strengtheningFactors": [
+          "Benefic aspects"
+        ]
+      },
+      "effects": {
+        "general": "Great fortune, popularity, and leadership. The native is blessed by destiny.",
+        "lifeAreas": {
+          "fortune": 10,
+          "fame": 10,
+          "wealth": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Gayatri Mantra"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Phaladeepika",
+          "translation": "Native causes immense pleasure to eyes of onlookers, is a lord of lands and generous."
+        }
+      ],
+      "modernInterpretation": "Public figures, celebrities, charismatic leaders.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "8da9db01-14dd-4c88-b149-7c469023980e",
+      "name": "Amala Yoga",
+      "category": "Raj",
+      "rarity": "Common",
+      "formation": {
+        "rule": "Benefic planet (Jupiter, Venus, Mercury) in 10th house from Moon or Lagna",
+        "cancellationFactors": [
+          "Benefic combust"
+        ],
+        "strengtheningFactors": [
+          "Benefic exalted"
+        ]
+      },
+      "effects": {
+        "general": "Professional success, stainless reputation, and humanitarian nature.",
+        "lifeAreas": {
+          "career": 10,
+          "reputation": 10,
+          "ethics": 9
+        }
+      },
+      "remedies": {
+        "charities": [
+          "Social work"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Phaladeepika",
+          "translation": "Person will be revered by the king, have a spotless character and be wealthy."
+        }
+      ],
+      "modernInterpretation": "NGO leaders, judges, reputable professionals.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "c0cfbad3-cfd4-4b20-8dbc-586145a2deb9",
+      "name": "Parvata Yoga",
+      "category": "Raj",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "Benefics in Kendras, and 6th/8th houses either empty or occupied by benefics",
+        "cancellationFactors": [
+          "Malefics in Kendras"
+        ],
+        "strengtheningFactors": [
+          "Lagna lord strong"
+        ]
+      },
+      "effects": {
+        "general": "Lasting political power, wealth, and stability. Like a mountain (Parvata).",
+        "lifeAreas": {
+          "stability": 10,
+          "wealth": 8,
+          "politics": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Om Namah Shivaya"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "Phaladeepika",
+          "translation": "Native will possess everlasting wealth and happiness and will be a lord of the earth."
+        }
+      ],
+      "modernInterpretation": "Land owners, political positions, stable administrative roles.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "26a60893-4fe6-491d-868e-f068f7841842",
+      "name": "Kahala Yoga",
+      "category": "Raj",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "Lords of 4th and 9th in mutual Kendras, and Lagna lord is strong",
+        "cancellationFactors": [
+          "Combustion"
+        ],
+        "strengtheningFactors": [
+          "Lords exalted"
+        ]
+      },
+      "effects": {
+        "general": "Aggressive, daring, and commands a force/team. Success through execution.",
+        "lifeAreas": {
+          "leadership": 9,
+          "courage": 9,
+          "military": 10
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Hanuman Chalisa"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "Native will be daring, head of a small army and wealthy."
+        }
+      ],
+      "modernInterpretation": "Police chiefs, military commanders, operations directors.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "5b32bd3d-a80b-4d61-8c1f-6525b1140828",
+      "name": "Sunapha Yoga",
+      "category": "Moon",
+      "rarity": "Common",
+      "formation": {
+        "rule": "Planet (excluding Sun) in 2nd house from Moon",
+        "cancellationFactors": [
+          "Planet combust or debilitated"
+        ],
+        "strengtheningFactors": [
+          "Planet is benefic"
+        ]
+      },
+      "effects": {
+        "general": "Self-acquisition of wealth, intelligence, and good reputation.",
+        "lifeAreas": {
+          "wealth": 8,
+          "career": 7,
+          "intelligence": 7
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Chandra Mantra"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "Native will be a king, wealthy, intelligent and renowned."
+        }
+      ],
+      "modernInterpretation": "Self-made professionals, steady income.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "098196aa-f5c2-4f4b-8e79-c9e8aaff3307",
+      "name": "Anapha Yoga",
+      "category": "Moon",
+      "rarity": "Common",
+      "formation": {
+        "rule": "Planet (excluding Sun) in 12th house from Moon",
+        "cancellationFactors": [
+          "Planet combust"
+        ],
+        "strengtheningFactors": [
+          "Planet is Venus or Jupiter"
+        ]
+      },
+      "effects": {
+        "general": "Good manners, enjoyment of pleasures, and freedom from disease.",
+        "lifeAreas": {
+          "health": 8,
+          "comfort": 9,
+          "manners": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Chandra Mantra"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "Native will be a king, free from disease, virtuous and happy."
+        }
+      ],
+      "modernInterpretation": "Luxury lifestyle, diplomats, hospitality.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "7d69c574-4f03-434d-8609-214cbb682fc9",
+      "name": "Durudhura Yoga",
+      "category": "Moon",
+      "rarity": "Moderate",
+      "formation": {
+        "rule": "Planets (excluding Sun) in both 2nd and 12th from Moon",
+        "cancellationFactors": [
+          "Malefics in both sides"
+        ],
+        "strengtheningFactors": [
+          "Benefics in both sides"
+        ]
+      },
+      "effects": {
+        "general": "Balance, wealth, vehicles, and comforts. Enjoyment of life.",
+        "lifeAreas": {
+          "wealth": 9,
+          "vehicles": 8,
+          "happiness": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Chandra Mantra"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "Native will enjoy comforts of conveyances and servants."
+        }
+      ],
+      "modernInterpretation": "Balanced life, transport business, logistics.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "adf1f1b9-bf4d-4878-b865-156723af8755",
+      "name": "Vallaki (Vina) Yoga",
+      "category": "Nabhasa (Sankhya)",
+      "rarity": "Rare",
+      "formation": {
+        "rule": "All 7 planets distributed in exactly 7 signs",
+        "cancellationFactors": [
+          "N/A (Nabhasa yogas usually have no cancellation)"
+        ],
+        "strengtheningFactors": [
+          "Planets in friendly signs"
+        ]
+      },
+      "effects": {
+        "general": "Love for music, arts, and refined skills. Varied interests.",
+        "lifeAreas": {
+          "arts": 10,
+          "social": 8,
+          "skills": 9
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Saraswati Mantra"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "Native will be fond of music, dance and will be learned."
+        }
+      ],
+      "modernInterpretation": "Musicians, multi-talented artists.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "846dc04c-e09d-4c93-9237-26415ff9a22a",
+      "name": "Gada Yoga",
+      "category": "Nabhasa (Akriti)",
+      "rarity": "Rare",
+      "formation": {
+        "rule": "All planets located in two adjacent Kendras (e.g., 1st and 4th)",
+        "cancellationFactors": [
+          "N/A"
+        ],
+        "strengtheningFactors": [
+          "Benefics in Lagna"
+        ]
+      },
+      "effects": {
+        "general": "Wealthy, proud, performs sacrifices, and is skilled in weapons/tools.",
+        "lifeAreas": {
+          "wealth": 8,
+          "security": 9,
+          "ritual": 7
+        }
+      },
+      "remedies": {
+        "mantras": [
+          "Vishnu Sahasranamam"
+        ]
+      },
+      "classicalReferences": [
+        {
+          "text": "BPHS",
+          "translation": "Native will be wealthy, versed in Shastras and fearsome."
+        }
+      ],
+      "modernInterpretation": "Security experts, manufacturing, technical trades.",
+      "relatedYogas": [],
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/yoga-dataset",
+          "dateScraped": "2025-11-23T10:47:10.946Z",
           "reliability": 10
         }
       ]
     }
   ],
-  "doshas": []
+  "doshas": [
+    {
+      "id": "6ab2f19c-79f3-49ca-8d39-7ae3730177bc",
+      "name": "Kala Sarpa Dosha",
+      "severity": "High",
+      "detection": {
+        "rule": "All 7 planets situated between Rahu and Ketu axis",
+        "variations": [
+          "Anant Kaal Sarp (Rahu in 1st)",
+          "Kulik Kaal Sarp (Rahu in 2nd)",
+          "Total vs Partial"
+        ]
+      },
+      "classicalView": "Struggle in early life, sudden rises and falls, feeling of restriction. Success often comes late (after 42).",
+      "effects": {
+        "primaryImpact": [
+          "Career delay",
+          "Mental anxiety",
+          "Unexpected obstacles"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 0,
+            "issues": []
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Kala Sarpa Shanti Puja at Trimbakeshwar",
+            "effectiveness": 8,
+            "description": "Perform Kala Sarpa Shanti Puja at Trimbakeshwar to mitigate the effects of Kala Sarpa Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Om Namah Shivaya",
+            "effectiveness": 7,
+            "description": "Chant Om Namah Shivaya regularly"
+          },
+          {
+            "type": "Mantra",
+            "details": "Maha Mrityunjaya Mantra",
+            "effectiveness": 7,
+            "description": "Chant Maha Mrityunjaya Mantra regularly"
+          },
+          {
+            "type": "Gemstone",
+            "details": "Gomed (Hessonite) - only after consultation",
+            "effectiveness": 6,
+            "description": "Wear Gomed (Hessonite) - only after consultation for protection"
+          }
+        ],
+        "lifestyle": [
+          "Avoid harming snakes",
+          "Worship Lord Shiva"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.253Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "74107b41-e4dc-40c8-a6d9-6276ee522094",
+      "name": "Mangal Dosha (Kuja Dosha)",
+      "severity": "Moderate to High",
+      "detection": {
+        "rule": "Mars in 1st, 4th, 7th, 8th, or 12th house",
+        "variations": [
+          "Low Mangal (Anshik)",
+          "High Mangal",
+          "Exceptions exist (e.g., Mars in Aries/Scorpio/Capricorn, or after age 28)"
+        ]
+      },
+      "classicalView": "Aggression in relationships, delay in marriage, or marital discord.",
+      "effects": {
+        "primaryImpact": [
+          "Marriage",
+          "Temperament",
+          "Spousal health"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 4,
+            "issues": [
+              "Issues related to relationship",
+              "Issues related to marriage"
+            ]
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Mangal Nath Puja",
+            "effectiveness": 8,
+            "description": "Perform Mangal Nath Puja to mitigate the effects of Mangal Dosha (Kuja Dosha)"
+          },
+          {
+            "type": "Pooja",
+            "details": "Kumbh Vivah (symbolic marriage)",
+            "effectiveness": 8,
+            "description": "Perform Kumbh Vivah (symbolic marriage) to mitigate the effects of Mangal Dosha (Kuja Dosha)"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Hanuman Chalisa",
+            "effectiveness": 7,
+            "description": "Chant Hanuman Chalisa regularly"
+          },
+          {
+            "type": "Mantra",
+            "details": "Om Angarkaya Namaha",
+            "effectiveness": 7,
+            "description": "Chant Om Angarkaya Namaha regularly"
+          }
+        ],
+        "lifestyle": [
+          "Marry another Manglik",
+          "Donate red lentils/blood donation"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.253Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "841f9aff-60d1-4fbc-8c6b-a2a17c4567d2",
+      "name": "Pitri Dosha",
+      "severity": "High",
+      "detection": {
+        "rule": "Sun or Moon afflicted by Rahu/Ketu, or 9th house heavily afflicted",
+        "variations": [
+          "Sun+Rahu (Pitri)",
+          "Moon+Ketu (Matri)"
+        ]
+      },
+      "classicalView": "Ancestral debt causing lack of progress, progeny issues, or constant family disputes.",
+      "effects": {
+        "primaryImpact": [
+          "Progeny",
+          "Family harmony",
+          "Unexplained failures"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 2,
+            "issues": [
+              "Issues related to family"
+            ]
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Pind Daan at Gaya",
+            "effectiveness": 8,
+            "description": "Perform Pind Daan at Gaya to mitigate the effects of Pitri Dosha"
+          },
+          {
+            "type": "Pooja",
+            "details": "Shraddh ceremonies",
+            "effectiveness": 8,
+            "description": "Perform Shraddh ceremonies to mitigate the effects of Pitri Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Om Pitribhyo Namaha",
+            "effectiveness": 7,
+            "description": "Chant Om Pitribhyo Namaha regularly"
+          }
+        ],
+        "lifestyle": [
+          "Respect elders",
+          "Feed crows/cows"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.253Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "eaa8a0b6-5ba6-424c-9902-ebc181b80cd7",
+      "name": "Shrapit Dosha",
+      "severity": "High",
+      "detection": {
+        "rule": "Conjunction of Saturn and Rahu in a single house",
+        "variations": [
+          "Aspect relationship also considered by some"
+        ]
+      },
+      "classicalView": "Curse from past life. Brings chronic bad luck and negation of other good yogas in the chart.",
+      "effects": {
+        "primaryImpact": [
+          "General luck",
+          "Chronic health",
+          "Delay in all works"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 0,
+            "issues": []
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Rudra Abhishek",
+            "effectiveness": 8,
+            "description": "Perform Rudra Abhishek to mitigate the effects of Shrapit Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Om Shanishcharaya Namaha",
+            "effectiveness": 7,
+            "description": "Chant Om Shanishcharaya Namaha regularly"
+          },
+          {
+            "type": "Mantra",
+            "details": "Om Raahave Namaha",
+            "effectiveness": 7,
+            "description": "Chant Om Raahave Namaha regularly"
+          }
+        ],
+        "lifestyle": [
+          "Service to handicapped/lepers"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.253Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "aa7fed4a-6940-455b-9134-f4ac9a274f4c",
+      "name": "Grahan Dosha",
+      "severity": "Moderate",
+      "detection": {
+        "rule": "Sun or Moon conjunct Rahu or Ketu",
+        "variations": [
+          "Solar Eclipse (Surya Grahan)",
+          "Lunar Eclipse (Chandra Grahan)"
+        ]
+      },
+      "classicalView": "Mental cloudiness, lack of confidence (Sun), or emotional instability (Moon). parental health issues.",
+      "effects": {
+        "primaryImpact": [
+          "Confidence",
+          "Emotion",
+          "Reputation"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 2,
+            "issues": [
+              "Issues related to health"
+            ]
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 0,
+            "issues": []
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Surya/Chandra Shanti",
+            "effectiveness": 8,
+            "description": "Perform Surya/Chandra Shanti to mitigate the effects of Grahan Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Aditya Hridaya Stotram (Sun)",
+            "effectiveness": 7,
+            "description": "Chant Aditya Hridaya Stotram (Sun) regularly"
+          },
+          {
+            "type": "Mantra",
+            "details": "Om Som Somaya Namaha (Moon)",
+            "effectiveness": 7,
+            "description": "Chant Om Som Somaya Namaha (Moon) regularly"
+          }
+        ],
+        "lifestyle": [
+          "Offer water to Sun",
+          "Respect mother"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.253Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "c6b23641-fa62-4cdd-8fce-161802c4f90f",
+      "name": "Guru Chandal Dosha",
+      "severity": "Moderate",
+      "detection": {
+        "rule": "Jupiter and Rahu conjunct",
+        "variations": [
+          "Ketu connection forms Ganesha Yoga (different effect)"
+        ]
+      },
+      "classicalView": "Corruption of wisdom, disrespect towards teachers, atheism, or using knowledge for unethical gains.",
+      "effects": {
+        "primaryImpact": [
+          "Education",
+          "Ethics",
+          "Liver health"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 0,
+            "issues": []
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Guru Puja",
+            "effectiveness": 8,
+            "description": "Perform Guru Puja to mitigate the effects of Guru Chandal Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Om Gram Greem Graum Sah Gurave Namaha",
+            "effectiveness": 7,
+            "description": "Chant Om Gram Greem Graum Sah Gurave Namaha regularly"
+          }
+        ],
+        "lifestyle": [
+          "Respect teachers",
+          "Donate yellow pulses"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.254Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "30696124-fede-45f1-ab9c-cbcca854866b",
+      "name": "Angarak Dosha",
+      "severity": "High",
+      "detection": {
+        "rule": "Mars and Rahu conjunct",
+        "variations": [
+          "Close degrees increase severity"
+        ]
+      },
+      "classicalView": "Extreme volatility, anger, accident proneness, and explosive energy.",
+      "effects": {
+        "primaryImpact": [
+          "Safety",
+          "Relationships",
+          "Legal issues"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 0,
+            "issues": []
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Hanuman worship",
+            "effectiveness": 8,
+            "description": "Perform Hanuman worship to mitigate the effects of Angarak Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Om Ham Hanumate Namaha",
+            "effectiveness": 7,
+            "description": "Chant Om Ham Hanumate Namaha regularly"
+          }
+        ],
+        "lifestyle": [
+          "Avoid rash driving",
+          "Meditation for anger management"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.254Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "09907622-d1e0-4d19-8dfc-ab885e88d5a2",
+      "name": "Vish Dosha",
+      "severity": "Moderate",
+      "detection": {
+        "rule": "Moon and Saturn conjunct",
+        "variations": [
+          "Aspect relationship also considered"
+        ]
+      },
+      "classicalView": "Depression, negativity, emotional heaviness, and feeling \"poisoned\" by life circumstances.",
+      "effects": {
+        "primaryImpact": [
+          "Mental health",
+          "Mother’s health",
+          "Optimism"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 0,
+            "issues": []
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Shiva Abhishekam with milk",
+            "effectiveness": 8,
+            "description": "Perform Shiva Abhishekam with milk to mitigate the effects of Vish Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Om Namah Shivaya",
+            "effectiveness": 7,
+            "description": "Chant Om Namah Shivaya regularly"
+          }
+        ],
+        "lifestyle": [
+          "Avoid loneliness",
+          "Drink water from silver glass"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.254Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "403333f5-aafe-427b-afc3-c321cfa65396",
+      "name": "Nadi Dosha",
+      "severity": "High (for progeny)",
+      "detection": {
+        "rule": "Usually applied in matching (same Nadi), but in charts refers to physiological weakness based on Nakshatra element.",
+        "variations": [
+          "Adi",
+          "Madhya",
+          "Antya"
+        ]
+      },
+      "classicalView": "Primarily affects progeny health and genetic compatibility in marriage. In individuals, indicates Ayurvedic constitution imbalance.",
+      "effects": {
+        "primaryImpact": [
+          "Childbirth",
+          "Genetic health",
+          "Marital compatibility"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 2,
+            "issues": [
+              "Issues related to health"
+            ]
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 2,
+            "issues": [
+              "Issues related to marriage"
+            ]
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Nadi Dosha Nivaran Puja",
+            "effectiveness": 8,
+            "description": "Perform Nadi Dosha Nivaran Puja to mitigate the effects of Nadi Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Maha Mrityunjaya Mantra",
+            "effectiveness": 7,
+            "description": "Chant Maha Mrityunjaya Mantra regularly"
+          }
+        ],
+        "lifestyle": [
+          "Ayurvedic balancing",
+          "Donating grains equal to weight"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.254Z",
+          "reliability": 10
+        }
+      ]
+    },
+    {
+      "id": "e97a0237-31d5-4d94-b6e4-03f1459ca6d7",
+      "name": "Putra Dosha",
+      "severity": "Moderate",
+      "detection": {
+        "rule": "Affliction to 5th house/lord or Jupiter by malefics (Rahu/Ketu/Saturn)",
+        "variations": [
+          "Specific curse of Brahmins or Serpents usually involved"
+        ]
+      },
+      "classicalView": "Delay or difficulty in having children, or worried about child welfare.",
+      "effects": {
+        "primaryImpact": [
+          "Progeny",
+          "Creativity",
+          "Speculation"
+        ],
+        "lifeAreaAffected": {
+          "health": {
+            "severity": 0,
+            "issues": []
+          },
+          "wealth": {
+            "severity": 0,
+            "issues": []
+          },
+          "relationships": {
+            "severity": 0,
+            "issues": []
+          },
+          "career": {
+            "severity": 0,
+            "issues": []
+          },
+          "spiritual": {
+            "severity": 0,
+            "issues": []
+          }
+        }
+      },
+      "remedies": {
+        "primary": [
+          {
+            "type": "Pooja",
+            "details": "Santana Gopala Puja",
+            "effectiveness": 8,
+            "description": "Perform Santana Gopala Puja to mitigate the effects of Putra Dosha"
+          }
+        ],
+        "secondary": [
+          {
+            "type": "Mantra",
+            "details": "Om Namo Bhagavate Vasudevaya",
+            "effectiveness": 7,
+            "description": "Chant Om Namo Bhagavate Vasudevaya regularly"
+          }
+        ],
+        "lifestyle": [
+          "Service to children",
+          "Planting trees"
+        ]
+      },
+      "scrapedFrom": [
+        {
+          "source": "Verified Internal Database",
+          "url": "internal://static/dosha-dataset",
+          "dateScraped": "2025-11-23T10:47:11.254Z",
+          "reliability": 10
+        }
+      ]
+    }
+  ]
 }

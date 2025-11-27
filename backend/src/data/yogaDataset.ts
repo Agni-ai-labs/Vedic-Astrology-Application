@@ -1,4 +1,7 @@
-export const COMPREHENSIVE_YOGA_DATASET = [
+// ---------------------------------------------------------
+// EXISTING 10 YOGAS (From your input)
+// ---------------------------------------------------------
+const EXISTING_YOGAS = [
     {
         name: 'Gaja Kesari Yoga',
         category: 'Raj',
@@ -287,5 +290,567 @@ export const COMPREHENSIVE_YOGA_DATASET = [
             translation: 'One with Sun-Mercury combination will be skilled in fine arts, astrology, and will have sweet speech.'
         }],
         modernInterpretation: 'Excellent for media, writing, teaching, technology, and business. Strong analytical abilities.'
+    }
+];
+
+// ---------------------------------------------------------
+// ADDITIONAL 21 YOGAS
+// ---------------------------------------------------------
+const ADDITIONAL_YOGAS = [
+    {
+        name: 'Chandra-Mangala Yoga',
+        category: 'Dhana',
+        rarity: 'Common',
+        formation: {
+            rule: 'Moon and Mars conjunct or mutual aspect',
+            cancellationFactors: ['Planets debilitated', 'Aspect from Saturn'],
+            strengtheningFactors: ['In favorable houses (2, 9, 10, 11)', 'Supported by Venus']
+        },
+        effects: {
+            general: 'Grants wealth through earnings, business acumen, and restless energy. May indicate earnings through women or liquid products.',
+            lifeAreas: { wealth: 9, career: 7, relationships: 5, courage: 8 }
+        },
+        remedies: {
+            mantras: ['Om Angarkaya Namaha', 'Om Som Somaya Namaha'],
+            gemstones: ['Pearl', 'Red Coral (with caution)']
+        },
+        classicalReferences: [{ text: 'Phaladeepika', chapter: 'Yogas', translation: 'One who deals in drinks, earthern jars, women and is wealthy.' }],
+        modernInterpretation: 'Success in chemical engineering, beverage industry, nursing, or finance.'
+    },
+    // --- Dhana Yogas (5 Variants) ---
+    {
+        name: 'Dhana Yoga (2nd Lord in 11th)',
+        category: 'Dhana',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'Lord of 2nd house placed in 11th house',
+            cancellationFactors: ['Lords in enemy sign', 'Combust'],
+            strengtheningFactors: ['Aspect by Jupiter', 'Exalted lords']
+        },
+        effects: {
+            general: 'Significant accumulation of wealth. Earnings come from multiple sources and investments grow rapidly.',
+            lifeAreas: { wealth: 10, career: 8, investments: 10 }
+        },
+        remedies: { mantras: ['Om Shreem Mahalakshmiyei Namaha'] },
+        classicalReferences: [{ text: 'BPHS', chapter: 'Dhana Yogas', translation: 'The native will be famous and wealthy through his own efforts.' }],
+        modernInterpretation: 'Excellent for investors, bankers, and entrepreneurs.'
+    },
+    {
+        name: 'Dhana Yoga (5th Lord in 9th)',
+        category: 'Dhana',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'Lord of 5th house placed in 9th house',
+            cancellationFactors: ['Lords debilitated', 'Afflicted by Rahu/Ketu'],
+            strengtheningFactors: ['Parivartana Yoga between 5th and 9th lords']
+        },
+        effects: {
+            general: 'Wealth through speculation, creativity, children, or publications. Indicates strong past-life merit.',
+            lifeAreas: { wealth: 9, career: 7, fortune: 10, creativity: 9 }
+        },
+        remedies: { mantras: ['Om Vishnuve Namaha'] },
+        classicalReferences: [{ text: 'BPHS', chapter: 'Dhana Yogas', translation: 'The person will be a king or equal to a king, very wealthy and fortunate.' }],
+        modernInterpretation: 'Authors, stock traders, and creative directors.'
+    },
+    {
+        name: 'Dhana Yoga (9th Lord in 2nd)',
+        category: 'Dhana',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'Lord of 9th house placed in 2nd house',
+            cancellationFactors: ['Malefic aspects'],
+            strengtheningFactors: ['9th lord exalted']
+        },
+        effects: {
+            general: 'Wealth through inheritance, family business, or higher knowledge. Lucky with money management.',
+            lifeAreas: { wealth: 10, family: 9, knowledge: 8 }
+        },
+        remedies: { mantras: ['Om Brihaspataye Namaha'] },
+        classicalReferences: [{ text: 'Jataka Parijata', translation: 'Native will be wealthy, learned and happy.' }],
+        modernInterpretation: 'Family business successors, professors, financial advisors.'
+    },
+    {
+        name: 'Dhana Yoga (11th Lord in 2nd)',
+        category: 'Dhana',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'Lord of 11th house placed in 2nd house',
+            cancellationFactors: ['Affliction by 6/8/12 lords'],
+            strengtheningFactors: ['Both lords natural benefics']
+        },
+        effects: {
+            general: 'High liquidity and cash flow. The native creates large financial networks.',
+            lifeAreas: { wealth: 10, networking: 9, business: 9 }
+        },
+        remedies: { mantras: ['Om Kuberaya Namaha'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'Native will be endowed with wealth, grains and family happiness.' }],
+        modernInterpretation: 'Large scale traders, network marketers, CFOs.'
+    },
+    {
+        name: 'Dhana Yoga (Lagnesha-Dhana Parivartana)',
+        category: 'Dhana',
+        rarity: 'Rare',
+        formation: {
+            rule: 'Exchange of signs between 1st Lord and 2nd Lord',
+            cancellationFactors: ['Lords debilitated'],
+            strengtheningFactors: ['Both lords in friendly signs']
+        },
+        effects: {
+            general: 'Self-made wealth. The person accumulates riches through personal effort and personality.',
+            lifeAreas: { wealth: 9, self: 10, career: 8 }
+        },
+        remedies: { mantras: ['Om Adityaya Namaha'] },
+        classicalReferences: [{ text: 'Saravali', translation: 'One gains wealth through his own valour and efforts.' }],
+        modernInterpretation: 'Self-made billionaires, celebrities, personal brands.'
+    },
+    // --- Viparita Raja Yogas ---
+    {
+        name: 'Harsha Yoga (Viparita)',
+        category: 'Raj',
+        rarity: 'Rare',
+        formation: {
+            rule: '6th Lord placed in 6th, 8th, or 12th house',
+            cancellationFactors: ['Conjunction with non-dusthana lords'],
+            strengtheningFactors: ['No aspect from benefics (pure maleficence reinforces defense)']
+        },
+        effects: {
+            general: 'Protection from enemies, strong constitution, and success through overcoming obstacles.',
+            lifeAreas: { health: 8, enemies: 10, career: 7 }
+        },
+        remedies: { mantras: ['Om Durgayei Namaha'] },
+        classicalReferences: [{ text: 'Phaladeepika', translation: 'One is happy, invincible, physically strong, and wealthy.' }],
+        modernInterpretation: 'Success in litigation, competitive sports, or defense.'
+    },
+    {
+        name: 'Sarala Yoga (Viparita)',
+        category: 'Raj',
+        rarity: 'Rare',
+        formation: {
+            rule: '8th Lord placed in 6th, 8th, or 12th house',
+            cancellationFactors: ['Conjunction with benefic lords'],
+            strengtheningFactors: ['8th lord in 8th']
+        },
+        effects: {
+            general: 'Longevity, fearlessness, and sudden gains. Ability to survive crises and prosper.',
+            lifeAreas: { longevity: 10, wealth: 8, occult: 9 }
+        },
+        remedies: { mantras: ['Om Mrityunjayaya Namaha'] },
+        classicalReferences: [{ text: 'Phaladeepika', translation: 'Long lived, fearless, learned, a terror to enemies and wealthy.' }],
+        modernInterpretation: 'Risk management, insurance, research, mining.'
+    },
+    {
+        name: 'Vimala Yoga (Viparita)',
+        category: 'Raj',
+        rarity: 'Rare',
+        formation: {
+            rule: '12th Lord placed in 6th, 8th, or 12th house',
+            cancellationFactors: ['Conjunction with Lagna lord'],
+            strengtheningFactors: ['12th lord in 12th']
+        },
+        effects: {
+            general: 'Frugal, independent, happy, and spiritually inclined. Accumulates wealth through saving.',
+            lifeAreas: { spirituality: 9, wealth: 7, independence: 10 }
+        },
+        remedies: { mantras: ['Om Namah Shivaya'] },
+        classicalReferences: [{ text: 'Phaladeepika', translation: 'Frugal, happy, independent and possessed of good qualities.' }],
+        modernInterpretation: 'Foreign services, auditors, spiritual healers.'
+    },
+    // --- Aristha Yogas ---
+    {
+        name: 'Kemudruma Yoga',
+        category: 'Aristha',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'No planets (except Sun/Rahu/Ketu) in 2nd or 12th from Moon',
+            cancellationFactors: ['Planets in Kendra from Moon or Lagna (Kemudruma Bhanga)'],
+            strengtheningFactors: ['Moon isolated and debilitated']
+        },
+        effects: {
+            general: 'Can cause mental loneliness, poverty, and struggle. However, often found in charts of great leaders who feel isolated.',
+            lifeAreas: { wealth: 3, mentalPeace: 2, career: 5 }
+        },
+        remedies: { mantras: ['Om Namah Shivaya'], gemstones: ['Pearl'], charities: ['Donate milk on Mondays'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'The person will be dirty, sorrowful, doing unrighteous deeds, and poor.' }],
+        modernInterpretation: 'Depression, isolation, but potential for great spiritual depth if cancelled.'
+    },
+    {
+        name: 'Shakata Yoga',
+        category: 'Aristha',
+        rarity: 'Common',
+        formation: {
+            rule: 'Moon in 6th, 8th, or 12th from Jupiter',
+            cancellationFactors: ['Moon in Kendra to Lagna'],
+            strengtheningFactors: ['Moon debilitated']
+        },
+        effects: {
+            general: 'Fluctuating fortune. Life moves like a wheel—sometimes high, sometimes low.',
+            lifeAreas: { wealth: 4, stability: 3, career: 5 }
+        },
+        remedies: { mantras: ['Om Gurave Namaha'], charities: ['Yellow items on Thursday'] },
+        classicalReferences: [{ text: 'Jataka Parijata', translation: 'Native loses wealth and regains it, undergoing much mental anguish.' }],
+        modernInterpretation: 'Freelancers, seasonal business owners, cyclical financial status.'
+    },
+    {
+        name: 'Daridra Yoga',
+        category: 'Aristha',
+        rarity: 'Common',
+        formation: {
+            rule: 'Lord of 11th house in 6th, 8th, or 12th house',
+            cancellationFactors: ['11th lord exalted'],
+            strengtheningFactors: ['Aspect by malefics']
+        },
+        effects: {
+            general: 'Difficulty in retaining gains, debts, or limited income sources.',
+            lifeAreas: { wealth: 3, debt: 8, career: 4 }
+        },
+        remedies: { mantras: ['Kanakadhara Stotram'], charities: ['Service to poor'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'The native will be in debts, cruel, poor and mean.' }],
+        modernInterpretation: 'Financial instability, bad investments.'
+    },
+    // --- Additional Raj Yogas ---
+    {
+        name: 'Mahabhagya Yoga',
+        category: 'Raj',
+        rarity: 'Rare',
+        formation: {
+            rule: 'Males: Day birth, Sun, Moon, Lagna in odd signs. Females: Night birth, Sun, Moon, Lagna in even signs.',
+            cancellationFactors: ['Weak Sun or Moon'],
+            strengtheningFactors: ['Benefic aspects']
+        },
+        effects: {
+            general: 'Great fortune, popularity, and leadership. The native is blessed by destiny.',
+            lifeAreas: { fortune: 10, fame: 10, wealth: 9 }
+        },
+        remedies: { mantras: ['Gayatri Mantra'] },
+        classicalReferences: [{ text: 'Phaladeepika', translation: 'Native causes immense pleasure to eyes of onlookers, is a lord of lands and generous.' }],
+        modernInterpretation: 'Public figures, celebrities, charismatic leaders.'
+    },
+    {
+        name: 'Amala Yoga',
+        category: 'Raj',
+        rarity: 'Common',
+        formation: {
+            rule: 'Benefic planet (Jupiter, Venus, Mercury) in 10th house from Moon or Lagna',
+            cancellationFactors: ['Benefic combust'],
+            strengtheningFactors: ['Benefic exalted']
+        },
+        effects: {
+            general: 'Professional success, stainless reputation, and humanitarian nature.',
+            lifeAreas: { career: 10, reputation: 10, ethics: 9 }
+        },
+        remedies: { charities: ['Social work'] },
+        classicalReferences: [{ text: 'Phaladeepika', translation: 'Person will be revered by the king, have a spotless character and be wealthy.' }],
+        modernInterpretation: 'NGO leaders, judges, reputable professionals.'
+    },
+    {
+        name: 'Parvata Yoga',
+        category: 'Raj',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'Benefics in Kendras, and 6th/8th houses either empty or occupied by benefics',
+            cancellationFactors: ['Malefics in Kendras'],
+            strengtheningFactors: ['Lagna lord strong']
+        },
+        effects: {
+            general: 'Lasting political power, wealth, and stability. Like a mountain (Parvata).',
+            lifeAreas: { stability: 10, wealth: 8, politics: 9 }
+        },
+        remedies: { mantras: ['Om Namah Shivaya'] },
+        classicalReferences: [{ text: 'Phaladeepika', translation: 'Native will possess everlasting wealth and happiness and will be a lord of the earth.' }],
+        modernInterpretation: 'Land owners, political positions, stable administrative roles.'
+    },
+    {
+        name: 'Kahala Yoga',
+        category: 'Raj',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'Lords of 4th and 9th in mutual Kendras, and Lagna lord is strong',
+            cancellationFactors: ['Combustion'],
+            strengtheningFactors: ['Lords exalted']
+        },
+        effects: {
+            general: 'Aggressive, daring, and commands a force/team. Success through execution.',
+            lifeAreas: { leadership: 9, courage: 9, military: 10 }
+        },
+        remedies: { mantras: ['Hanuman Chalisa'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'Native will be daring, head of a small army and wealthy.' }],
+        modernInterpretation: 'Police chiefs, military commanders, operations directors.'
+    },
+    // --- Moon Yogas ---
+    {
+        name: 'Sunapha Yoga',
+        category: 'Moon',
+        rarity: 'Common',
+        formation: {
+            rule: 'Planet (excluding Sun) in 2nd house from Moon',
+            cancellationFactors: ['Planet combust or debilitated'],
+            strengtheningFactors: ['Planet is benefic']
+        },
+        effects: {
+            general: 'Self-acquisition of wealth, intelligence, and good reputation.',
+            lifeAreas: { wealth: 8, career: 7, intelligence: 7 }
+        },
+        remedies: { mantras: ['Chandra Mantra'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'Native will be a king, wealthy, intelligent and renowned.' }],
+        modernInterpretation: 'Self-made professionals, steady income.'
+    },
+    {
+        name: 'Anapha Yoga',
+        category: 'Moon',
+        rarity: 'Common',
+        formation: {
+            rule: 'Planet (excluding Sun) in 12th house from Moon',
+            cancellationFactors: ['Planet combust'],
+            strengtheningFactors: ['Planet is Venus or Jupiter']
+        },
+        effects: {
+            general: 'Good manners, enjoyment of pleasures, and freedom from disease.',
+            lifeAreas: { health: 8, comfort: 9, manners: 9 }
+        },
+        remedies: { mantras: ['Chandra Mantra'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'Native will be a king, free from disease, virtuous and happy.' }],
+        modernInterpretation: 'Luxury lifestyle, diplomats, hospitality.'
+    },
+    {
+        name: 'Durudhura Yoga',
+        category: 'Moon',
+        rarity: 'Moderate',
+        formation: {
+            rule: 'Planets (excluding Sun) in both 2nd and 12th from Moon',
+            cancellationFactors: ['Malefics in both sides'],
+            strengtheningFactors: ['Benefics in both sides']
+        },
+        effects: {
+            general: 'Balance, wealth, vehicles, and comforts. Enjoyment of life.',
+            lifeAreas: { wealth: 9, vehicles: 8, happiness: 9 }
+        },
+        remedies: { mantras: ['Chandra Mantra'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'Native will enjoy comforts of conveyances and servants.' }],
+        modernInterpretation: 'Balanced life, transport business, logistics.'
+    },
+    // --- Nabhasa Yogas ---
+    {
+        name: 'Vallaki (Vina) Yoga',
+        category: 'Nabhasa (Sankhya)',
+        rarity: 'Rare',
+        formation: {
+            rule: 'All 7 planets distributed in exactly 7 signs',
+            cancellationFactors: ['N/A (Nabhasa yogas usually have no cancellation)'],
+            strengtheningFactors: ['Planets in friendly signs']
+        },
+        effects: {
+            general: 'Love for music, arts, and refined skills. Varied interests.',
+            lifeAreas: { arts: 10, social: 8, skills: 9 }
+        },
+        remedies: { mantras: ['Saraswati Mantra'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'Native will be fond of music, dance and will be learned.' }],
+        modernInterpretation: 'Musicians, multi-talented artists.'
+    },
+    {
+        name: 'Gada Yoga',
+        category: 'Nabhasa (Akriti)',
+        rarity: 'Rare',
+        formation: {
+            rule: 'All planets located in two adjacent Kendras (e.g., 1st and 4th)',
+            cancellationFactors: ['N/A'],
+            strengtheningFactors: ['Benefics in Lagna']
+        },
+        effects: {
+            general: 'Wealthy, proud, performs sacrifices, and is skilled in weapons/tools.',
+            lifeAreas: { wealth: 8, security: 9, ritual: 7 }
+        },
+        remedies: { mantras: ['Vishnu Sahasranamam'] },
+        classicalReferences: [{ text: 'BPHS', translation: 'Native will be wealthy, versed in Shastras and fearsome.' }],
+        modernInterpretation: 'Security experts, manufacturing, technical trades.'
+    }
+];
+
+// Combine for export
+export const COMPREHENSIVE_YOGA_DATASET = [...EXISTING_YOGAS, ...ADDITIONAL_YOGAS];
+
+// ---------------------------------------------------------
+// NEW DOSHA DATASET (10 Major Doshas)
+// ---------------------------------------------------------
+export const COMPREHENSIVE_DOSHA_DATASET = [
+    {
+        name: 'Kala Sarpa Dosha',
+        type: 'Major',
+        formation: {
+            rule: 'All 7 planets situated between Rahu and Ketu axis',
+            nuances: ['Anant Kaal Sarp (Rahu in 1st)', 'Kulik Kaal Sarp (Rahu in 2nd)', 'Total vs Partial'],
+            severity: 'High'
+        },
+        effects: {
+            general: 'Struggle in early life, sudden rises and falls, feeling of restriction. Success often comes late (after 42).',
+            impactAreas: ['Career delay', 'Mental anxiety', 'Unexpected obstacles']
+        },
+        remedies: {
+            poojas: ['Kala Sarpa Shanti Puja at Trimbakeshwar'],
+            mantras: ['Om Namah Shivaya', 'Maha Mrityunjaya Mantra'],
+            gemstones: ['Gomed (Hessonite) - only after consultation'],
+            lifestyle: ['Avoid harming snakes', 'Worship Lord Shiva']
+        }
+    },
+    {
+        name: 'Mangal Dosha (Kuja Dosha)',
+        type: 'Martial',
+        formation: {
+            rule: 'Mars in 1st, 4th, 7th, 8th, or 12th house',
+            nuances: ['Low Mangal (Anshik)', 'High Mangal', 'Exceptions exist (e.g., Mars in Aries/Scorpio/Capricorn, or after age 28)'],
+            severity: 'Moderate to High'
+        },
+        effects: {
+            general: 'Aggression in relationships, delay in marriage, or marital discord.',
+            impactAreas: ['Marriage', 'Temperament', 'Spousal health']
+        },
+        remedies: {
+            poojas: ['Mangal Nath Puja', 'Kumbh Vivah (symbolic marriage)'],
+            mantras: ['Hanuman Chalisa', 'Om Angarkaya Namaha'],
+            lifestyle: ['Marry another Manglik', 'Donate red lentils/blood donation']
+        }
+    },
+    {
+        name: 'Pitri Dosha',
+        type: 'Ancestral',
+        formation: {
+            rule: 'Sun or Moon afflicted by Rahu/Ketu, or 9th house heavily afflicted',
+            nuances: ['Sun+Rahu (Pitri)', 'Moon+Ketu (Matri)'],
+            severity: 'High'
+        },
+        effects: {
+            general: 'Ancestral debt causing lack of progress, progeny issues, or constant family disputes.',
+            impactAreas: ['Progeny', 'Family harmony', 'Unexplained failures']
+        },
+        remedies: {
+            poojas: ['Pind Daan at Gaya', 'Shraddh ceremonies'],
+            mantras: ['Om Pitribhyo Namaha'],
+            lifestyle: ['Respect elders', 'Feed crows/cows']
+        }
+    },
+    {
+        name: 'Shrapit Dosha',
+        type: 'Karmic',
+        formation: {
+            rule: 'Conjunction of Saturn and Rahu in a single house',
+            nuances: ['Aspect relationship also considered by some'],
+            severity: 'High'
+        },
+        effects: {
+            general: 'Curse from past life. Brings chronic bad luck and negation of other good yogas in the chart.',
+            impactAreas: ['General luck', 'Chronic health', 'Delay in all works']
+        },
+        remedies: {
+            poojas: ['Rudra Abhishek'],
+            mantras: ['Om Shanishcharaya Namaha', 'Om Raahave Namaha'],
+            lifestyle: ['Service to handicapped/lepers']
+        }
+    },
+    {
+        name: 'Grahan Dosha',
+        type: 'Eclipse',
+        formation: {
+            rule: 'Sun or Moon conjunct Rahu or Ketu',
+            nuances: ['Solar Eclipse (Surya Grahan)', 'Lunar Eclipse (Chandra Grahan)'],
+            severity: 'Moderate'
+        },
+        effects: {
+            general: 'Mental cloudiness, lack of confidence (Sun), or emotional instability (Moon). parental health issues.',
+            impactAreas: ['Confidence', 'Emotion', 'Reputation']
+        },
+        remedies: {
+            poojas: ['Surya/Chandra Shanti'],
+            mantras: ['Aditya Hridaya Stotram (Sun)', 'Om Som Somaya Namaha (Moon)'],
+            lifestyle: ['Offer water to Sun', 'Respect mother']
+        }
+    },
+    {
+        name: 'Guru Chandal Dosha',
+        type: 'Wisdom',
+        formation: {
+            rule: 'Jupiter and Rahu conjunct',
+            nuances: ['Ketu connection forms Ganesha Yoga (different effect)'],
+            severity: 'Moderate'
+        },
+        effects: {
+            general: 'Corruption of wisdom, disrespect towards teachers, atheism, or using knowledge for unethical gains.',
+            impactAreas: ['Education', 'Ethics', 'Liver health']
+        },
+        remedies: {
+            poojas: ['Guru Puja'],
+            mantras: ['Om Gram Greem Graum Sah Gurave Namaha'],
+            lifestyle: ['Respect teachers', 'Donate yellow pulses']
+        }
+    },
+    {
+        name: 'Angarak Dosha',
+        type: 'Temperament',
+        formation: {
+            rule: 'Mars and Rahu conjunct',
+            nuances: ['Close degrees increase severity'],
+            severity: 'High'
+        },
+        effects: {
+            general: 'Extreme volatility, anger, accident proneness, and explosive energy.',
+            impactAreas: ['Safety', 'Relationships', 'Legal issues']
+        },
+        remedies: {
+            poojas: ['Hanuman worship'],
+            mantras: ['Om Ham Hanumate Namaha'],
+            lifestyle: ['Avoid rash driving', 'Meditation for anger management']
+        }
+    },
+    {
+        name: 'Vish Dosha',
+        type: 'Mental',
+        formation: {
+            rule: 'Moon and Saturn conjunct',
+            nuances: ['Aspect relationship also considered'],
+            severity: 'Moderate'
+        },
+        effects: {
+            general: 'Depression, negativity, emotional heaviness, and feeling "poisoned" by life circumstances.',
+            impactAreas: ['Mental health', 'Mother’s health', 'Optimism']
+        },
+        remedies: {
+            poojas: ['Shiva Abhishekam with milk'],
+            mantras: ['Om Namah Shivaya'],
+            lifestyle: ['Avoid loneliness', 'Drink water from silver glass']
+        }
+    },
+    {
+        name: 'Nadi Dosha',
+        type: 'Matchmaking/Biological',
+        formation: {
+            rule: 'Usually applied in matching (same Nadi), but in charts refers to physiological weakness based on Nakshatra element.',
+            nuances: ['Adi', 'Madhya', 'Antya'],
+            severity: 'High (for progeny)'
+        },
+        effects: {
+            general: 'Primarily affects progeny health and genetic compatibility in marriage. In individuals, indicates Ayurvedic constitution imbalance.',
+            impactAreas: ['Childbirth', 'Genetic health', 'Marital compatibility']
+        },
+        remedies: {
+            poojas: ['Nadi Dosha Nivaran Puja'],
+            mantras: ['Maha Mrityunjaya Mantra'],
+            lifestyle: ['Ayurvedic balancing', 'Donating grains equal to weight']
+        }
+    },
+    {
+        name: 'Putra Dosha',
+        type: 'Progeny',
+        formation: {
+            rule: 'Affliction to 5th house/lord or Jupiter by malefics (Rahu/Ketu/Saturn)',
+            nuances: ['Specific curse of Brahmins or Serpents usually involved'],
+            severity: 'Moderate'
+        },
+        effects: {
+            general: 'Delay or difficulty in having children, or worried about child welfare.',
+            impactAreas: ['Progeny', 'Creativity', 'Speculation']
+        },
+        remedies: {
+            poojas: ['Santana Gopala Puja'],
+            mantras: ['Om Namo Bhagavate Vasudevaya'],
+            lifestyle: ['Service to children', 'Planting trees']
+        }
     }
 ];
