@@ -1,0 +1,1365 @@
+{
+  "metadata": {
+    "source_file": "C:\\Users\\adarsh.pandey_infobe\\Downloads\\Yogas_New.py",
+    "total_yogas": 95,
+    "file_lines": 1142,
+    "categories": {
+      "Sun Yogas": [
+        "vesi_yoga",
+        "vosi_yoga",
+        "ubhayachara_yoga",
+        "nipuna_yoga",
+        "sunaphaa_yoga",
+        "anaphaa_yoga",
+        "duradhara_yoga",
+        "kemadruma_yoga",
+        "trilochana_yoga",
+        "chandikaa_yoga",
+        "saarada_yoga",
+        "ravi_yoga",
+        "bhaaskara_yoga",
+        "kulavardhana_yoga",
+        "gandharva_yoga"
+      ],
+      "Moon Yogas": [
+        "chandra_mangala_yoga",
+        "adhi_yoga",
+        "ardha_chandra_yoga",
+        "gaja_kesari_yoga",
+        "amala_yoga",
+        "kusuma_yoga",
+        "indra_yoga",
+        "pushkala_yoga"
+      ],
+      "Mars Yogas": [
+        "ruchaka_yoga",
+        "guru_mangala_yoga"
+      ],
+      "Mercury Yogas": [
+        "bhadra_yoga",
+        "kalaanidhi_yoga",
+        "saraswathi_yoga"
+      ],
+      "Saturn Yogas": [
+        "sasa_yoga"
+      ],
+      "Venus Yogas": [
+        "maalavya_yoga",
+        "vidyut_yoga"
+      ],
+      "Jupiter Yogas": [
+        "hamsa_yoga",
+        "kaahala_yoga",
+        "chaamara_yoga",
+        "bheri_yoga",
+        "amsaavatara_yoga",
+        "go_yoga",
+        "makuta_yoga"
+      ],
+      "General Yogas": [
+        "rajju_yoga",
+        "musala_yoga",
+        "nala_yoga",
+        "maalaa_yoga",
+        "gadaa_yoga",
+        "sakata_yoga",
+        "vihanga_yoga",
+        "sringaataka_yoga",
+        "hala_yoga",
+        "vajra_yoga",
+        "yava_yoga",
+        "vaapi_yoga",
+        "yoopa_yoga",
+        "sara_yoga",
+        "sakti_yoga",
+        "danda_yoga",
+        "naukaa_yoga",
+        "koota_yoga",
+        "chatra_yoga",
+        "chaapa_yoga",
+        "chakra_yoga",
+        "samudra_yoga",
+        "veenaa_yoga",
+        "daama_yoga",
+        "paasa_yoga",
+        "kedaara_yoga",
+        "soola_yoga",
+        "yuga_yoga",
+        "gola_yoga",
+        "sankha_yoga",
+        "mridanga_yoga",
+        "sreenaatha_yoga",
+        "matsya_yoga",
+        "koorma_yoga",
+        "khadga_yoga",
+        "kalpadruma_yoga",
+        "lagnaadhi_yoga",
+        "hari_yoga",
+        "hara_yoga",
+        "brahma_yoga",
+        "vishnu_yoga",
+        "siva_yoga",
+        "gouri_yoga",
+        "bhaarathi_yoga",
+        "devendra_yoga",
+        "vasumati_yoga",
+        "chapa_yoga",
+        "jaya_yoga",
+        "harsha_yoga",
+        "sarala_yoga",
+        "vimala_yoga"
+      ],
+      "Malefic Yogas": [
+        "sarpa_yoga"
+      ],
+      "Auspicious Yogas": [
+        "kamala_yoga",
+        "subha_yoga",
+        "asubha_yoga",
+        "parvata_yoga"
+      ],
+      "Wealth Yogas": [
+        "lakshmi_yoga"
+      ]
+    }
+  },
+  "yogas": {
+    "vesi_yoga": {
+      "name": "Vesi Yoga",
+      "function": "vesi_yoga_from_planet_positions",
+      "description": "Vesi Yoga - There is a planet other than Moon in the 2nd house from Sun.",
+      "conditions": [
+        "Vesi Yoga - There is a planet other than Moon in the 2nd house from Sun."
+      ],
+      "source_lines": {
+        "start": 115,
+        "end": 122
+      }
+    },
+    "vosi_yoga": {
+      "name": "Vosi Yoga",
+      "function": "vosi_yoga_from_planet_positions",
+      "description": "Vosi Yoga - There is a planet other than Moon in the 12th house from Sun.",
+      "conditions": [
+        "Vosi Yoga - There is a planet other than Moon in the 12th house from Sun."
+      ],
+      "source_lines": {
+        "start": 123,
+        "end": 130
+      }
+    },
+    "ubhayachara_yoga": {
+      "name": "Ubhayachara Yoga",
+      "function": "ubhayachara_yoga_from_planet_positions",
+      "description": "Ubhayachara  Yoga - There is a planet other than Moon in the 2nd and 12th house from Sun.",
+      "conditions": [
+        "Ubhayachara  Yoga - There is a planet other than Moon in the 2nd",
+        "12th house from Sun."
+      ],
+      "source_lines": {
+        "start": 131,
+        "end": 134
+      }
+    },
+    "nipuna_yoga": {
+      "name": "Nipuna Yoga",
+      "function": "nipuna_yoga_from_planet_positions",
+      "description": "Budha-Aaditya Yoga (Nipuna Yoga)- If Sun and Mercury are together (in one sign), this yoga is present.",
+      "conditions": [
+        "Budha-Aaditya Yoga (Nipuna Yoga)- If Sun",
+        "Mercury are together (in one sign), this yoga is present."
+      ],
+      "source_lines": {
+        "start": 135,
+        "end": 140
+      }
+    },
+    "sunaphaa_yoga": {
+      "name": "Sunaphaa Yoga",
+      "function": "sunaphaa_yoga_from_planet_positions",
+      "description": "Sunaphaa Yoga - There are planets other than Sun in the 2nd house from Moon",
+      "conditions": [
+        "Sunaphaa Yoga - There are planets other than Sun in the 2nd house from Moon"
+      ],
+      "source_lines": {
+        "start": 141,
+        "end": 151
+      }
+    },
+    "anaphaa_yoga": {
+      "name": "Anaphaa Yoga",
+      "function": "anaphaa_yoga_from_planet_positions",
+      "description": "Anaphaa Yoga - There are planets other than Sun in the 12th house from Moon",
+      "conditions": [
+        "Anaphaa Yoga - There are planets other than Sun in the 12th house from Moon"
+      ],
+      "source_lines": {
+        "start": 152,
+        "end": 162
+      }
+    },
+    "duradhara_yoga": {
+      "name": "Duradhara Yoga",
+      "function": "duradhara_yoga_from_planet_positions",
+      "description": "Duradhara Yoga - There is a planet other than Sun in the 2nd and 12th house from Moon.",
+      "conditions": [
+        "Duradhara Yoga - There is a planet other than Sun in the 2nd",
+        "12th house from Moon."
+      ],
+      "source_lines": {
+        "start": 163,
+        "end": 166
+      }
+    },
+    "kemadruma_yoga": {
+      "name": "Kemadruma Yoga",
+      "function": "kemadruma_yoga_from_planet_positions",
+      "description": "Kemadruma Yoga - there are no planets other than Sun in the 1st, 2nd and 12th houses from         Moon and if there are no planets other than Moon in the quadrants from lagna",
+      "conditions": [
+        "Kemadruma Yoga - there are no planets other than Sun in the 1st, 2nd",
+        "12th houses from         Moon",
+        "if there are no planets other than Moon in the quadrants from lagna"
+      ],
+      "source_lines": {
+        "start": 167,
+        "end": 186
+      }
+    },
+    "chandra_mangala_yoga": {
+      "name": "Chandra Mangala Yoga",
+      "function": "chandra_mangala_yoga_from_planet_positions",
+      "description": "Chandra-Mangala Yoga - Moon and Mars are together (in one sign).",
+      "conditions": [
+        "Chandra-Mangala Yoga - Moon",
+        "Mars are together (in one sign)."
+      ],
+      "source_lines": {
+        "start": 187,
+        "end": 191
+      }
+    },
+    "adhi_yoga": {
+      "name": "Adhi Yoga",
+      "function": "adhi_yoga_from_planet_positions",
+      "description": "Adhi Yoga - natural benefics occupy 6th, 7th and 8th from Moon,",
+      "conditions": [
+        "Adhi Yoga - natural benefics occupy 6th, 7th",
+        "8th from Moon,"
+      ],
+      "source_lines": {
+        "start": 192,
+        "end": 201
+      }
+    },
+    "ruchaka_yoga": {
+      "name": "Ruchaka Yoga",
+      "function": "ruchaka_yoga_from_planet_positions",
+      "description": "Ruchaka Yoga - Mars should be in 0 or 7 or 9th rasi and he should be in 1, 4, 7 or 10th from lagna",
+      "conditions": [
+        "Ruchaka Yoga - Mars should be in 0",
+        "he should be in 1, 4, 7",
+        "10th from lagna"
+      ],
+      "source_lines": {
+        "start": 202,
+        "end": 209
+      }
+    },
+    "bhadra_yoga": {
+      "name": "Bhadra Yoga",
+      "function": "bhadra_yoga_from_planet_positions",
+      "description": "Bhadra Yoga - Mercury should be in Ge or Vi and he should be in 1st, 4th, 7th or 10th from lagna.",
+      "conditions": [
+        "Bhadra Yoga - Mercury should be in Ge",
+        "he should be in 1st, 4th, 7th",
+        "10th from lagna."
+      ],
+      "source_lines": {
+        "start": 210,
+        "end": 217
+      }
+    },
+    "sasa_yoga": {
+      "name": "Sasa Yoga",
+      "function": "sasa_yoga_from_planet_positions",
+      "description": "Saturn should be in Cp, Aq or Li and he should be in 1st, 4th, 7th or 10th from lagna.",
+      "conditions": [
+        "Saturn should be in Cp, Aq",
+        "he should be in 1st, 4th, 7th",
+        "10th from lagna."
+      ],
+      "source_lines": {
+        "start": 218,
+        "end": 225
+      }
+    },
+    "maalavya_yoga": {
+      "name": "Maalavya Yoga",
+      "function": "maalavya_yoga_from_planet_positions",
+      "description": "Maalavya Yoga - Venus should be in Ta, Li or Pi and he should be in 1st, 4th, 7th or 10th from lagna.",
+      "conditions": [
+        "Maalavya Yoga - Venus should be in Ta, Li",
+        "he should be in 1st, 4th, 7th",
+        "10th from lagna."
+      ],
+      "source_lines": {
+        "start": 226,
+        "end": 233
+      }
+    },
+    "hamsa_yoga": {
+      "name": "Hamsa Yoga",
+      "function": "hamsa_yoga_from_planet_positions",
+      "description": "Hamsa Yoga - Jupiter should be in Sg, Pi or Cn and he should be in 1st, 4th, 7th or 10th from lagna.",
+      "conditions": [
+        "Hamsa Yoga - Jupiter should be in Sg, Pi",
+        "he should be in 1st, 4th, 7th",
+        "10th from lagna."
+      ],
+      "source_lines": {
+        "start": 234,
+        "end": 241
+      }
+    },
+    "rajju_yoga": {
+      "name": "Rajju Yoga",
+      "function": "rajju_yoga_from_planet_positions",
+      "description": "Rajju Yoga: all the planets are exclusively in movable signs",
+      "conditions": [
+        "Rajju Yoga: all the planets are exclusively in movable signs"
+      ],
+      "source_lines": {
+        "start": 242,
+        "end": 247
+      }
+    },
+    "musala_yoga": {
+      "name": "Musala Yoga",
+      "function": "musala_yoga_from_planet_positions",
+      "description": "Musala Yoga: all the planets are exclusively in fixed signs",
+      "conditions": [
+        "Musala Yoga: all the planets are exclusively in fixed signs"
+      ],
+      "source_lines": {
+        "start": 248,
+        "end": 253
+      }
+    },
+    "nala_yoga": {
+      "name": "Nala Yoga",
+      "function": "nala_yoga_from_planet_positions",
+      "description": "Nala Yoga: all the planets are exclusively in dual signs,",
+      "conditions": [
+        "Nala Yoga: all the planets are exclusively in dual signs,"
+      ],
+      "source_lines": {
+        "start": 254,
+        "end": 259
+      }
+    },
+    "maalaa_yoga": {
+      "name": "Maalaa Yoga",
+      "function": "maalaa_yoga_from_planet_positions",
+      "description": "Maalaa Yoga: If three quadrants from Lagna are occupied by natural benefics,",
+      "conditions": [
+        "Maalaa Yoga: If three quadrants from Lagna are occupied by natural benefics,"
+      ],
+      "source_lines": {
+        "start": 260,
+        "end": 267
+      }
+    },
+    "sarpa_yoga": {
+      "name": "Sarpa Yoga",
+      "function": "sarpa_yoga_from_planet_positions",
+      "description": "Sarpa Yoga: If three quadrants from lagna are occupied by natural malefics,",
+      "conditions": [
+        "Sarpa Yoga: If three quadrants from lagna are occupied by natural malefics,"
+      ],
+      "source_lines": {
+        "start": 268,
+        "end": 278
+      }
+    },
+    "gadaa_yoga": {
+      "name": "Gadaa Yoga",
+      "function": "gadaa_yoga_from_planet_positions",
+      "description": "Gadaa Yoga: all the planets occupy two successive quadrants from lagna",
+      "conditions": [
+        "Gadaa Yoga: all the planets occupy two successive quadrants from lagna"
+      ],
+      "source_lines": {
+        "start": 279,
+        "end": 288
+      }
+    },
+    "sakata_yoga": {
+      "name": "Sakata Yoga",
+      "function": "sakata_yoga_from_planet_positions",
+      "description": "Sakata Yoga: If all the planets occupy 1st and 7th houses from lagna",
+      "conditions": [
+        "Sakata Yoga: If all the planets occupy 1st",
+        "7th houses from lagna"
+      ],
+      "source_lines": {
+        "start": 289,
+        "end": 297
+      }
+    },
+    "vihanga_yoga": {
+      "name": "Vihanga Yoga",
+      "function": "vihanga_yoga_from_planet_positions",
+      "description": "Vihanga Yoga: If all the planets occupy 4th and 10th houses from lagna",
+      "conditions": [
+        "Vihanga Yoga: If all the planets occupy 4th",
+        "10th houses from lagna"
+      ],
+      "source_lines": {
+        "start": 298,
+        "end": 306
+      }
+    },
+    "sringaataka_yoga": {
+      "name": "Sringaataka Yoga",
+      "function": "sringaataka_yoga_from_planet_positions",
+      "description": "Sringaataka Yoga: If all the planets occupy trines (1st, 5th and 9th) from lagna",
+      "conditions": [
+        "Sringaataka Yoga: If all the planets occupy trines (1st, 5th",
+        "9th) from lagna"
+      ],
+      "source_lines": {
+        "start": 307,
+        "end": 315
+      }
+    },
+    "hala_yoga": {
+      "name": "Hala Yoga",
+      "function": "hala_yoga_from_planet_positions",
+      "description": "Hala Yoga: If all the planets occupy mutual trines but not trines from lagna",
+      "conditions": [
+        "Hala Yoga: If all the planets occupy mutual trines but not trines from lagna"
+      ],
+      "source_lines": {
+        "start": 316,
+        "end": 327
+      }
+    },
+    "vajra_yoga": {
+      "name": "Vajra Yoga",
+      "function": "vajra_yoga_from_planet_positions",
+      "description": "Vajra Yoga: If lagna and the 7th houses are occupied by natural benefics and the 4th         and 10th houses are occupied by natural malefics",
+      "conditions": [
+        "Vajra Yoga: If lagna",
+        "the 7th houses are occupied by natural benefics",
+        "10th houses are occupied by natural malefics"
+      ],
+      "source_lines": {
+        "start": 328,
+        "end": 339
+      }
+    },
+    "yava_yoga": {
+      "name": "Yava Yoga",
+      "function": "yava_yoga_from_planet_positions",
+      "description": "Yava Yoga: If lagna and the 7th houses are occupied by natural malefics and the 4th         and 10th houses are occupied by natural benefics,",
+      "conditions": [
+        "Yava Yoga: If lagna",
+        "the 7th houses are occupied by natural malefics",
+        "10th houses are occupied by natural benefics,"
+      ],
+      "source_lines": {
+        "start": 340,
+        "end": 351
+      }
+    },
+    "kamala_yoga": {
+      "name": "Kamala Yoga",
+      "function": "kamala_yoga_from_planet_positions",
+      "description": "Kamala Yoga: If all the planets are in quadrants from lagna,",
+      "conditions": [
+        "Kamala Yoga: If all the planets are in quadrants from lagna,"
+      ],
+      "source_lines": {
+        "start": 352,
+        "end": 360
+      }
+    },
+    "vaapi_yoga": {
+      "name": "Vaapi Yoga",
+      "function": "vaapi_yoga_from_planet_positions",
+      "description": "Vaapi Yoga: If all the planets are panaparas or in apoklimas",
+      "conditions": [
+        "Vaapi Yoga: If all the planets are panaparas",
+        "in apoklimas"
+      ],
+      "source_lines": {
+        "start": 361,
+        "end": 371
+      }
+    },
+    "yoopa_yoga": {
+      "name": "Yoopa Yoga",
+      "function": "yoopa_yoga_from_planet_positions",
+      "description": "Yoopa Yoga: all the planets are in 1st, 2nd, 3rd and 4th houses from lagna",
+      "conditions": [
+        "Yoopa Yoga: all the planets are in 1st, 2nd, 3rd",
+        "4th houses from lagna"
+      ],
+      "source_lines": {
+        "start": 372,
+        "end": 380
+      }
+    },
+    "sara_yoga": {
+      "name": "Sara Yoga",
+      "function": "sara_yoga_from_planet_positions",
+      "description": "Sara Yoga: all the planets are in 4th, 5th, 6th and 7th houses from lagna,",
+      "conditions": [
+        "Sara Yoga: all the planets are in 4th, 5th, 6th",
+        "7th houses from lagna,"
+      ],
+      "source_lines": {
+        "start": 381,
+        "end": 389
+      }
+    },
+    "sakti_yoga": {
+      "name": "Sakti Yoga",
+      "function": "sakti_yoga_from_planet_positions",
+      "description": "Sakti Yoga: If all the planets are in 7th, 8th, 9th and 10th houses from lagna",
+      "conditions": [
+        "Sakti Yoga: If all the planets are in 7th, 8th, 9th",
+        "10th houses from lagna"
+      ],
+      "source_lines": {
+        "start": 390,
+        "end": 398
+      }
+    },
+    "danda_yoga": {
+      "name": "Danda Yoga",
+      "function": "danda_yoga_from_planet_positions",
+      "description": "Danda Yoga: If all the planets are in 10th, 11th, 12th and 1st houses from lagna",
+      "conditions": [
+        "Danda Yoga: If all the planets are in 10th, 11th, 12th",
+        "1st houses from lagna"
+      ],
+      "source_lines": {
+        "start": 399,
+        "end": 407
+      }
+    },
+    "naukaa_yoga": {
+      "name": "Naukaa Yoga",
+      "function": "naukaa_yoga_from_planet_positions",
+      "description": "Naukaa Yoga: If all the planets occupy the 7 signs from lagna",
+      "conditions": [
+        "Naukaa Yoga: If all the planets occupy the 7 signs from lagna"
+      ],
+      "source_lines": {
+        "start": 408,
+        "end": 416
+      }
+    },
+    "koota_yoga": {
+      "name": "Koota Yoga",
+      "function": "koota_yoga_from_planet_positions",
+      "description": "Koota Yoga: If all the planets occupy the 7 signs from the 4th house",
+      "conditions": [
+        "Koota Yoga: If all the planets occupy the 7 signs from the 4th house"
+      ],
+      "source_lines": {
+        "start": 417,
+        "end": 425
+      }
+    },
+    "chatra_yoga": {
+      "name": "Chatra Yoga",
+      "function": "chatra_yoga_from_planet_positions",
+      "description": "Chatra Yoga: If all the planets occupy the 7 signs from the 7th house,",
+      "conditions": [
+        "Chatra Yoga: If all the planets occupy the 7 signs from the 7th house,"
+      ],
+      "source_lines": {
+        "start": 426,
+        "end": 434
+      }
+    },
+    "chaapa_yoga": {
+      "name": "Chaapa Yoga",
+      "function": "chaapa_yoga_from_planet_positions",
+      "description": "Chaapa Yoga: If all the planets occupy the 7 signs from the 10th house",
+      "conditions": [
+        "Chaapa Yoga: If all the planets occupy the 7 signs from the 10th house"
+      ],
+      "source_lines": {
+        "start": 435,
+        "end": 443
+      }
+    },
+    "ardha_chandra_yoga": {
+      "name": "Ardha Chandra Yoga",
+      "function": "ardha_chandra_yoga_from_planet_positions",
+      "description": "Ardha Chandra Yoga: If all the planets occupy the 7 signs starting from a panapara or an apoklima",
+      "conditions": [
+        "Ardha Chandra Yoga: If all the planets occupy the 7 signs starting from a panapara",
+        "an apoklima"
+      ],
+      "source_lines": {
+        "start": 444,
+        "end": 458
+      }
+    },
+    "chakra_yoga": {
+      "name": "Chakra Yoga",
+      "function": "chakra_yoga_from_planet_positions",
+      "description": "Chakra Yoga: If all the planets occupy 1st, 3rd, 5th, 7th, 9th and 11th houses",
+      "conditions": [
+        "Chakra Yoga: If all the planets occupy 1st, 3rd, 5th, 7th, 9th",
+        "11th houses"
+      ],
+      "source_lines": {
+        "start": 459,
+        "end": 467
+      }
+    },
+    "samudra_yoga": {
+      "name": "Samudra Yoga",
+      "function": "samudra_yoga_from_planet_positions",
+      "description": "Samudra Yoga: If all the planets occupy 2nd, 4th, 6th, 8th, 10th and 12th houses",
+      "conditions": [
+        "Samudra Yoga: If all the planets occupy 2nd, 4th, 6th, 8th, 10th",
+        "12th houses"
+      ],
+      "source_lines": {
+        "start": 468,
+        "end": 476
+      }
+    },
+    "veenaa_yoga": {
+      "name": "Veenaa Yoga",
+      "function": "veenaa_yoga_from_planet_positions",
+      "description": "Veenaa Yoga: If the seven planets occupy exactly 7 distinct signs among them",
+      "conditions": [
+        "Veenaa Yoga: If the seven planets occupy exactly 7 distinct signs among them"
+      ],
+      "source_lines": {
+        "start": 477,
+        "end": 483
+      }
+    },
+    "daama_yoga": {
+      "name": "Daama Yoga",
+      "function": "daama_yoga_from_planet_positions",
+      "description": "Daama Yoga: If the seven planets occupy exactly 6 distinct signs among them",
+      "conditions": [
+        "Daama Yoga: If the seven planets occupy exactly 6 distinct signs among them"
+      ],
+      "source_lines": {
+        "start": 484,
+        "end": 490
+      }
+    },
+    "paasa_yoga": {
+      "name": "Paasa Yoga",
+      "function": "paasa_yoga_from_planet_positions",
+      "description": "Paasa Yoga: If the seven planets occupy exactly 5 distinct signs among them",
+      "conditions": [
+        "Paasa Yoga: If the seven planets occupy exactly 5 distinct signs among them"
+      ],
+      "source_lines": {
+        "start": 491,
+        "end": 497
+      }
+    },
+    "kedaara_yoga": {
+      "name": "Kedaara Yoga",
+      "function": "kedaara_yoga_from_planet_positions",
+      "description": "Kedaara Yoga: If the seven planets occupy exactly 4 distinct signs among them",
+      "conditions": [
+        "Kedaara Yoga: If the seven planets occupy exactly 4 distinct signs among them"
+      ],
+      "source_lines": {
+        "start": 498,
+        "end": 504
+      }
+    },
+    "soola_yoga": {
+      "name": "Soola Yoga",
+      "function": "soola_yoga_from_planet_positions",
+      "description": "Soola Yoga: If the seven planets occupy exactly 3 distinct signs among them",
+      "conditions": [
+        "Soola Yoga: If the seven planets occupy exactly 3 distinct signs among them"
+      ],
+      "source_lines": {
+        "start": 505,
+        "end": 511
+      }
+    },
+    "yuga_yoga": {
+      "name": "Yuga Yoga",
+      "function": "yuga_yoga_from_planet_positions",
+      "description": "Yuga Yoga: If the seven planets occupy exactly 2 distinct signs among them",
+      "conditions": [
+        "Yuga Yoga: If the seven planets occupy exactly 2 distinct signs among them"
+      ],
+      "source_lines": {
+        "start": 512,
+        "end": 518
+      }
+    },
+    "gola_yoga": {
+      "name": "Gola Yoga",
+      "function": "gola_yoga_from_planet_positions",
+      "description": "Gola Yoga: If the seven planets are in one sign",
+      "conditions": [
+        "Gola Yoga: If the seven planets are in one sign"
+      ],
+      "source_lines": {
+        "start": 519,
+        "end": 525
+      }
+    },
+    "subha_yoga": {
+      "name": "Subha Yoga",
+      "function": "subha_yoga_from_planet_positions",
+      "description": "Subha Yoga: If lagna has benefics or has “subha kartari – benefics in 12th and 2nd",
+      "conditions": [
+        "Subha Yoga: If lagna has benefics",
+        "has “subha kartari – benefics in 12th"
+      ],
+      "source_lines": {
+        "start": 526,
+        "end": 533
+      }
+    },
+    "asubha_yoga": {
+      "name": "Asubha Yoga",
+      "function": "asubha_yoga_from_planet_positions",
+      "description": "Asubha Yoga: If lagna has malefics or has “paapa kartari” – malefics in 12th and 2nd",
+      "conditions": [
+        "Asubha Yoga: If lagna has malefics",
+        "has “paapa kartari” – malefics in 12th"
+      ],
+      "source_lines": {
+        "start": 534,
+        "end": 541
+      }
+    },
+    "gaja_kesari_yoga": {
+      "name": "Gaja Kesari Yoga",
+      "function": "gaja_kesari_yoga_from_planet_positions",
+      "description": "Gaja-Kesari Yoga: If (1) Jupiter is in a quadrant from Moon, (2) a benefic planet conjoins or aspects Jupiter, and, (3) Jupiter is not debilitated or combust or in an         enemy’s house,",
+      "conditions": [
+        "Jupiter is in a quadrant from Moo",
+        "a benefic planet conjoins or aspects Jupiter",
+        "Jupiter is not debilitated or combust or in an         enemy’s house"
+      ],
+      "source_lines": {
+        "start": 542,
+        "end": 571
+      }
+    },
+    "guru_mangala_yoga": {
+      "name": "Guru Mangala Yoga",
+      "function": "guru_mangala_yoga_from_planet_positions",
+      "description": "Guru-Mangala Yoga: If Jupiter and Mars are together or in the 7th house from each other",
+      "conditions": [
+        "Guru-Mangala Yoga: If Jupiter",
+        "Mars are together",
+        "in the 7th house from each other"
+      ],
+      "source_lines": {
+        "start": 572,
+        "end": 578
+      }
+    },
+    "amala_yoga": {
+      "name": "Amala Yoga",
+      "function": "amala_yoga_from_planet_positions",
+      "description": "Amala Yoga: If there are only natural benefics in the 10th house from lagna or Moon",
+      "conditions": [
+        "Amala Yoga: If there are only natural benefics in the 10th house from lagna"
+      ],
+      "source_lines": {
+        "start": 579,
+        "end": 586
+      }
+    },
+    "parvata_yoga": {
+      "name": "Parvata Yoga",
+      "function": "parvata_yoga_from_planet_positions",
+      "description": "Parvata Yoga: If (1) quadrants are occupied only by benefics and (2) the 7th and 8th houses         are either vacant or occupied only by benefics",
+      "conditions": [
+        "quadrants are occupied only by benefics",
+        "the 7th"
+      ],
+      "source_lines": {
+        "start": 587,
+        "end": 603
+      }
+    },
+    "kaahala_yoga": {
+      "name": "Kaahala Yoga",
+      "function": "kaahala_yoga_from_planet_positions",
+      "description": "Kaahala Yoga: If (1) the 4th lord and Jupiter are in mutual quadrants and (2) lagna lord is strong",
+      "conditions": [
+        "the 4th lor",
+        "lagna lord is strong"
+      ],
+      "source_lines": {
+        "start": 604,
+        "end": 617
+      }
+    },
+    "chaamara_yoga": {
+      "name": "Chaamara Yoga",
+      "function": "chaamara_yoga_from_planet_positions",
+      "description": "Chaamara Yoga: If the lagna lord is exalted in a quadrant with Jupiter’s aspect or         two benefics join in 7th, 9th or 10th",
+      "conditions": [
+        "Chaamara Yoga: If the lagna lord is exalted in a quadrant with Jupiter’s aspect",
+        "two benefics join in 7th, 9th"
+      ],
+      "source_lines": {
+        "start": 618,
+        "end": 632
+      }
+    },
+    "sankha_yoga": {
+      "name": "Sankha Yoga",
+      "function": "sankha_yoga_from_planet_positions",
+      "description": "Sankha Yoga: If (1) lagna lord is strong and (2) 5th and 6th lords are in mutual quadrants, then this yoga is present. Alternately, this yoga is present if (1) lagna lord         and 10th lord are together in a movable sign and (2) the 9th lord is strong.",
+      "conditions": [
+        "lagna lord is strong",
+        "lagna lor",
+        "the 9th lord is strong."
+      ],
+      "source_lines": {
+        "start": 633,
+        "end": 649
+      }
+    },
+    "bheri_yoga": {
+      "name": "Bheri Yoga",
+      "function": "bheri_yoga_from_planet_positions",
+      "description": "Bheri Yoga: If (1) the 9th lord is strong and (2) 1st, 2nd, 7th and 12th houses are occupied by planets, then this yoga is present. Alternately, this is yoga is present if (1) the 9th lord is strong and (2) Jupiter, Venus and lagna lord are in mutual         quadrants.",
+      "conditions": [
+        "the 9th lord is strong",
+        "1st, 2nd, 7th",
+        "the 9th lord is strong",
+        "Jupiter, Venus"
+      ],
+      "source_lines": {
+        "start": 650,
+        "end": 662
+      }
+    },
+    "mridanga_yoga": {
+      "name": "Mridanga Yoga",
+      "function": "mridanga_yoga_from_planet_positions",
+      "description": "Mridanga Yoga: If (1) there are planets in own and exaltation signs in quadrants         and trines and (2) lagna lord is strong.",
+      "conditions": [
+        "there are planets in ow",
+        "lagna lord is strong."
+      ],
+      "source_lines": {
+        "start": 663,
+        "end": 673
+      }
+    },
+    "sreenaatha_yoga": {
+      "name": "Sreenaatha Yoga",
+      "function": "sreenaatha_yoga_from_planet_positions",
+      "description": "Sreenaatha Yoga: If (1) the 7th lord is exalted in 10th and (2) 10th lord is with 9th lord.",
+      "conditions": [
+        "the 7th lord is exalted in 10th",
+        "10th lord is with 9th lord."
+      ],
+      "source_lines": {
+        "start": 674,
+        "end": 684
+      }
+    },
+    "matsya_yoga": {
+      "name": "Matsya Yoga",
+      "function": "matsya_yoga_from_planet_positions",
+      "description": "Matsya Yoga: If (1) benefics are in lagna and 9th, (2) some planets are in 5th, and,         (3) malefics are in chaturasras (4th and 8th houses).",
+      "conditions": [
+        "benefics are in lag",
+        "some planets are in 5th",
+        "malefics are in chaturasras"
+      ],
+      "source_lines": {
+        "start": 685,
+        "end": 700
+      }
+    },
+    "koorma_yoga": {
+      "name": "Koorma Yoga",
+      "function": "koorma_yoga_from_planet_positions",
+      "description": "Koorma Yoga: If (1) the 5th, 6th and 7th houses are occupied by benefics who are in own, exaltation or friendly signs and (2) the 1st, 3rd and 11th houses are occupied by         malefics who are in own or exaltation signs.",
+      "conditions": [
+        "the 5th, 6th",
+        "the 1st, 3r"
+      ],
+      "source_lines": {
+        "start": 701,
+        "end": 719
+      }
+    },
+    "khadga_yoga": {
+      "name": "Khadga Yoga",
+      "function": "khadga_yoga_from_planet_positions",
+      "description": "Khadga Yoga: If (1) the 2nd lord is in the 9th house, (2) the 9th lord is in the 2nd         house, and, (3) lagna lord is in a quadrant or a trine.",
+      "conditions": [
+        "the 2nd lord is in the 9th house",
+        "the 9th lord is in the 2nd         house",
+        "lagna lord is in a quadrant or a trine."
+      ],
+      "source_lines": {
+        "start": 720,
+        "end": 732
+      }
+    },
+    "kusuma_yoga": {
+      "name": "Kusuma Yoga",
+      "function": "kusuma_yoga_from_planet_positions",
+      "description": "Kusuma Yoga: If (1) lagna is in a fixed sign, (2) Venus is in a quadrant, (3) Moon is         in a trine with a benefic, and, (4) Saturn is in the 10th house.",
+      "conditions": [
+        "lagna is in a fixed sig",
+        "Venus is in a quadrant",
+        "Moon is         in a trine with a benefic",
+        "Saturn is in the 10th house."
+      ],
+      "source_lines": {
+        "start": 733,
+        "end": 749
+      }
+    },
+    "kalaanidhi_yoga": {
+      "name": "Kalaanidhi Yoga",
+      "function": "kalaanidhi_yoga_from_planet_positions",
+      "description": "Kalaanidhi Yoga: If (1) Jupiter is in the 2nd house or the 5th house and (2) he is         conjoined or aspected by Mercury and Venus.",
+      "conditions": [
+        "Jupiter is in the 2nd house or the 5th house",
+        "he is         conjoined or aspected by Mercury"
+      ],
+      "source_lines": {
+        "start": 750,
+        "end": 761
+      }
+    },
+    "kalpadruma_yoga": {
+      "name": "Kalpadruma Yoga",
+      "function": "kalpadruma_yoga_from_planet_positions",
+      "description": "Kalpadruma Yoga: Consider (1) lagna lord, (2) his dispositor, (3) the latter’s dispositor in rasi and (4) in navamsa. If all the four planets are all in quadrants, trines         or exaltation signs.",
+      "conditions": [
+        "lagna lor",
+        "his dispositor",
+        "the latter’s dispositor in rasi",
+        "in navamsa. If all the four planets are all in quadrants, trines         or exaltation signs."
+      ],
+      "source_lines": {
+        "start": 762,
+        "end": 796
+      }
+    },
+    "lagnaadhi_yoga": {
+      "name": "Lagnaadhi Yoga",
+      "function": "lagnaadhi_yoga_from_planet_positions",
+      "description": "Lagnaadhi Yoga: If (1) the 7th and 8th houses from lagna are occupied by benefics         and (2) no malefics conjoin or aspect these planets.",
+      "conditions": [
+        "the 7th",
+        "no malefics conjoin or aspect these planets."
+      ],
+      "source_lines": {
+        "start": 797,
+        "end": 807
+      }
+    },
+    "hari_yoga": {
+      "name": "Hari Yoga",
+      "function": "hari_yoga_from_planet_positions",
+      "description": "Hari Yoga: If benefics occupy the 2nd, 12th and 8th houses counted from the 2nd lord",
+      "conditions": [
+        "Hari Yoga: If benefics occupy the 2nd, 12th",
+        "8th houses counted from the 2nd lord"
+      ],
+      "source_lines": {
+        "start": 808,
+        "end": 816
+      }
+    },
+    "hara_yoga": {
+      "name": "Hara Yoga",
+      "function": "hara_yoga_from_planet_positions",
+      "description": "Hara Yoga: If benefics occupy the 4th, 9th and 8th houses counted from the 7th lord.",
+      "conditions": [
+        "Hara Yoga: If benefics occupy the 4th, 9th",
+        "8th houses counted from the 7th lord."
+      ],
+      "source_lines": {
+        "start": 817,
+        "end": 825
+      }
+    },
+    "brahma_yoga": {
+      "name": "Brahma Yoga",
+      "function": "brahma_yoga_from_planet_positions",
+      "description": "Brahma Yoga: If benefics occupy the 4th, 10th and 11th houses counted from lagna lord.",
+      "conditions": [
+        "Brahma Yoga: If benefics occupy the 4th, 10th",
+        "11th houses counted from lagna lord."
+      ],
+      "source_lines": {
+        "start": 826,
+        "end": 841
+      }
+    },
+    "vishnu_yoga": {
+      "name": "Vishnu Yoga",
+      "function": "vishnu_yoga_from_planet_positions",
+      "description": "Vishnu Yoga: If (1) the 9th and 10th lords are in the 2nd house and (2) the lord of the         sign occupied in navamsa by the 9th lord in rasi chart is also in the 2nd house",
+      "conditions": [
+        "the 9th",
+        "the lord of the         sign occupied in navamsa by the 9th lord in rasi chart is also in the 2nd house"
+      ],
+      "source_lines": {
+        "start": 842,
+        "end": 854
+      }
+    },
+    "siva_yoga": {
+      "name": "Siva Yoga",
+      "function": "siva_yoga_from_planet_positions",
+      "description": "Siva Yoga: If (1) the 5th lord is in the 9th house, (2) the 9th lord is in the 10th house,         and, (3) the 10th lord is in the 5th house",
+      "conditions": [
+        "the 5th lord is in the 9th house",
+        "the 9th lord is in the 10th house",
+        "the 10th lord is in the 5th house"
+      ],
+      "source_lines": {
+        "start": 855,
+        "end": 865
+      }
+    },
+    "trilochana_yoga": {
+      "name": "Trilochana Yoga",
+      "function": "trilochana_yoga_from_planet_positions",
+      "description": "Trilochana Yoga: If Sun, Moon and Mars are in mutual trines",
+      "conditions": [
+        "Trilochana Yoga: If Sun, Moon",
+        "Mars are in mutual trines"
+      ],
+      "source_lines": {
+        "start": 866,
+        "end": 872
+      }
+    },
+    "gouri_yoga": {
+      "name": "Gouri Yoga",
+      "function": "gouri_yoga_from_planet_positions",
+      "description": "Gouri Yoga: If the lord of the sign occupied in navamsa by the 10th lord is exalted in         the 10th house and lagna lord joins him",
+      "conditions": [
+        "Gouri Yoga: If the lord of the sign occupied in navamsa by the 10th lord is exalted in         the 10th house",
+        "lagna lord joins him"
+      ],
+      "source_lines": {
+        "start": 873,
+        "end": 882
+      }
+    },
+    "chandikaa_yoga": {
+      "name": "Chandikaa Yoga",
+      "function": "chandikaa_yoga_from_planet_positions",
+      "description": "Chandikaa Yoga: If (1) lagna is in a fixed sign aspected by 6th lord and (2) Sun         joins the lords of the signs occupied in navamsa by 6th and 9th lords",
+      "conditions": [
+        "lagna is in a fixed sign aspected by 6th lor",
+        "Sun         joins the lords of the signs occupied in navamsa by 6th"
+      ],
+      "source_lines": {
+        "start": 883,
+        "end": 898
+      }
+    },
+    "lakshmi_yoga": {
+      "name": "Lakshmi Yoga",
+      "function": "lakshmi_yoga_from_planet_positions",
+      "description": "Lakshmi Yoga: If (1) the 9th lord is in an own sign or in his exaltation sign that         happens to be quadrant from lagna and (2) lagna lord is strong",
+      "conditions": [
+        "the 9th lord is in an own sign or in his exaltation sign that         happens to be quadrant from lag",
+        "lagna lord is strong"
+      ],
+      "source_lines": {
+        "start": 899,
+        "end": 909
+      }
+    },
+    "saarada_yoga": {
+      "name": "Saarada Yoga",
+      "function": "saarada_yoga_from_planet_positions",
+      "description": "Saarada Yoga: If (1) the 10th lord is in the 5th house, (2) Mercury is in a quadrant, (3) Sun is strong in Leo, (4) Mercury or Jupiter is in a trine from Moon, and, (5)         Mars is in 11th,",
+      "conditions": [
+        "the 10th lord is in the 5th house",
+        "Mercury is in a quadrant",
+        "Sun is strong in Leo",
+        "Mercury or Jupiter is in a trine from Moo",
+        "Mars is in 11th"
+      ],
+      "source_lines": {
+        "start": 910,
+        "end": 929
+      }
+    },
+    "bhaarathi_yoga": {
+      "name": "Bhaarathi Yoga",
+      "function": "bhaarathi_yoga_from_planet_positions",
+      "description": "Bhaarathi Yoga: If the lord of the sign occupied in navamsa by 2nd, 5th or 11th lord         exalted and joins the 9th lord",
+      "conditions": [
+        "Bhaarathi Yoga: If the lord of the sign occupied in navamsa by 2nd, 5th",
+        "11th lord         exalted",
+        "joins the 9th lord"
+      ],
+      "source_lines": {
+        "start": 930,
+        "end": 943
+      }
+    },
+    "saraswathi_yoga": {
+      "name": "Saraswathi Yoga",
+      "function": "saraswathi_yoga_from_planet_positions",
+      "description": "Saraswathi Yoga: If (1) each of Mercury, Jupiter and Venus occupies a quadrant or a trine or the 2nd house (not necessarily together) and (2) Jupiter is in an own or         friendly or exaltation sign",
+      "conditions": [
+        "each of Mercury, Jupiter",
+        "Jupiter is in an own or         friendly or exaltation sig"
+      ],
+      "source_lines": {
+        "start": 944,
+        "end": 956
+      }
+    },
+    "amsaavatara_yoga": {
+      "name": "Amsaavatara Yoga",
+      "function": "amsaavatara_yoga_from_planet_positions",
+      "description": "Amsaavatara Yoga: If Jupiter, Venus and exalted Saturn are in quadrants",
+      "conditions": [
+        "Amsaavatara Yoga: If Jupiter, Venus",
+        "exalted Saturn are in quadrants"
+      ],
+      "source_lines": {
+        "start": 957,
+        "end": 963
+      }
+    },
+    "devendra_yoga": {
+      "name": "Devendra Yoga",
+      "function": "devendra_yoga_from_planet_positions",
+      "description": "Devendra Yoga: If (1) lagna is in a fixed sign, (2) 2nd and 10th lords have an         exchange, and, (3) lagna and 11th lords have an exchange",
+      "conditions": [
+        "lagna is in a fixed sig"
+      ],
+      "source_lines": {
+        "start": 964,
+        "end": 977
+      }
+    },
+    "indra_yoga": {
+      "name": "Indra Yoga",
+      "function": "indra_yoga_from_planet_positions",
+      "description": "Indra Yoga: If (1) the 5th and 11th lords have an exchange and (2) Moon occupies         the 5th house",
+      "conditions": [
+        "the 5th",
+        "Moon occupies         the 5th house"
+      ],
+      "source_lines": {
+        "start": 978,
+        "end": 988
+      }
+    },
+    "ravi_yoga": {
+      "name": "Ravi Yoga",
+      "function": "ravi_yoga_from_planet_positions",
+      "description": "Ravi Yoga: If (1) Sun is in the 10th house and (2) the 10th lord is in the 3rd housewith Saturn",
+      "conditions": [
+        "Sun is in the 10th house",
+        "the 10th lord is in the 3rd housewith Satur"
+      ],
+      "source_lines": {
+        "start": 989,
+        "end": 998
+      }
+    },
+    "bhaaskara_yoga": {
+      "name": "Bhaaskara Yoga",
+      "function": "bhaaskara_yoga_from_planet_positions",
+      "description": "Bhaaskara Yoga: If (1) Moon is in the 12th from Sun, (2) Mercury is in the 2nd from         Sun, and, (3) Jupiter is in the 5th or 9th from Moon.",
+      "conditions": [
+        "Moon is in the 12th from Su",
+        "Mercury is in the 2nd from         Su",
+        "Jupiter is in the 5th or 9th from Moon."
+      ],
+      "source_lines": {
+        "start": 999,
+        "end": 1011
+      }
+    },
+    "kulavardhana_yoga": {
+      "name": "Kulavardhana Yoga",
+      "function": "kulavardhana_yoga_from_planet_positions",
+      "description": "Kulavardhana Yoga: If each planet occupies the 5th house from either lagna or Moon or Sun",
+      "conditions": [
+        "Kulavardhana Yoga: If each planet occupies the 5th house from either lagna"
+      ],
+      "source_lines": {
+        "start": 1012,
+        "end": 1017
+      }
+    },
+    "vasumati_yoga": {
+      "name": "Vasumati Yoga",
+      "function": "vasumati_yoga_from_planet_positions",
+      "description": "Vasumati Yoga: benefics occupy upachayas",
+      "conditions": [
+        "Vasumati Yoga: benefics occupy upachayas"
+      ],
+      "source_lines": {
+        "start": 1018,
+        "end": 1023
+      }
+    },
+    "gandharva_yoga": {
+      "name": "Gandharva Yoga",
+      "function": "gandharva_yoga_from_planet_positions",
+      "description": "Gandharva Yoga: If (1) the 10th lord is in a trine from the 7th house, (2) lagna lord is conjoined or aspected by Jupiter, (3) Sun is exalted and strong, and, (4) Moon is in         the 9th house",
+      "conditions": [
+        "the 10th lord is in a trine from the 7th house",
+        "lagna lord is conjoined or aspected by Jupiter",
+        "Sun is exalte",
+        "Moon is in         the 9th house"
+      ],
+      "source_lines": {
+        "start": 1024,
+        "end": 1044
+      }
+    },
+    "go_yoga": {
+      "name": "Go Yoga",
+      "function": "go_yoga_from_planet_positions",
+      "description": "Go Yoga: If (1) Jupiter is strong in his moolatrikona, (2) the lord of the 2nd house is         with Jupiter, and, (3) lagna lord is exalted",
+      "conditions": [
+        "Jupiter is strong in his moolatriko",
+        "the lord of the 2nd house is         with Jupiter",
+        "lagna lord is exalte"
+      ],
+      "source_lines": {
+        "start": 1045,
+        "end": 1059
+      }
+    },
+    "vidyut_yoga": {
+      "name": "Vidyut Yoga",
+      "function": "vidyut_yoga_from_planet_positions",
+      "description": "Vidyut Yoga: If (1) the 11th lord is in deep exaltation, (2) he joins Venus, and, (3)         the two of them are in a quadrant from lagna lord",
+      "conditions": [
+        "the 11th lord is in deep exaltatio",
+        "he joins Venus",
+        "the two of them are in a quadrant from lagna lor"
+      ],
+      "source_lines": {
+        "start": 1060,
+        "end": 1075
+      }
+    },
+    "chapa_yoga": {
+      "name": "Chapa Yoga",
+      "function": "chapa_yoga_from_planet_positions",
+      "description": "Chapa Yoga: If (1) the 4th and 10th lords have an exchange and (2) lagna lord is exalted.",
+      "conditions": [
+        "the 4th",
+        "lagna lord is exalted."
+      ],
+      "source_lines": {
+        "start": 1076,
+        "end": 1084
+      }
+    },
+    "pushkala_yoga": {
+      "name": "Pushkala Yoga",
+      "function": "pushkala_yoga_from_planet_positions",
+      "description": "Pushkala Yoga: If (1) lagna lord is with Moon, (2) dispositor of Moon is in a quadrant or in the house of an adhimitra (good friend), (2) dispositor of Moon         aspects lagna, and, (4) there is a planet in lagna",
+      "conditions": [
+        "lagna lord is with Moo",
+        "dispositor of Moon is in a quadrant or in the house of an adhimitr",
+        "dispositor of Moon         aspects lag",
+        "there is a planet in lag"
+      ],
+      "source_lines": {
+        "start": 1085,
+        "end": 1102
+      }
+    },
+    "makuta_yoga": {
+      "name": "Makuta Yoga",
+      "function": "makuta_yoga_from_planet_positions",
+      "description": "Makuta Yoga: If (1) Jupiter is in the 9th house from the 9th lord, (2) the 9th house         from Jupiter has a benefic, and, (3) Saturn is in the 10th house",
+      "conditions": [
+        "Jupiter is in the 9th house from the 9th lor",
+        "the 9th house         from Jupiter has a benefic",
+        "Saturn is in the 10th house"
+      ],
+      "source_lines": {
+        "start": 1103,
+        "end": 1112
+      }
+    },
+    "jaya_yoga": {
+      "name": "Jaya Yoga",
+      "function": "jaya_yoga_from_planet_positions",
+      "description": "Jaya Yoga: If (1) the 10th lord is in deep exaltation and (2) the 6th lord is debilitated",
+      "conditions": [
+        "the 10th lord is in deep exaltatio",
+        "the 6th lord is debilitate"
+      ],
+      "source_lines": {
+        "start": 1113,
+        "end": 1122
+      }
+    },
+    "harsha_yoga": {
+      "name": "Harsha Yoga",
+      "function": "harsha_yoga_from_planet_positions",
+      "description": "Harsha Yoga: If the 6th lord occupies the 6th house",
+      "conditions": [
+        "Harsha Yoga: If the 6th lord occupies the 6th house"
+      ],
+      "source_lines": {
+        "start": 1123,
+        "end": 1128
+      }
+    },
+    "sarala_yoga": {
+      "name": "Sarala Yoga",
+      "function": "sarala_yoga_from_planet_positions",
+      "description": "Sarala Yoga: If the 8th lord occupies the 8th house",
+      "conditions": [
+        "Sarala Yoga: If the 8th lord occupies the 8th house"
+      ],
+      "source_lines": {
+        "start": 1129,
+        "end": 1134
+      }
+    },
+    "vimala_yoga": {
+      "name": "Vimala Yoga",
+      "function": "vimala_yoga_from_planet_positions",
+      "description": "Vimala Yoga: If the 12th lord occupies the 12th house",
+      "conditions": [
+        "Vimala Yoga: If the 12th lord occupies the 12th house"
+      ],
+      "source_lines": {
+        "start": 1135,
+        "end": 1142
+      }
+    }
+  }
+}

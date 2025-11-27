@@ -679,6 +679,158 @@ function checkDhanaYoga(chart: VedicChart): Yoga | null {
     };
 }
 
+/**
+ * Adhi Yoga - Natural benefics in 6th, 7th, or 8th from Moon
+ * Very auspicious for leadership and success
+ */
+function checkAdhiYoga(chart: VedicChart): Yoga | null {
+    const moonHouse = getPlanetHouse(chart, 'Moon');
+    if (moonHouse === -1) return null;
+
+    const sixthHouse = (moonHouse + 5) % 12;
+    const seventhHouse = (moonHouse + 6) % 12;
+    const eighthHouse = (moonHouse + 7) % 12;
+
+    const targetHouses = [sixthHouse, seventhHouse, eighthHouse];
+
+    // Check if Jupiter or Venus (natural benefics) are in these houses
+    const jupiterHouse = getPlanetHouse(chart, 'Jupiter');
+    const venusHouse = getPlanetHouse(chart, 'Venus');
+    const mercuryHouse = getPlanetHouse(chart, 'Mercury');
+
+    const hasJupiter = targetHouses.includes(jupiterHouse);
+    const hasVenus = targetHouses.includes(venusHouse);
+    const hasMercury = targetHouses.includes(mercuryHouse);
+
+    if (!hasJupiter && !hasVenus && !hasMercury) return null;
+
+    const benefics = [];
+    if (hasJupiter) benefics.push('Jupiter');
+    if (hasVenus) benefics.push('Venus');
+    if (hasMercury) benefics.push('Mercury');
+
+    return {
+        name: 'Adhi Yoga',
+        category: 'special',
+        strength: 'very_strong',
+        description: 'Natural benefics in 6/7/8 from Moon',
+        formation: `${benefics.join(', ')} positioned for success`,
+        results: [
+            'Leadership and authority',
+            'Wealth and prosperity',
+            'Victory over enemies',
+            'Long and healthy life'
+        ],
+        lifeAreas: ['Leadership', 'Wealth', 'Victory', 'Health'],
+        planetInvolved: benefics
+    };
+}
+
+/**
+ * Sakata Yoga - Jupiter in 6th, 8th, or 12th from Moon
+ * Can indicate ups and downs in fortune (like a cart wheel)
+ */
+function checkSakataYoga(chart: VedicChart): Yoga | null {
+    const moonHouse = getPlanetHouse(chart, 'Moon');
+    const jupiterHouse = getPlanetHouse(chart, 'Jupiter');
+
+    if (moonHouse === -1 || jupiterHouse === -1) return null;
+
+    const diff = (jupiterHouse - moonHouse + 12) % 12;
+    const dusthanaPositions = [5, 7, 11]; // 6th, 8th, 12th from Moon
+
+    if (!dusthanaPositions.includes(diff)) return null;
+
+    return {
+        name: 'Sakata Yoga',
+        category: 'special',
+        strength: 'weak', // This is challenging
+        description: 'Jupiter in difficult house from Moon',
+        formation: 'Jupiter in 6th/8th/12th from Moon',
+        results: [
+            'Fluctuating fortunes',
+            'Ups and downs in life',
+            'Need for perseverance',
+            'Success through hard work'
+        ],
+        lifeAreas: ['Challenges', 'Perseverance', 'Resilience'],
+        planetInvolved: ['Jupiter', 'Moon']
+    };
+}
+
+/**
+ * Parivartana Yoga - Exchange of signs between planets
+ * Simplified: Check if any two planets are in each other's signs
+ */
+function checkParivartanaYoga(chart: VedicChart): Yoga | null {
+    // Simplified check: Look for Mercury-Venus exchange (common and beneficial)
+    const mercuryHouse = getPlanetHouse(chart, 'Mercury');
+    const venusHouse = getPlanetHouse(chart, 'Venus');
+
+    // Mercury owns Gemini (2) and Virgo (5)
+    // Venus owns Taurus (1) and Libra (6)
+
+    const mercuryInVenusSign = [1, 6].includes(mercuryHouse);
+    const venusInMercurySign = [2, 5].includes(venusHouse);
+
+    if (mercuryInVenusSign && venusInMercurySign) {
+        return {
+            name: 'Parivartana Yoga',
+            category: 'special',
+            strength: 'strong',
+            description: 'Exchange of signs between planets',
+            formation: 'Mercury-Venus mutual exchange',
+            results: [
+                'Artistic and intellectual abilities',
+                'Success in business and arts',
+                'Social recognition',
+                'Material comforts'
+            ],
+            lifeAreas: ['Arts', 'Business', 'Social Success'],
+            planetInvolved: ['Mercury', 'Venus']
+        };
+    }
+
+    return null;
+}
+
+/**
+ * Amala Yoga - Benefic planet in 10th from Moon or ascendant
+ */
+function checkAmalaYoga(chart: VedicChart): Yoga | null {
+    const moonHouse = getPlanetHouse(chart, 'Moon');
+    if (moonHouse === -1) return null;
+
+    const tenthFromMoon = (moonHouse + 9) % 12;
+
+    // Check if Jupiter or Venus (benefics) are in 10th from Moon
+    const jupiterHouse = getPlanetHouse(chart, 'Jupiter');
+    const venusHouse = getPlanetHouse(chart, 'Venus');
+
+    const hasJupiter = jupiterHouse === tenthFromMoon;
+    const hasVenus = venusHouse === tenthFromMoon;
+
+    if (!hasJupiter && !hasVenus) return null;
+
+    const beneficPlanet = hasJupiter ? 'Jupiter' : 'Venus';
+
+    return {
+        name: 'Amala Yoga',
+        category: 'special',
+        strength: 'strong',
+        description: 'Benefic planet in 10th from Moon',
+        formation: `${beneficPlanet} in 10th from Moon`,
+        results: [
+            'Good reputation and fame',
+            'Lasting prosperity',
+            'Moral character',
+            'Happy life'
+        ],
+        lifeAreas: ['Reputation', 'Career', 'Character'],
+        planetInvolved: [beneficPlanet]
+    };
+}
+
 
 // ============================================================================
 // MAIN ANALYSIS FUNCTION
@@ -714,11 +866,15 @@ export function analyzeYogas(chart: VedicChart): YogaAnalysisResult {
         checkUbhayachariYoga,
         checkBudhaAdityaYoga,
 
-        // Raja (4) + Dhana (1) = 20 Total
+        // Raja (4) + Dhana (1) + Special (4) = 24 Total
         checkChandraMangalaYoga,
         checkNeechaBhangaRajaYoga,
         checkViparitaRajaYoga1,
-        checkDhanaYoga
+        checkDhanaYoga,
+        checkAdhiYoga,
+        checkSakataYoga,
+        checkParivartanaYoga,
+        checkAmalaYoga
     ];
 
     for (const check of yogaChecks) {

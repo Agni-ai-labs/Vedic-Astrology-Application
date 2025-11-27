@@ -1,0 +1,478 @@
+YOGA SEARCH INDEX
+====================================================================================================
+
+Adhi Yoga
+ID: adhi_yoga
+Description: Adhi Yoga - natural benefics occupy 6th, 7th and 8th from Moon,...
+Lines: 192-201
+----------------------------------------------------------------------------------------------------
+Amala Yoga
+ID: amala_yoga
+Description: Amala Yoga: If there are only natural benefics in the 10th house from lagna or Moon...
+Lines: 579-586
+----------------------------------------------------------------------------------------------------
+Amsaavatara Yoga
+ID: amsaavatara_yoga
+Description: Amsaavatara Yoga: If Jupiter, Venus and exalted Saturn are in quadrants...
+Lines: 957-963
+----------------------------------------------------------------------------------------------------
+Anaphaa Yoga
+ID: anaphaa_yoga
+Description: Anaphaa Yoga - There are planets other than Sun in the 12th house from Moon...
+Lines: 152-162
+----------------------------------------------------------------------------------------------------
+Ardha Chandra Yoga
+ID: ardha_chandra_yoga
+Description: Ardha Chandra Yoga: If all the planets occupy the 7 signs starting from a panapara or an apoklima...
+Lines: 444-458
+----------------------------------------------------------------------------------------------------
+Asubha Yoga
+ID: asubha_yoga
+Description: Asubha Yoga: If lagna has malefics or has “paapa kartari” – malefics in 12th and 2nd...
+Lines: 534-541
+----------------------------------------------------------------------------------------------------
+Bhaarathi Yoga
+ID: bhaarathi_yoga
+Description: Bhaarathi Yoga: If the lord of the sign occupied in navamsa by 2nd, 5th or 11th lord         exalted and joins the 9th lord...
+Lines: 930-943
+----------------------------------------------------------------------------------------------------
+Bhaaskara Yoga
+ID: bhaaskara_yoga
+Description: Bhaaskara Yoga: If (1) Moon is in the 12th from Sun, (2) Mercury is in the 2nd from         Sun, and, (3) Jupiter is in the 5th or 9th from Moon....
+Lines: 999-1011
+----------------------------------------------------------------------------------------------------
+Bhadra Yoga
+ID: bhadra_yoga
+Description: Bhadra Yoga - Mercury should be in Ge or Vi and he should be in 1st, 4th, 7th or 10th from lagna....
+Lines: 210-217
+----------------------------------------------------------------------------------------------------
+Bheri Yoga
+ID: bheri_yoga
+Description: Bheri Yoga: If (1) the 9th lord is strong and (2) 1st, 2nd, 7th and 12th houses are occupied by planets, then this yoga is present. Alternately, this is yoga is present if (1) the 9th lord is strong a...
+Lines: 650-662
+----------------------------------------------------------------------------------------------------
+Brahma Yoga
+ID: brahma_yoga
+Description: Brahma Yoga: If benefics occupy the 4th, 10th and 11th houses counted from lagna lord....
+Lines: 826-841
+----------------------------------------------------------------------------------------------------
+Chaamara Yoga
+ID: chaamara_yoga
+Description: Chaamara Yoga: If the lagna lord is exalted in a quadrant with Jupiter’s aspect or         two benefics join in 7th, 9th or 10th...
+Lines: 618-632
+----------------------------------------------------------------------------------------------------
+Chaapa Yoga
+ID: chaapa_yoga
+Description: Chaapa Yoga: If all the planets occupy the 7 signs from the 10th house...
+Lines: 435-443
+----------------------------------------------------------------------------------------------------
+Chakra Yoga
+ID: chakra_yoga
+Description: Chakra Yoga: If all the planets occupy 1st, 3rd, 5th, 7th, 9th and 11th houses...
+Lines: 459-467
+----------------------------------------------------------------------------------------------------
+Chandikaa Yoga
+ID: chandikaa_yoga
+Description: Chandikaa Yoga: If (1) lagna is in a fixed sign aspected by 6th lord and (2) Sun         joins the lords of the signs occupied in navamsa by 6th and 9th lords...
+Lines: 883-898
+----------------------------------------------------------------------------------------------------
+Chandra Mangala Yoga
+ID: chandra_mangala_yoga
+Description: Chandra-Mangala Yoga - Moon and Mars are together (in one sign)....
+Lines: 187-191
+----------------------------------------------------------------------------------------------------
+Chapa Yoga
+ID: chapa_yoga
+Description: Chapa Yoga: If (1) the 4th and 10th lords have an exchange and (2) lagna lord is exalted....
+Lines: 1076-1084
+----------------------------------------------------------------------------------------------------
+Chatra Yoga
+ID: chatra_yoga
+Description: Chatra Yoga: If all the planets occupy the 7 signs from the 7th house,...
+Lines: 426-434
+----------------------------------------------------------------------------------------------------
+Daama Yoga
+ID: daama_yoga
+Description: Daama Yoga: If the seven planets occupy exactly 6 distinct signs among them...
+Lines: 484-490
+----------------------------------------------------------------------------------------------------
+Danda Yoga
+ID: danda_yoga
+Description: Danda Yoga: If all the planets are in 10th, 11th, 12th and 1st houses from lagna...
+Lines: 399-407
+----------------------------------------------------------------------------------------------------
+Devendra Yoga
+ID: devendra_yoga
+Description: Devendra Yoga: If (1) lagna is in a fixed sign, (2) 2nd and 10th lords have an         exchange, and, (3) lagna and 11th lords have an exchange...
+Lines: 964-977
+----------------------------------------------------------------------------------------------------
+Duradhara Yoga
+ID: duradhara_yoga
+Description: Duradhara Yoga - There is a planet other than Sun in the 2nd and 12th house from Moon....
+Lines: 163-166
+----------------------------------------------------------------------------------------------------
+Gadaa Yoga
+ID: gadaa_yoga
+Description: Gadaa Yoga: all the planets occupy two successive quadrants from lagna...
+Lines: 279-288
+----------------------------------------------------------------------------------------------------
+Gaja Kesari Yoga
+ID: gaja_kesari_yoga
+Description: Gaja-Kesari Yoga: If (1) Jupiter is in a quadrant from Moon, (2) a benefic planet conjoins or aspects Jupiter, and, (3) Jupiter is not debilitated or combust or in an         enemy’s house,...
+Lines: 542-571
+----------------------------------------------------------------------------------------------------
+Gandharva Yoga
+ID: gandharva_yoga
+Description: Gandharva Yoga: If (1) the 10th lord is in a trine from the 7th house, (2) lagna lord is conjoined or aspected by Jupiter, (3) Sun is exalted and strong, and, (4) Moon is in         the 9th house...
+Lines: 1024-1044
+----------------------------------------------------------------------------------------------------
+Go Yoga
+ID: go_yoga
+Description: Go Yoga: If (1) Jupiter is strong in his moolatrikona, (2) the lord of the 2nd house is         with Jupiter, and, (3) lagna lord is exalted...
+Lines: 1045-1059
+----------------------------------------------------------------------------------------------------
+Gola Yoga
+ID: gola_yoga
+Description: Gola Yoga: If the seven planets are in one sign...
+Lines: 519-525
+----------------------------------------------------------------------------------------------------
+Gouri Yoga
+ID: gouri_yoga
+Description: Gouri Yoga: If the lord of the sign occupied in navamsa by the 10th lord is exalted in         the 10th house and lagna lord joins him...
+Lines: 873-882
+----------------------------------------------------------------------------------------------------
+Guru Mangala Yoga
+ID: guru_mangala_yoga
+Description: Guru-Mangala Yoga: If Jupiter and Mars are together or in the 7th house from each other...
+Lines: 572-578
+----------------------------------------------------------------------------------------------------
+Hala Yoga
+ID: hala_yoga
+Description: Hala Yoga: If all the planets occupy mutual trines but not trines from lagna...
+Lines: 316-327
+----------------------------------------------------------------------------------------------------
+Hamsa Yoga
+ID: hamsa_yoga
+Description: Hamsa Yoga - Jupiter should be in Sg, Pi or Cn and he should be in 1st, 4th, 7th or 10th from lagna....
+Lines: 234-241
+----------------------------------------------------------------------------------------------------
+Hara Yoga
+ID: hara_yoga
+Description: Hara Yoga: If benefics occupy the 4th, 9th and 8th houses counted from the 7th lord....
+Lines: 817-825
+----------------------------------------------------------------------------------------------------
+Hari Yoga
+ID: hari_yoga
+Description: Hari Yoga: If benefics occupy the 2nd, 12th and 8th houses counted from the 2nd lord...
+Lines: 808-816
+----------------------------------------------------------------------------------------------------
+Harsha Yoga
+ID: harsha_yoga
+Description: Harsha Yoga: If the 6th lord occupies the 6th house...
+Lines: 1123-1128
+----------------------------------------------------------------------------------------------------
+Indra Yoga
+ID: indra_yoga
+Description: Indra Yoga: If (1) the 5th and 11th lords have an exchange and (2) Moon occupies         the 5th house...
+Lines: 978-988
+----------------------------------------------------------------------------------------------------
+Jaya Yoga
+ID: jaya_yoga
+Description: Jaya Yoga: If (1) the 10th lord is in deep exaltation and (2) the 6th lord is debilitated...
+Lines: 1113-1122
+----------------------------------------------------------------------------------------------------
+Kaahala Yoga
+ID: kaahala_yoga
+Description: Kaahala Yoga: If (1) the 4th lord and Jupiter are in mutual quadrants and (2) lagna lord is strong...
+Lines: 604-617
+----------------------------------------------------------------------------------------------------
+Kalaanidhi Yoga
+ID: kalaanidhi_yoga
+Description: Kalaanidhi Yoga: If (1) Jupiter is in the 2nd house or the 5th house and (2) he is         conjoined or aspected by Mercury and Venus....
+Lines: 750-761
+----------------------------------------------------------------------------------------------------
+Kalpadruma Yoga
+ID: kalpadruma_yoga
+Description: Kalpadruma Yoga: Consider (1) lagna lord, (2) his dispositor, (3) the latter’s dispositor in rasi and (4) in navamsa. If all the four planets are all in quadrants, trines         or exaltation signs....
+Lines: 762-796
+----------------------------------------------------------------------------------------------------
+Kamala Yoga
+ID: kamala_yoga
+Description: Kamala Yoga: If all the planets are in quadrants from lagna,...
+Lines: 352-360
+----------------------------------------------------------------------------------------------------
+Kedaara Yoga
+ID: kedaara_yoga
+Description: Kedaara Yoga: If the seven planets occupy exactly 4 distinct signs among them...
+Lines: 498-504
+----------------------------------------------------------------------------------------------------
+Kemadruma Yoga
+ID: kemadruma_yoga
+Description: Kemadruma Yoga - there are no planets other than Sun in the 1st, 2nd and 12th houses from         Moon and if there are no planets other than Moon in the quadrants from lagna...
+Lines: 167-186
+----------------------------------------------------------------------------------------------------
+Khadga Yoga
+ID: khadga_yoga
+Description: Khadga Yoga: If (1) the 2nd lord is in the 9th house, (2) the 9th lord is in the 2nd         house, and, (3) lagna lord is in a quadrant or a trine....
+Lines: 720-732
+----------------------------------------------------------------------------------------------------
+Koorma Yoga
+ID: koorma_yoga
+Description: Koorma Yoga: If (1) the 5th, 6th and 7th houses are occupied by benefics who are in own, exaltation or friendly signs and (2) the 1st, 3rd and 11th houses are occupied by         malefics who are in o...
+Lines: 701-719
+----------------------------------------------------------------------------------------------------
+Koota Yoga
+ID: koota_yoga
+Description: Koota Yoga: If all the planets occupy the 7 signs from the 4th house...
+Lines: 417-425
+----------------------------------------------------------------------------------------------------
+Kulavardhana Yoga
+ID: kulavardhana_yoga
+Description: Kulavardhana Yoga: If each planet occupies the 5th house from either lagna or Moon or Sun...
+Lines: 1012-1017
+----------------------------------------------------------------------------------------------------
+Kusuma Yoga
+ID: kusuma_yoga
+Description: Kusuma Yoga: If (1) lagna is in a fixed sign, (2) Venus is in a quadrant, (3) Moon is         in a trine with a benefic, and, (4) Saturn is in the 10th house....
+Lines: 733-749
+----------------------------------------------------------------------------------------------------
+Lagnaadhi Yoga
+ID: lagnaadhi_yoga
+Description: Lagnaadhi Yoga: If (1) the 7th and 8th houses from lagna are occupied by benefics         and (2) no malefics conjoin or aspect these planets....
+Lines: 797-807
+----------------------------------------------------------------------------------------------------
+Lakshmi Yoga
+ID: lakshmi_yoga
+Description: Lakshmi Yoga: If (1) the 9th lord is in an own sign or in his exaltation sign that         happens to be quadrant from lagna and (2) lagna lord is strong...
+Lines: 899-909
+----------------------------------------------------------------------------------------------------
+Maalaa Yoga
+ID: maalaa_yoga
+Description: Maalaa Yoga: If three quadrants from Lagna are occupied by natural benefics,...
+Lines: 260-267
+----------------------------------------------------------------------------------------------------
+Maalavya Yoga
+ID: maalavya_yoga
+Description: Maalavya Yoga - Venus should be in Ta, Li or Pi and he should be in 1st, 4th, 7th or 10th from lagna....
+Lines: 226-233
+----------------------------------------------------------------------------------------------------
+Makuta Yoga
+ID: makuta_yoga
+Description: Makuta Yoga: If (1) Jupiter is in the 9th house from the 9th lord, (2) the 9th house         from Jupiter has a benefic, and, (3) Saturn is in the 10th house...
+Lines: 1103-1112
+----------------------------------------------------------------------------------------------------
+Matsya Yoga
+ID: matsya_yoga
+Description: Matsya Yoga: If (1) benefics are in lagna and 9th, (2) some planets are in 5th, and,         (3) malefics are in chaturasras (4th and 8th houses)....
+Lines: 685-700
+----------------------------------------------------------------------------------------------------
+Mridanga Yoga
+ID: mridanga_yoga
+Description: Mridanga Yoga: If (1) there are planets in own and exaltation signs in quadrants         and trines and (2) lagna lord is strong....
+Lines: 663-673
+----------------------------------------------------------------------------------------------------
+Musala Yoga
+ID: musala_yoga
+Description: Musala Yoga: all the planets are exclusively in fixed signs...
+Lines: 248-253
+----------------------------------------------------------------------------------------------------
+Nala Yoga
+ID: nala_yoga
+Description: Nala Yoga: all the planets are exclusively in dual signs,...
+Lines: 254-259
+----------------------------------------------------------------------------------------------------
+Naukaa Yoga
+ID: naukaa_yoga
+Description: Naukaa Yoga: If all the planets occupy the 7 signs from lagna...
+Lines: 408-416
+----------------------------------------------------------------------------------------------------
+Nipuna Yoga
+ID: nipuna_yoga
+Description: Budha-Aaditya Yoga (Nipuna Yoga)- If Sun and Mercury are together (in one sign), this yoga is present....
+Lines: 135-140
+----------------------------------------------------------------------------------------------------
+Paasa Yoga
+ID: paasa_yoga
+Description: Paasa Yoga: If the seven planets occupy exactly 5 distinct signs among them...
+Lines: 491-497
+----------------------------------------------------------------------------------------------------
+Parvata Yoga
+ID: parvata_yoga
+Description: Parvata Yoga: If (1) quadrants are occupied only by benefics and (2) the 7th and 8th houses         are either vacant or occupied only by benefics...
+Lines: 587-603
+----------------------------------------------------------------------------------------------------
+Pushkala Yoga
+ID: pushkala_yoga
+Description: Pushkala Yoga: If (1) lagna lord is with Moon, (2) dispositor of Moon is in a quadrant or in the house of an adhimitra (good friend), (2) dispositor of Moon         aspects lagna, and, (4) there is a ...
+Lines: 1085-1102
+----------------------------------------------------------------------------------------------------
+Rajju Yoga
+ID: rajju_yoga
+Description: Rajju Yoga: all the planets are exclusively in movable signs...
+Lines: 242-247
+----------------------------------------------------------------------------------------------------
+Ravi Yoga
+ID: ravi_yoga
+Description: Ravi Yoga: If (1) Sun is in the 10th house and (2) the 10th lord is in the 3rd housewith Saturn...
+Lines: 989-998
+----------------------------------------------------------------------------------------------------
+Ruchaka Yoga
+ID: ruchaka_yoga
+Description: Ruchaka Yoga - Mars should be in 0 or 7 or 9th rasi and he should be in 1, 4, 7 or 10th from lagna...
+Lines: 202-209
+----------------------------------------------------------------------------------------------------
+Saarada Yoga
+ID: saarada_yoga
+Description: Saarada Yoga: If (1) the 10th lord is in the 5th house, (2) Mercury is in a quadrant, (3) Sun is strong in Leo, (4) Mercury or Jupiter is in a trine from Moon, and, (5)         Mars is in 11th,...
+Lines: 910-929
+----------------------------------------------------------------------------------------------------
+Sakata Yoga
+ID: sakata_yoga
+Description: Sakata Yoga: If all the planets occupy 1st and 7th houses from lagna...
+Lines: 289-297
+----------------------------------------------------------------------------------------------------
+Sakti Yoga
+ID: sakti_yoga
+Description: Sakti Yoga: If all the planets are in 7th, 8th, 9th and 10th houses from lagna...
+Lines: 390-398
+----------------------------------------------------------------------------------------------------
+Samudra Yoga
+ID: samudra_yoga
+Description: Samudra Yoga: If all the planets occupy 2nd, 4th, 6th, 8th, 10th and 12th houses...
+Lines: 468-476
+----------------------------------------------------------------------------------------------------
+Sankha Yoga
+ID: sankha_yoga
+Description: Sankha Yoga: If (1) lagna lord is strong and (2) 5th and 6th lords are in mutual quadrants, then this yoga is present. Alternately, this yoga is present if (1) lagna lord         and 10th lord are tog...
+Lines: 633-649
+----------------------------------------------------------------------------------------------------
+Sara Yoga
+ID: sara_yoga
+Description: Sara Yoga: all the planets are in 4th, 5th, 6th and 7th houses from lagna,...
+Lines: 381-389
+----------------------------------------------------------------------------------------------------
+Sarala Yoga
+ID: sarala_yoga
+Description: Sarala Yoga: If the 8th lord occupies the 8th house...
+Lines: 1129-1134
+----------------------------------------------------------------------------------------------------
+Saraswathi Yoga
+ID: saraswathi_yoga
+Description: Saraswathi Yoga: If (1) each of Mercury, Jupiter and Venus occupies a quadrant or a trine or the 2nd house (not necessarily together) and (2) Jupiter is in an own or         friendly or exaltation sig...
+Lines: 944-956
+----------------------------------------------------------------------------------------------------
+Sarpa Yoga
+ID: sarpa_yoga
+Description: Sarpa Yoga: If three quadrants from lagna are occupied by natural malefics,...
+Lines: 268-278
+----------------------------------------------------------------------------------------------------
+Sasa Yoga
+ID: sasa_yoga
+Description: Saturn should be in Cp, Aq or Li and he should be in 1st, 4th, 7th or 10th from lagna....
+Lines: 218-225
+----------------------------------------------------------------------------------------------------
+Siva Yoga
+ID: siva_yoga
+Description: Siva Yoga: If (1) the 5th lord is in the 9th house, (2) the 9th lord is in the 10th house,         and, (3) the 10th lord is in the 5th house...
+Lines: 855-865
+----------------------------------------------------------------------------------------------------
+Soola Yoga
+ID: soola_yoga
+Description: Soola Yoga: If the seven planets occupy exactly 3 distinct signs among them...
+Lines: 505-511
+----------------------------------------------------------------------------------------------------
+Sreenaatha Yoga
+ID: sreenaatha_yoga
+Description: Sreenaatha Yoga: If (1) the 7th lord is exalted in 10th and (2) 10th lord is with 9th lord....
+Lines: 674-684
+----------------------------------------------------------------------------------------------------
+Sringaataka Yoga
+ID: sringaataka_yoga
+Description: Sringaataka Yoga: If all the planets occupy trines (1st, 5th and 9th) from lagna...
+Lines: 307-315
+----------------------------------------------------------------------------------------------------
+Subha Yoga
+ID: subha_yoga
+Description: Subha Yoga: If lagna has benefics or has “subha kartari – benefics in 12th and 2nd...
+Lines: 526-533
+----------------------------------------------------------------------------------------------------
+Sunaphaa Yoga
+ID: sunaphaa_yoga
+Description: Sunaphaa Yoga - There are planets other than Sun in the 2nd house from Moon...
+Lines: 141-151
+----------------------------------------------------------------------------------------------------
+Trilochana Yoga
+ID: trilochana_yoga
+Description: Trilochana Yoga: If Sun, Moon and Mars are in mutual trines...
+Lines: 866-872
+----------------------------------------------------------------------------------------------------
+Ubhayachara Yoga
+ID: ubhayachara_yoga
+Description: Ubhayachara  Yoga - There is a planet other than Moon in the 2nd and 12th house from Sun....
+Lines: 131-134
+----------------------------------------------------------------------------------------------------
+Vaapi Yoga
+ID: vaapi_yoga
+Description: Vaapi Yoga: If all the planets are panaparas or in apoklimas...
+Lines: 361-371
+----------------------------------------------------------------------------------------------------
+Vajra Yoga
+ID: vajra_yoga
+Description: Vajra Yoga: If lagna and the 7th houses are occupied by natural benefics and the 4th         and 10th houses are occupied by natural malefics...
+Lines: 328-339
+----------------------------------------------------------------------------------------------------
+Vasumati Yoga
+ID: vasumati_yoga
+Description: Vasumati Yoga: benefics occupy upachayas...
+Lines: 1018-1023
+----------------------------------------------------------------------------------------------------
+Veenaa Yoga
+ID: veenaa_yoga
+Description: Veenaa Yoga: If the seven planets occupy exactly 7 distinct signs among them...
+Lines: 477-483
+----------------------------------------------------------------------------------------------------
+Vesi Yoga
+ID: vesi_yoga
+Description: Vesi Yoga - There is a planet other than Moon in the 2nd house from Sun....
+Lines: 115-122
+----------------------------------------------------------------------------------------------------
+Vidyut Yoga
+ID: vidyut_yoga
+Description: Vidyut Yoga: If (1) the 11th lord is in deep exaltation, (2) he joins Venus, and, (3)         the two of them are in a quadrant from lagna lord...
+Lines: 1060-1075
+----------------------------------------------------------------------------------------------------
+Vihanga Yoga
+ID: vihanga_yoga
+Description: Vihanga Yoga: If all the planets occupy 4th and 10th houses from lagna...
+Lines: 298-306
+----------------------------------------------------------------------------------------------------
+Vimala Yoga
+ID: vimala_yoga
+Description: Vimala Yoga: If the 12th lord occupies the 12th house...
+Lines: 1135-1142
+----------------------------------------------------------------------------------------------------
+Vishnu Yoga
+ID: vishnu_yoga
+Description: Vishnu Yoga: If (1) the 9th and 10th lords are in the 2nd house and (2) the lord of the         sign occupied in navamsa by the 9th lord in rasi chart is also in the 2nd house...
+Lines: 842-854
+----------------------------------------------------------------------------------------------------
+Vosi Yoga
+ID: vosi_yoga
+Description: Vosi Yoga - There is a planet other than Moon in the 12th house from Sun....
+Lines: 123-130
+----------------------------------------------------------------------------------------------------
+Yava Yoga
+ID: yava_yoga
+Description: Yava Yoga: If lagna and the 7th houses are occupied by natural malefics and the 4th         and 10th houses are occupied by natural benefics,...
+Lines: 340-351
+----------------------------------------------------------------------------------------------------
+Yoopa Yoga
+ID: yoopa_yoga
+Description: Yoopa Yoga: all the planets are in 1st, 2nd, 3rd and 4th houses from lagna...
+Lines: 372-380
+----------------------------------------------------------------------------------------------------
+Yuga Yoga
+ID: yuga_yoga
+Description: Yuga Yoga: If the seven planets occupy exactly 2 distinct signs among them...
+Lines: 512-518
+----------------------------------------------------------------------------------------------------
