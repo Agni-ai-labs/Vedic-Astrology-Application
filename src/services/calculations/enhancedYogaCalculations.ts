@@ -1009,6 +1009,9 @@ function checkParivartanaYoga(chart: VedicChart): Yoga | null {
 // SHAPE & SANKHYA YOGAS (Nabhasa Yogas)
 // ============================================================================
 
+/**
+ * Musala Yoga - All planets in fixed signs
+ */
 function checkMusalaYoga(chart: VedicChart): Yoga | null {
     const fixedSigns = [1, 4, 7, 10]; // Taurus, Leo, Scorpio, Aquarius
     const allFixed = chart.d1.planets.every(p => {
@@ -1021,15 +1024,18 @@ function checkMusalaYoga(chart: VedicChart): Yoga | null {
 
     return {
         name: 'Musala Yoga',
-        category: 'special',
+        category: 'sankhya',
         strength: 'strong',
         description: 'All planets in fixed signs',
-        formation: 'Planets exclusively in Sthira Rashis',
+        formation: 'Planets exclusively in Sthira Rashis (Taurus, Leo, Scorpio, Aquarius)',
         results: ['Stable wealth', 'Determined nature', 'Reliable', 'Fixed principles'],
         lifeAreas: ['Stability', 'Wealth', 'Character']
     };
 }
 
+/**
+ * Nala Yoga - All planets in dual signs
+ */
 function checkNalaYoga(chart: VedicChart): Yoga | null {
     const dualSigns = [2, 5, 8, 11]; // Gemini, Virgo, Sagittarius, Pisces
     const allDual = chart.d1.planets.every(p => {
@@ -1042,16 +1048,43 @@ function checkNalaYoga(chart: VedicChart): Yoga | null {
 
     return {
         name: 'Nala Yoga',
-        category: 'special',
+        category: 'sankhya',
         strength: 'strong',
         description: 'All planets in dual signs',
-        formation: 'Planets exclusively in Dvisvabhava Rashis',
+        formation: 'Planets exclusively in Dvisvabhava Rashis (Gemini, Virgo, Sagittarius, Pisces)',
         results: ['Adaptable', 'Resilient', 'Multiple skills', 'Fluctuating fortune'],
         lifeAreas: ['Adaptability', 'Skills']
     };
 }
 
-// Sankhya Yogas (Count of occupied signs)
+/**
+ * Rajju Yoga - All planets in movable signs
+ */
+function checkRajjuYoga(chart: VedicChart): Yoga | null {
+    const movableSigns = [0, 3, 6, 9]; // Aries, Cancer, Libra, Capricorn
+    const allMovable = chart.d1.planets.every(p => {
+        if (['Rahu', 'Ketu'].includes(p.planet)) return true;
+        const signIdx = getPlanetSign(chart, p.planet);
+        return movableSigns.includes(signIdx);
+    });
+
+    if (!allMovable) return null;
+
+    return {
+        name: 'Rajju Yoga',
+        category: 'sankhya',
+        strength: 'strong',
+        description: 'All planets in movable signs',
+        formation: 'Planets exclusively in Chara Rashis (Aries, Cancer, Libra, Capricorn)',
+        results: ['Fond of travel', 'Wandering nature', 'Seeking fortune abroad', 'Restless'],
+        lifeAreas: ['Travel', 'Movement', 'Exploration']
+    };
+}
+
+/**
+ * Sankhya Yogas - Based on number of signs occupied
+ * Gola (1), Yuga (2), Shoola (3), Kedaara (4), Paasa (5), Daama (6), Veena (7)
+ */
 function checkSankhyaYoga(chart: VedicChart): Yoga | null {
     const occupiedSigns = new Set(
         chart.d1.planets
@@ -1063,17 +1096,17 @@ function checkSankhyaYoga(chart: VedicChart): Yoga | null {
     const yogas: Record<number, Omit<Yoga, 'category' | 'strength'>> = {
         1: { name: 'Gola Yoga', description: 'All planets in 1 sign', formation: 'Planets clustered in single sign', results: ['Dependent on others', 'Short life', 'Poverty'], lifeAreas: ['Struggle'] },
         2: { name: 'Yuga Yoga', description: 'All planets in 2 signs', formation: 'Planets in 2 signs', results: ['Hypocritical', 'Irreligious', 'Struggles'], lifeAreas: ['Character'] },
-        3: { name: 'Soola Yoga', description: 'All planets in 3 signs', formation: 'Planets in 3 signs', results: ['Sharp nature', 'Fond of money', 'Courageous'], lifeAreas: ['Wealth', 'Nature'] },
+        3: { name: 'Shoola Yoga', description: 'All planets in 3 signs', formation: 'Planets in 3 signs', results: ['Sharp nature', 'Fond of money', 'Courageous'], lifeAreas: ['Wealth', 'Nature'] },
         4: { name: 'Kedaara Yoga', description: 'All planets in 4 signs', formation: 'Planets in 4 signs', results: ['Agricultural success', 'Wealthy', 'Helpful'], lifeAreas: ['Agriculture', 'Wealth'] },
         5: { name: 'Paasa Yoga', description: 'All planets in 5 signs', formation: 'Planets in 5 signs', results: ['Talkative', 'Many servants', 'Prison risk'], lifeAreas: ['Communication', 'Service'] },
         6: { name: 'Daama Yoga', description: 'All planets in 6 signs', formation: 'Planets in 6 signs', results: ['Charitable', 'Wealthy', 'Helpful'], lifeAreas: ['Charity', 'Wealth'] },
-        7: { name: 'Veenaa Yoga', description: 'All planets in 7 signs', formation: 'Planets in 7 signs', results: ['Lover of music/arts', 'Happy', 'Learned'], lifeAreas: ['Arts', 'Happiness'] }
+        7: { name: 'Veena Yoga', description: 'All planets in 7 signs', formation: 'Planets in 7 signs', results: ['Lover of music/arts', 'Happy', 'Learned'], lifeAreas: ['Arts', 'Happiness'] }
     };
 
     if (yogas[count]) {
         return {
             ...yogas[count],
-            category: 'special',
+            category: 'sankhya',
             strength: 'moderate',
             planetInvolved: []
         };
@@ -2241,6 +2274,12 @@ export function analyzeYogas(chart: VedicChart): YogaAnalysisResult {
         checkUbhayachariYoga,
         checkBudhaAdityaYoga,
 
+        // Sankhya Yogas (Shape-based - 10)
+        checkMusalaYoga,
+        checkNalaYoga,
+        checkRajjuYoga,
+        checkSankhyaYoga,  // Checks Gola, Yuga, Shoola, Kedaara, Paasa, Daama, Veena
+
         // Raja (4) + Dhana (1) + Special (4) = 24 Total
         checkChandraMangalaYoga,
         checkNeechaBhangaRajaYoga,
@@ -2305,6 +2344,11 @@ export function analyzeYogas(chart: VedicChart): YogaAnalysisResult {
         raja: 0,
         dhana: 0,
         planetary: 0,
+        sankhya: 0,
+        nabhasa: 0,
+        vipareeta: 0,
+        artistic: 0,
+        malefic: 0,
         special: 0
     };
 

@@ -13,6 +13,11 @@ export type YogaCategory =
     | 'raja'                 // Royal/Power yogas
     | 'dhana'                // Wealth yogas
     | 'planetary'            // General planetary combinations
+    | 'sankhya'              // Shape yogas (Gola, Yuga, Shoola, etc.)
+    | 'nabhasa'              // Sky yogas (Chakra, Samudra, etc.)
+    | 'vipareeta'            // Reversal yogas (Harsha, Sarala, Vimala)
+    | 'artistic'             // Arts/music yogas
+    | 'malefic'              // Negative/inauspicious yogas
     | 'special';             // Special yogas
 
 export type YogaStrength =
