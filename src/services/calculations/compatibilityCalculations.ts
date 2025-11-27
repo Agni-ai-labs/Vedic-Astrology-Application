@@ -13,7 +13,6 @@
 
 import {
     CompatibilityInput,
-    PartnerDetails,
     AshtakootaResult,
     PoruthhamResult,
     CompatibilityScore
@@ -37,14 +36,7 @@ function countNakshatras(from: number, to: number): number {
     return count;
 }
 
-/**
- * Count from one rashi to another (circular)
- */
-function countRashis(from: number, to: number): number {
-    let count = to - from + 1;
-    if (count <= 0) count += 12;
-    return count;
-}
+
 
 /**
  * Get score status based on percentage
