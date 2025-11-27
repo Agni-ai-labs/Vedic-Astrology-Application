@@ -12,13 +12,15 @@ export function NumerologyTab() {
     const [report, setReport] = useState<NumerologyReport | null>(null);
 
     const handleBirthDetailsSubmit = (details: BirthDetails) => {
-        const numReport = calculateNumerology(details.name, new Date(`${details.date}T${details.time}`));
+        // details.date is already a Date object
+        const numReport = calculateNumerology(details.name, details.date);
         setReport(numReport);
     };
 
     // Auto-calculate if birth details exist
     if (birthDetails && !report) {
-        const numReport = calculateNumerology(birthDetails.name, new Date(`${birthDetails.date}T${birthDetails.time}`));
+        // birthDetails.date is already a Date object
+        const numReport = calculateNumerology(birthDetails.name, birthDetails.date);
         setReport(numReport);
     }
 

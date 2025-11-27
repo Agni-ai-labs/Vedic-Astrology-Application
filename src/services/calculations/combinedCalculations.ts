@@ -41,7 +41,8 @@ export function calculateCombinedAnalysis(details: BirthDetails): CombinedAnalys
     const westernChart = calculateBirthChart(details);
     const vedicChart = calculateVedicChart(details);
     const lalkitabChart = calculateLalKitabChart(details);
-    const numerology = calculateNumerology(details.name, new Date(`${details.date}T${details.time}`));
+    // details.date is already a Date object
+    const numerology = calculateNumerology(details.name, details.date);
 
     // 2. Synthesize Strengths
     const strengths: Strength[] = [];
