@@ -1115,6 +1115,145 @@ function checkSankhyaYoga(chart: VedicChart): Yoga | null {
 }
 
 // ============================================================================
+// NABHASA YOGAS (Sky/Directional Yogas)
+// ============================================================================
+
+/**
+ * Chakra Yoga - All planets in odd houses (1, 3, 5, 7, 9, 11)
+ */
+function checkChakraYoga(chart: VedicChart): Yoga | null {
+    const oddHouses = [0, 2, 4, 6, 8, 10]; // 0-indexed: 1st, 3rd, 5th, 7th, 9th, 11th
+
+    const allInOdd = chart.d1.planets.every(p => {
+        if (['Rahu', 'Ketu'].includes(p.planet)) return true;
+        const house = getPlanetHouse(chart, p.planet);
+        return oddHouses.includes(house);
+    });
+
+    if (!allInOdd) return null;
+
+    return {
+        name: 'Chakra Yoga',
+        category: 'nabhasa',
+        strength: 'strong',
+        description: 'All planets in odd houses',
+        formation: 'Planets exclusively in houses 1, 3, 5, 7, 9, 11',
+        results: ['Ruler/king-like', 'Powerful', 'Commanding presence', 'Leadership'],
+        lifeAreas: ['Power', 'Leadership', 'Authority']
+    };
+}
+
+/**
+ * Samudra Yoga - All planets in even houses (2, 4, 6, 8, 10, 12)
+ */
+function checkSamudraYoga(chart: VedicChart): Yoga | null {
+    const evenHouses = [1, 3, 5, 7, 9, 11]; // 0-indexed: 2nd, 4th, 6th, 8th, 10th, 12th
+
+    const allInEven = chart.d1.planets.every(p => {
+        if (['Rahu', 'Ketu'].includes(p.planet)) return true;
+        const house = getPlanetHouse(chart, p.planet);
+        return evenHouses.includes(house);
+    });
+
+    if (!allInEven) return null;
+
+    return {
+        name: 'Samudra Yoga',
+        category: 'nabhasa',
+        strength: 'strong',
+        description: 'All planets in even houses',
+        formation: 'Planets exclusively in houses 2, 4, 6, 8, 10, 12',
+        results: ['Wealth accumulation', 'Materialistic', 'Enjoys pleasures', 'Prosperous'],
+        lifeAreas: ['Wealth', 'Material Success', 'Pleasure']
+    };
+}
+
+/**
+ * Ardha Chandra Yoga - All planets in 7 consecutive houses from Panapara (2,5,8,11)
+ */
+function checkArdhaChandraYoga(chart: VedicChart): Yoga | null {
+    const ascSign = getAscendantSignIndex(chart);
+    const panapara = [1, 4, 7, 10]; // 2nd, 5th, 8th, 11th (0-indexed: 1, 4, 7, 10)
+
+    // Check each panapara as starting point
+    for (const start of panapara) {
+        const houses: number[] = [];
+        for (let i = 0; i < 7; i++) {
+            houses.push((ascSign + start + i) % 12);
+        }
+
+        const occupied = new Set<number>();
+        chart.d1.planets.forEach(p => {
+            if (!['Rahu', 'Ketu'].includes(p.planet)) {
+                occupied.add(getPlanetHouse(chart, p.planet));
+            }
+        });
+
+        const allIn = Array.from(occupied).every(h => houses.includes(h));
+
+        if (allIn && occupied.size >= 4) {
+            return {
+                name: 'Ardha Chandra Yoga',
+                category: 'nabhasa',
+                strength: 'moderate',
+                description: 'All planets in 7 consecutive houses from Panapara',
+                formation: 'Planets in 7 houses from 2nd/5th/8th/11th',
+                results: ['Handsome', 'Wealthy', 'Princely comforts'],
+                lifeAreas: ['Wealth', 'Comfort', 'Appearance']
+            };
+        }
+    }
+
+    return null;
+}
+
+/**
+ * Nauka Yoga - All planets in any 7 consecutive houses
+ */
+function checkNaukaYoga(chart: VedicChart): Yoga | null {
+    const ascSign = getAscendantSignIndex(chart);
+
+    // Try each house as starting point
+    for (let start = 0; start < 12; start++) {
+        const houses: number[] = [];
+        for (let i = 0; i < 7; i++) {
+            houses.push((ascSign + start + i) % 12);
+        }
+
+        const occupied = new Set<number>();
+        chart.d1.planets.forEach(p => {
+            if (!['Rahu', 'Ketu'].includes(p.planet)) {
+                occupied.add(getPlanetHouse(chart, p.planet));
+            }
+        });
+
+        const allIn = Array.from(occupied).every(h => houses.includes(h));
+
+        if (allIn && occupied.size >= 4) {
+            // Make sure it's not another named yoga (Chatra, Chaapa, Koota)
+            // Chatra is 7 from 7th (start 6), Chaapa is 7 from 10th (start 9), Koota is 7 from 4th (start 3)
+            const isChatra = start === 6;
+            const isChaapa = start === 9;
+            const isKoota = start === 3;
+
+            if (!isChatra && !isChaapa && !isKoota) {
+                return {
+                    name: 'Nauka Yoga',
+                    category: 'nabhasa',
+                    strength: 'moderate',
+                    description: 'All planets in 7 consecutive houses',
+                    formation: `Planets in 7 consecutive houses from house ${start + 1}`,
+                    results: ['Fond of water sports', 'Traveler', 'Adventurous'],
+                    lifeAreas: ['Travel', 'Adventure', 'Water']
+                };
+            }
+        }
+    }
+
+    return null;
+}
+
+// ============================================================================
 // ADVANCED YOGAS (A-C)
 // ============================================================================
 
@@ -1331,29 +1470,6 @@ function checkChaamaraYoga(chart: VedicChart): Yoga | null {
     return null;
 }
 
-function checkChakraYoga(chart: VedicChart): Yoga | null {
-    const ascSign = getAscendantSignIndex(chart);
-    const oddHouses = [0, 2, 4, 6, 8, 10].map(h => (ascSign + h) % 12); // 1, 3, 5, 7, 9, 11 (0-indexed)
-
-    const allInOdd = chart.d1.planets.every(p => {
-        if (['Rahu', 'Ketu'].includes(p.planet)) return true;
-        const h = getPlanetHouse(chart, p.planet);
-        return oddHouses.includes(h);
-    });
-
-    if (allInOdd) {
-        return {
-            name: 'Chakra Yoga',
-            category: 'special',
-            strength: 'strong',
-            description: 'All planets in odd houses (1, 3, 5, 7, 9, 11)',
-            formation: 'Planets in odd houses from Lagna',
-            results: ['Emperor status', 'Respected', 'Powerful'],
-            lifeAreas: ['Power', 'Status']
-        };
-    }
-    return null;
-}
 
 /**
  * Amala Yoga - Benefic planet in 10th from Moon or ascendant
@@ -2279,6 +2395,12 @@ export function analyzeYogas(chart: VedicChart): YogaAnalysisResult {
         checkNalaYoga,
         checkRajjuYoga,
         checkSankhyaYoga,  // Checks Gola, Yuga, Shoola, Kedaara, Paasa, Daama, Veena
+
+        // Nabhasa Yogas (Directional/Sky - 4)
+        checkChakraYoga,
+        checkSamudraYoga,
+        checkArdhaChandraYoga,
+        checkNaukaYoga,
 
         // Raja (4) + Dhana (1) + Special (4) = 24 Total
         checkChandraMangalaYoga,
