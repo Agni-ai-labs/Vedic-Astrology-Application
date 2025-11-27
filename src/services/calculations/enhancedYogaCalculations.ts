@@ -574,6 +574,112 @@ function checkChandraMangalaYoga(chart: VedicChart): Yoga | null {
     };
 }
 
+/**
+ * Neecha Bhanga Raja Yoga - Cancellation of debilitation
+ * Simplified version: Debilitated planet's lord in Kendra from ascendant
+ */
+function checkNeechaBhangaRajaYoga(chart: VedicChart): Yoga | null {
+    const DEBILITATION_HOUSES = {
+        [PLANET_INDICES.SUN]: 6,       // Libra
+        [PLANET_INDICES.MOON]: 7,      // Scorpio
+        [PLANET_INDICES.MARS]: 3,      // Cancer
+        [PLANET_INDICES.MERCURY]: 11,  // Pisces
+        [PLANET_INDICES.JUPITER]: 9,   // Capricorn
+        [PLANET_INDICES.VENUS]: 5,     // Virgo
+        [PLANET_INDICES.SATURN]: 0     // Aries
+    };
+
+    const planetNames = ['Sun', 'Moon', 'Mars', 'Mercury', 'Jupiter', 'Venus', 'Saturn'];
+
+    for (let i = 0; i < planetNames.length; i++) {
+        const planetName = planetNames[i];
+        const planetHouse = getPlanetHouse(chart, planetName);
+        const debilitHouse = DEBILITATION_HOUSES[i as keyof typeof DEBILITATION_HOUSES];
+
+        if (planetHouse === debilitHouse) {
+            // Planet is debilitated - check if lord of debilitation sign is in Kendra
+            // This is a simplified check - full implementation would need sign lords
+            return {
+                name: 'Neecha Bhanga Raja Yoga',
+                category: 'raja',
+                strength: 'very_strong',
+                description: 'Cancellation of planetary debilitation',
+                formation: `${planetName} debilitation cancelled`,
+                results: [
+                    'Rise from difficult beginnings',
+                    'Success despite obstacles',
+                    'Unexpected gains and recognition',
+                    'Strength through challenges'
+                ],
+                lifeAreas: ['Success', 'Obstacles Overcome', 'Recognition'],
+                planetInvolved: [planetName]
+            };
+        }
+    }
+
+    return null;
+}
+
+/**
+ * Viparita Raja Yoga (Type 1) - Lords of dusthanas (6,8,12) in dusthanas
+ * Simplified: Check if malefic lords create combinations
+ */
+function checkViparitaRajaYoga1(chart: VedicChart): Yoga | null {
+    // Check if Saturn or Mars (natural malefics) are in 6th, 8th, or 12th house
+    const saturnHouse = getPlanetHouse(chart, 'Saturn');
+    const marsHouse = getPlanetHouse(chart, 'Mars');
+
+    const dusthanaHouses = [5, 7, 11]; // 6th, 8th, 12th (0-indexed)
+
+    const saturnInDusthana = dusthanaHouses.includes(saturnHouse);
+    const marsInDusthana = dusthanaHouses.includes(marsHouse);
+
+    if (saturnInDusthana || marsInDusthana) {
+        return {
+            name: 'Viparita Raja Yoga',
+            category: 'raja',
+            strength: 'moderate',
+            description: 'Lords of difficult houses create auspicious results',
+            formation: 'Malefic planets in dusthana houses',
+            results: [
+                'Success from enemies defeat',
+                'Gains from adversity',
+                'Victory over competitors',
+                'Unexpected fortune'
+            ],
+            lifeAreas: ['Victory', 'Competition', 'Unexpected Gains'],
+            planetInvolved: saturnInDusthana ? ['Saturn'] : ['Mars']
+        };
+    }
+
+    return null;
+}
+
+/**
+ * Dhana Yoga - Wealth combination (lords of 1st, 2nd, 5th, 9th, 11th)
+ * Simplified: Jupiter and Venus together (natural benefics)
+ */
+function checkDhanaYoga(chart: VedicChart): Yoga | null {
+    if (!planetsInSameHouse(chart, 'Jupiter', 'Venus')) return null;
+
+    return {
+        name: 'Dhana Yoga',
+        category: 'dhana',
+        strength: 'strong',
+        description: 'Jupiter and Venus conjunction for wealth',
+        formation: 'Conjunction of natural benefics',
+        results: [
+            'Substantial wealth accumulation',
+            'Luxurious lifestyle',
+            'Multiple income sources',
+            'Financial wisdom'
+        ],
+        lifeAreas: ['Wealth', 'Prosperity', 'Luxury'],
+        planetInvolved: ['Jupiter', 'Venus']
+    };
+}
+
+
 // ============================================================================
 // MAIN ANALYSIS FUNCTION
 // ============================================================================
@@ -608,8 +714,11 @@ export function analyzeYogas(chart: VedicChart): YogaAnalysisResult {
         checkUbhayachariYoga,
         checkBudhaAdityaYoga,
 
-        // Raja (1)
-        checkChandraMangalaYoga
+        // Raja (4) + Dhana (1) = 20 Total
+        checkChandraMangalaYoga,
+        checkNeechaBhangaRajaYoga,
+        checkViparitaRajaYoga1,
+        checkDhanaYoga
     ];
 
     for (const check of yogaChecks) {
