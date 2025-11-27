@@ -1,0 +1,467 @@
+{
+  "features_to_yogas": {
+    "Part 1::3. Planets": [
+      "sunaphaa_yoga",
+      "anaphaa_yoga",
+      "kemadruma_yoga",
+      "rajju_yoga",
+      "musala_yoga",
+      "nala_yoga",
+      "gadaa_yoga",
+      "sakata_yoga",
+      "vihanga_yoga",
+      "sringaataka_yoga",
+      "hala_yoga",
+      "kamala_yoga",
+      "vaapi_yoga",
+      "yoopa_yoga",
+      "sara_yoga",
+      "sakti_yoga",
+      "danda_yoga",
+      "naukaa_yoga",
+      "koota_yoga",
+      "chatra_yoga",
+      "chaapa_yoga",
+      "ardha_chandra_yoga",
+      "chakra_yoga",
+      "samudra_yoga",
+      "veenaa_yoga",
+      "daama_yoga",
+      "paasa_yoga",
+      "kedaara_yoga",
+      "soola_yoga",
+      "yuga_yoga",
+      "gola_yoga",
+      "bheri_yoga",
+      "mridanga_yoga",
+      "matsya_yoga",
+      "kalpadruma_yoga",
+      "lagnaadhi_yoga"
+    ],
+    "Part 1::15. Strength of Planets and Rasis": [
+      "sunaphaa_yoga",
+      "anaphaa_yoga",
+      "kemadruma_yoga",
+      "rajju_yoga",
+      "musala_yoga",
+      "nala_yoga",
+      "gadaa_yoga",
+      "sakata_yoga",
+      "vihanga_yoga",
+      "sringaataka_yoga",
+      "hala_yoga",
+      "kamala_yoga",
+      "vaapi_yoga",
+      "yoopa_yoga",
+      "sara_yoga",
+      "sakti_yoga",
+      "danda_yoga",
+      "naukaa_yoga",
+      "koota_yoga",
+      "chatra_yoga",
+      "chaapa_yoga",
+      "ardha_chandra_yoga",
+      "chakra_yoga",
+      "samudra_yoga",
+      "veenaa_yoga",
+      "daama_yoga",
+      "paasa_yoga",
+      "kedaara_yoga",
+      "soola_yoga",
+      "yuga_yoga",
+      "gola_yoga",
+      "bheri_yoga",
+      "mridanga_yoga",
+      "matsya_yoga",
+      "kalpadruma_yoga",
+      "lagnaadhi_yoga"
+    ],
+    "Part 1::7. Houses": [
+      "kemadruma_yoga",
+      "sakata_yoga",
+      "vihanga_yoga",
+      "vajra_yoga",
+      "yava_yoga",
+      "yoopa_yoga",
+      "sara_yoga",
+      "sakti_yoga",
+      "danda_yoga",
+      "chakra_yoga",
+      "samudra_yoga",
+      "parvata_yoga",
+      "bheri_yoga",
+      "matsya_yoga",
+      "koorma_yoga",
+      "lagnaadhi_yoga",
+      "hari_yoga",
+      "hara_yoga",
+      "brahma_yoga"
+    ],
+    "Part 2::19. Lagna Kendradi Rasi Dasa": [
+      "kemadruma_yoga",
+      "ruchaka_yoga",
+      "bhadra_yoga",
+      "sasa_yoga",
+      "maalavya_yoga",
+      "hamsa_yoga",
+      "maalaa_yoga",
+      "sarpa_yoga",
+      "gadaa_yoga",
+      "sakata_yoga",
+      "vihanga_yoga",
+      "sringaataka_yoga",
+      "hala_yoga",
+      "vajra_yoga",
+      "yava_yoga",
+      "kamala_yoga",
+      "yoopa_yoga",
+      "sara_yoga",
+      "sakti_yoga",
+      "danda_yoga",
+      "naukaa_yoga",
+      "subha_yoga",
+      "asubha_yoga",
+      "amala_yoga",
+      "kaahala_yoga",
+      "chaamara_yoga",
+      "sankha_yoga",
+      "bheri_yoga",
+      "mridanga_yoga",
+      "matsya_yoga",
+      "khadga_yoga",
+      "kusuma_yoga",
+      "kalpadruma_yoga",
+      "lagnaadhi_yoga",
+      "brahma_yoga",
+      "vishnu_yoga",
+      "gouri_yoga",
+      "chandikaa_yoga",
+      "lakshmi_yoga",
+      "devendra_yoga",
+      "kulavardhana_yoga",
+      "gandharva_yoga",
+      "go_yoga",
+      "vidyut_yoga",
+      "chapa_yoga",
+      "pushkala_yoga"
+    ],
+    "Part 4::31. Sudarsana Chakra Dasa": [
+      "chakra_yoga"
+    ],
+    "Part 1::10. Aspects and Argalas": [
+      "gaja_kesari_yoga",
+      "pushkala_yoga"
+    ],
+    "Part 4::27. Tajaka Chart Basics": [
+      "vishnu_yoga"
+    ]
+  },
+  "yogas_to_features": {
+    "vesi_yoga": [],
+    "vosi_yoga": [],
+    "ubhayachara_yoga": [],
+    "nipuna_yoga": [],
+    "sunaphaa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "anaphaa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "duradhara_yoga": [],
+    "kemadruma_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "chandra_mangala_yoga": [],
+    "adhi_yoga": [],
+    "ruchaka_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "bhadra_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sasa_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "maalavya_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "hamsa_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "rajju_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "musala_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "nala_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "maalaa_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sarpa_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "gadaa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sakata_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "vihanga_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sringaataka_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "hala_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "vajra_yoga": [
+      "Part 1::7. Houses",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "yava_yoga": [
+      "Part 1::7. Houses",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "kamala_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "vaapi_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "yoopa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sara_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sakti_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "danda_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "naukaa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "koota_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "chatra_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "chaapa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "ardha_chandra_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "chakra_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 4::31. Sudarsana Chakra Dasa"
+    ],
+    "samudra_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "veenaa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "daama_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "paasa_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "kedaara_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "soola_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "yuga_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "gola_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis"
+    ],
+    "subha_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "asubha_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "gaja_kesari_yoga": [
+      "Part 1::10. Aspects and Argalas"
+    ],
+    "guru_mangala_yoga": [],
+    "amala_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "parvata_yoga": [
+      "Part 1::7. Houses"
+    ],
+    "kaahala_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "chaamara_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sankha_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "bheri_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "mridanga_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "sreenaatha_yoga": [],
+    "matsya_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "koorma_yoga": [
+      "Part 1::7. Houses"
+    ],
+    "khadga_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "kusuma_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "kalaanidhi_yoga": [],
+    "kalpadruma_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "lagnaadhi_yoga": [
+      "Part 1::3. Planets",
+      "Part 1::7. Houses",
+      "Part 1::15. Strength of Planets and Rasis",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "hari_yoga": [
+      "Part 1::7. Houses"
+    ],
+    "hara_yoga": [
+      "Part 1::7. Houses"
+    ],
+    "brahma_yoga": [
+      "Part 1::7. Houses",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "vishnu_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa",
+      "Part 4::27. Tajaka Chart Basics"
+    ],
+    "siva_yoga": [],
+    "trilochana_yoga": [],
+    "gouri_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "chandikaa_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "lakshmi_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "saarada_yoga": [],
+    "bhaarathi_yoga": [],
+    "saraswathi_yoga": [],
+    "amsaavatara_yoga": [],
+    "devendra_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "indra_yoga": [],
+    "ravi_yoga": [],
+    "bhaaskara_yoga": [],
+    "kulavardhana_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "vasumati_yoga": [],
+    "gandharva_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "go_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "vidyut_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "chapa_yoga": [
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "pushkala_yoga": [
+      "Part 1::10. Aspects and Argalas",
+      "Part 2::19. Lagna Kendradi Rasi Dasa"
+    ],
+    "makuta_yoga": [],
+    "jaya_yoga": [],
+    "harsha_yoga": [],
+    "sarala_yoga": [],
+    "vimala_yoga": []
+  }
+}

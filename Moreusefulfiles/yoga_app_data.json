@@ -7,7 +7,8 @@
       "Adhi Yoga - natural benefics occupy 6th, 7th",
       "8th from Moon,"
     ],
-    "function": "adhi_yoga_from_planet_positions"
+    "function": "adhi_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "amala_yoga",
@@ -16,7 +17,14 @@
     "conditions": [
       "Amala Yoga: If there are only natural benefics in the 10th house from lagna"
     ],
-    "function": "amala_yoga_from_planet_positions"
+    "function": "amala_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "amsaavatara_yoga",
@@ -26,7 +34,8 @@
       "Amsaavatara Yoga: If Jupiter, Venus",
       "exalted Saturn are in quadrants"
     ],
-    "function": "amsaavatara_yoga_from_planet_positions"
+    "function": "amsaavatara_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "anaphaa_yoga",
@@ -35,7 +44,19 @@
     "conditions": [
       "Anaphaa Yoga - There are planets other than Sun in the 12th house from Moon"
     ],
-    "function": "anaphaa_yoga_from_planet_positions"
+    "function": "anaphaa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "ardha_chandra_yoga",
@@ -45,7 +66,19 @@
       "Ardha Chandra Yoga: If all the planets occupy the 7 signs starting from a panapara",
       "an apoklima"
     ],
-    "function": "ardha_chandra_yoga_from_planet_positions"
+    "function": "ardha_chandra_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "asubha_yoga",
@@ -55,7 +88,14 @@
       "Asubha Yoga: If lagna has malefics",
       "has “paapa kartari” – malefics in 12th"
     ],
-    "function": "asubha_yoga_from_planet_positions"
+    "function": "asubha_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "bhaarathi_yoga",
@@ -66,7 +106,8 @@
       "11th lord         exalted",
       "joins the 9th lord"
     ],
-    "function": "bhaarathi_yoga_from_planet_positions"
+    "function": "bhaarathi_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "bhaaskara_yoga",
@@ -77,7 +118,8 @@
       "Mercury is in the 2nd from         Su",
       "Jupiter is in the 5th or 9th from Moon."
     ],
-    "function": "bhaaskara_yoga_from_planet_positions"
+    "function": "bhaaskara_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "bhadra_yoga",
@@ -88,7 +130,14 @@
       "he should be in 1st, 4th, 7th",
       "10th from lagna."
     ],
-    "function": "bhadra_yoga_from_planet_positions"
+    "function": "bhadra_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "bheri_yoga",
@@ -100,7 +149,29 @@
       "the 9th lord is strong",
       "Jupiter, Venus"
     ],
-    "function": "bheri_yoga_from_planet_positions"
+    "function": "bheri_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "brahma_yoga",
@@ -110,7 +181,19 @@
       "Brahma Yoga: If benefics occupy the 4th, 10th",
       "11th houses counted from lagna lord."
     ],
-    "function": "brahma_yoga_from_planet_positions"
+    "function": "brahma_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "chaamara_yoga",
@@ -120,7 +203,14 @@
       "Chaamara Yoga: If the lagna lord is exalted in a quadrant with Jupiter’s aspect",
       "two benefics join in 7th, 9th"
     ],
-    "function": "chaamara_yoga_from_planet_positions"
+    "function": "chaamara_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "chaapa_yoga",
@@ -129,7 +219,19 @@
     "conditions": [
       "Chaapa Yoga: If all the planets occupy the 7 signs from the 10th house"
     ],
-    "function": "chaapa_yoga_from_planet_positions"
+    "function": "chaapa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "chakra_yoga",
@@ -139,7 +241,29 @@
       "Chakra Yoga: If all the planets occupy 1st, 3rd, 5th, 7th, 9th",
       "11th houses"
     ],
-    "function": "chakra_yoga_from_planet_positions"
+    "function": "chakra_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 4",
+        "feature": "31. Sudarsana Chakra Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "chandikaa_yoga",
@@ -149,7 +273,14 @@
       "lagna is in a fixed sign aspected by 6th lor",
       "Sun         joins the lords of the signs occupied in navamsa by 6th"
     ],
-    "function": "chandikaa_yoga_from_planet_positions"
+    "function": "chandikaa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "chandra_mangala_yoga",
@@ -159,7 +290,8 @@
       "Chandra-Mangala Yoga - Moon",
       "Mars are together (in one sign)."
     ],
-    "function": "chandra_mangala_yoga_from_planet_positions"
+    "function": "chandra_mangala_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "chapa_yoga",
@@ -169,7 +301,14 @@
       "the 4th",
       "lagna lord is exalted."
     ],
-    "function": "chapa_yoga_from_planet_positions"
+    "function": "chapa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "chatra_yoga",
@@ -178,7 +317,19 @@
     "conditions": [
       "Chatra Yoga: If all the planets occupy the 7 signs from the 7th house,"
     ],
-    "function": "chatra_yoga_from_planet_positions"
+    "function": "chatra_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "daama_yoga",
@@ -187,7 +338,19 @@
     "conditions": [
       "Daama Yoga: If the seven planets occupy exactly 6 distinct signs among them"
     ],
-    "function": "daama_yoga_from_planet_positions"
+    "function": "daama_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "danda_yoga",
@@ -197,7 +360,29 @@
       "Danda Yoga: If all the planets are in 10th, 11th, 12th",
       "1st houses from lagna"
     ],
-    "function": "danda_yoga_from_planet_positions"
+    "function": "danda_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "devendra_yoga",
@@ -206,7 +391,14 @@
     "conditions": [
       "lagna is in a fixed sig"
     ],
-    "function": "devendra_yoga_from_planet_positions"
+    "function": "devendra_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "duradhara_yoga",
@@ -216,7 +408,8 @@
       "Duradhara Yoga - There is a planet other than Sun in the 2nd",
       "12th house from Moon."
     ],
-    "function": "duradhara_yoga_from_planet_positions"
+    "function": "duradhara_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "gadaa_yoga",
@@ -225,7 +418,24 @@
     "conditions": [
       "Gadaa Yoga: all the planets occupy two successive quadrants from lagna"
     ],
-    "function": "gadaa_yoga_from_planet_positions"
+    "function": "gadaa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "gaja_kesari_yoga",
@@ -236,7 +446,14 @@
       "a benefic planet conjoins or aspects Jupiter",
       "Jupiter is not debilitated or combust or in an         enemy’s house"
     ],
-    "function": "gaja_kesari_yoga_from_planet_positions"
+    "function": "gaja_kesari_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "10. Aspects and Argalas",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "gandharva_yoga",
@@ -248,7 +465,14 @@
       "Sun is exalte",
       "Moon is in         the 9th house"
     ],
-    "function": "gandharva_yoga_from_planet_positions"
+    "function": "gandharva_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "go_yoga",
@@ -259,7 +483,14 @@
       "the lord of the 2nd house is         with Jupiter",
       "lagna lord is exalte"
     ],
-    "function": "go_yoga_from_planet_positions"
+    "function": "go_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "gola_yoga",
@@ -268,7 +499,19 @@
     "conditions": [
       "Gola Yoga: If the seven planets are in one sign"
     ],
-    "function": "gola_yoga_from_planet_positions"
+    "function": "gola_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "gouri_yoga",
@@ -278,7 +521,14 @@
       "Gouri Yoga: If the lord of the sign occupied in navamsa by the 10th lord is exalted in         the 10th house",
       "lagna lord joins him"
     ],
-    "function": "gouri_yoga_from_planet_positions"
+    "function": "gouri_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "guru_mangala_yoga",
@@ -289,7 +539,8 @@
       "Mars are together",
       "in the 7th house from each other"
     ],
-    "function": "guru_mangala_yoga_from_planet_positions"
+    "function": "guru_mangala_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "hala_yoga",
@@ -298,7 +549,24 @@
     "conditions": [
       "Hala Yoga: If all the planets occupy mutual trines but not trines from lagna"
     ],
-    "function": "hala_yoga_from_planet_positions"
+    "function": "hala_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "hamsa_yoga",
@@ -309,7 +577,14 @@
       "he should be in 1st, 4th, 7th",
       "10th from lagna."
     ],
-    "function": "hamsa_yoga_from_planet_positions"
+    "function": "hamsa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "hara_yoga",
@@ -319,7 +594,14 @@
       "Hara Yoga: If benefics occupy the 4th, 9th",
       "8th houses counted from the 7th lord."
     ],
-    "function": "hara_yoga_from_planet_positions"
+    "function": "hara_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "hari_yoga",
@@ -329,7 +611,14 @@
       "Hari Yoga: If benefics occupy the 2nd, 12th",
       "8th houses counted from the 2nd lord"
     ],
-    "function": "hari_yoga_from_planet_positions"
+    "function": "hari_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "harsha_yoga",
@@ -338,7 +627,8 @@
     "conditions": [
       "Harsha Yoga: If the 6th lord occupies the 6th house"
     ],
-    "function": "harsha_yoga_from_planet_positions"
+    "function": "harsha_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "indra_yoga",
@@ -348,7 +638,8 @@
       "the 5th",
       "Moon occupies         the 5th house"
     ],
-    "function": "indra_yoga_from_planet_positions"
+    "function": "indra_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "jaya_yoga",
@@ -358,7 +649,8 @@
       "the 10th lord is in deep exaltatio",
       "the 6th lord is debilitate"
     ],
-    "function": "jaya_yoga_from_planet_positions"
+    "function": "jaya_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "kaahala_yoga",
@@ -368,7 +660,14 @@
       "the 4th lor",
       "lagna lord is strong"
     ],
-    "function": "kaahala_yoga_from_planet_positions"
+    "function": "kaahala_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "kalaanidhi_yoga",
@@ -378,7 +677,8 @@
       "Jupiter is in the 2nd house or the 5th house",
       "he is         conjoined or aspected by Mercury"
     ],
-    "function": "kalaanidhi_yoga_from_planet_positions"
+    "function": "kalaanidhi_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "kalpadruma_yoga",
@@ -390,7 +690,24 @@
       "the latter’s dispositor in rasi",
       "in navamsa. If all the four planets are all in quadrants, trines         or exaltation signs."
     ],
-    "function": "kalpadruma_yoga_from_planet_positions"
+    "function": "kalpadruma_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "kamala_yoga",
@@ -399,7 +716,24 @@
     "conditions": [
       "Kamala Yoga: If all the planets are in quadrants from lagna,"
     ],
-    "function": "kamala_yoga_from_planet_positions"
+    "function": "kamala_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "kedaara_yoga",
@@ -408,7 +742,19 @@
     "conditions": [
       "Kedaara Yoga: If the seven planets occupy exactly 4 distinct signs among them"
     ],
-    "function": "kedaara_yoga_from_planet_positions"
+    "function": "kedaara_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "kemadruma_yoga",
@@ -419,7 +765,29 @@
       "12th houses from         Moon",
       "if there are no planets other than Moon in the quadrants from lagna"
     ],
-    "function": "kemadruma_yoga_from_planet_positions"
+    "function": "kemadruma_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "khadga_yoga",
@@ -430,7 +798,14 @@
       "the 9th lord is in the 2nd         house",
       "lagna lord is in a quadrant or a trine."
     ],
-    "function": "khadga_yoga_from_planet_positions"
+    "function": "khadga_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "koorma_yoga",
@@ -440,7 +815,14 @@
       "the 5th, 6th",
       "the 1st, 3r"
     ],
-    "function": "koorma_yoga_from_planet_positions"
+    "function": "koorma_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "koota_yoga",
@@ -449,7 +831,19 @@
     "conditions": [
       "Koota Yoga: If all the planets occupy the 7 signs from the 4th house"
     ],
-    "function": "koota_yoga_from_planet_positions"
+    "function": "koota_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "kulavardhana_yoga",
@@ -458,7 +852,14 @@
     "conditions": [
       "Kulavardhana Yoga: If each planet occupies the 5th house from either lagna"
     ],
-    "function": "kulavardhana_yoga_from_planet_positions"
+    "function": "kulavardhana_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "kusuma_yoga",
@@ -470,7 +871,14 @@
       "Moon is         in a trine with a benefic",
       "Saturn is in the 10th house."
     ],
-    "function": "kusuma_yoga_from_planet_positions"
+    "function": "kusuma_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "lagnaadhi_yoga",
@@ -480,7 +888,29 @@
       "the 7th",
       "no malefics conjoin or aspect these planets."
     ],
-    "function": "lagnaadhi_yoga_from_planet_positions"
+    "function": "lagnaadhi_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "lakshmi_yoga",
@@ -490,7 +920,14 @@
       "the 9th lord is in an own sign or in his exaltation sign that         happens to be quadrant from lag",
       "lagna lord is strong"
     ],
-    "function": "lakshmi_yoga_from_planet_positions"
+    "function": "lakshmi_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "maalaa_yoga",
@@ -499,7 +936,14 @@
     "conditions": [
       "Maalaa Yoga: If three quadrants from Lagna are occupied by natural benefics,"
     ],
-    "function": "maalaa_yoga_from_planet_positions"
+    "function": "maalaa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "maalavya_yoga",
@@ -510,7 +954,14 @@
       "he should be in 1st, 4th, 7th",
       "10th from lagna."
     ],
-    "function": "maalavya_yoga_from_planet_positions"
+    "function": "maalavya_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "makuta_yoga",
@@ -521,7 +972,8 @@
       "the 9th house         from Jupiter has a benefic",
       "Saturn is in the 10th house"
     ],
-    "function": "makuta_yoga_from_planet_positions"
+    "function": "makuta_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "matsya_yoga",
@@ -532,7 +984,29 @@
       "some planets are in 5th",
       "malefics are in chaturasras"
     ],
-    "function": "matsya_yoga_from_planet_positions"
+    "function": "matsya_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "mridanga_yoga",
@@ -542,7 +1016,24 @@
       "there are planets in ow",
       "lagna lord is strong."
     ],
-    "function": "mridanga_yoga_from_planet_positions"
+    "function": "mridanga_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "musala_yoga",
@@ -551,7 +1042,19 @@
     "conditions": [
       "Musala Yoga: all the planets are exclusively in fixed signs"
     ],
-    "function": "musala_yoga_from_planet_positions"
+    "function": "musala_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "nala_yoga",
@@ -560,7 +1063,19 @@
     "conditions": [
       "Nala Yoga: all the planets are exclusively in dual signs,"
     ],
-    "function": "nala_yoga_from_planet_positions"
+    "function": "nala_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "naukaa_yoga",
@@ -569,7 +1084,24 @@
     "conditions": [
       "Naukaa Yoga: If all the planets occupy the 7 signs from lagna"
     ],
-    "function": "naukaa_yoga_from_planet_positions"
+    "function": "naukaa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "nipuna_yoga",
@@ -579,7 +1111,8 @@
       "Budha-Aaditya Yoga (Nipuna Yoga)- If Sun",
       "Mercury are together (in one sign), this yoga is present."
     ],
-    "function": "nipuna_yoga_from_planet_positions"
+    "function": "nipuna_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "paasa_yoga",
@@ -588,7 +1121,19 @@
     "conditions": [
       "Paasa Yoga: If the seven planets occupy exactly 5 distinct signs among them"
     ],
-    "function": "paasa_yoga_from_planet_positions"
+    "function": "paasa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "parvata_yoga",
@@ -598,7 +1143,14 @@
       "quadrants are occupied only by benefics",
       "the 7th"
     ],
-    "function": "parvata_yoga_from_planet_positions"
+    "function": "parvata_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "pushkala_yoga",
@@ -610,7 +1162,19 @@
       "dispositor of Moon         aspects lag",
       "there is a planet in lag"
     ],
-    "function": "pushkala_yoga_from_planet_positions"
+    "function": "pushkala_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "10. Aspects and Argalas",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "rajju_yoga",
@@ -619,7 +1183,19 @@
     "conditions": [
       "Rajju Yoga: all the planets are exclusively in movable signs"
     ],
-    "function": "rajju_yoga_from_planet_positions"
+    "function": "rajju_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "ravi_yoga",
@@ -629,7 +1205,8 @@
       "Sun is in the 10th house",
       "the 10th lord is in the 3rd housewith Satur"
     ],
-    "function": "ravi_yoga_from_planet_positions"
+    "function": "ravi_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "ruchaka_yoga",
@@ -640,7 +1217,14 @@
       "he should be in 1, 4, 7",
       "10th from lagna"
     ],
-    "function": "ruchaka_yoga_from_planet_positions"
+    "function": "ruchaka_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "saarada_yoga",
@@ -653,7 +1237,8 @@
       "Mercury or Jupiter is in a trine from Moo",
       "Mars is in 11th"
     ],
-    "function": "saarada_yoga_from_planet_positions"
+    "function": "saarada_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "sakata_yoga",
@@ -663,7 +1248,29 @@
       "Sakata Yoga: If all the planets occupy 1st",
       "7th houses from lagna"
     ],
-    "function": "sakata_yoga_from_planet_positions"
+    "function": "sakata_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "sakti_yoga",
@@ -673,7 +1280,29 @@
       "Sakti Yoga: If all the planets are in 7th, 8th, 9th",
       "10th houses from lagna"
     ],
-    "function": "sakti_yoga_from_planet_positions"
+    "function": "sakti_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "samudra_yoga",
@@ -683,7 +1312,24 @@
       "Samudra Yoga: If all the planets occupy 2nd, 4th, 6th, 8th, 10th",
       "12th houses"
     ],
-    "function": "samudra_yoga_from_planet_positions"
+    "function": "samudra_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "sankha_yoga",
@@ -694,7 +1340,14 @@
       "lagna lor",
       "the 9th lord is strong."
     ],
-    "function": "sankha_yoga_from_planet_positions"
+    "function": "sankha_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "sara_yoga",
@@ -704,7 +1357,29 @@
       "Sara Yoga: all the planets are in 4th, 5th, 6th",
       "7th houses from lagna,"
     ],
-    "function": "sara_yoga_from_planet_positions"
+    "function": "sara_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "sarala_yoga",
@@ -713,7 +1388,8 @@
     "conditions": [
       "Sarala Yoga: If the 8th lord occupies the 8th house"
     ],
-    "function": "sarala_yoga_from_planet_positions"
+    "function": "sarala_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "saraswathi_yoga",
@@ -723,7 +1399,8 @@
       "each of Mercury, Jupiter",
       "Jupiter is in an own or         friendly or exaltation sig"
     ],
-    "function": "saraswathi_yoga_from_planet_positions"
+    "function": "saraswathi_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "sarpa_yoga",
@@ -732,7 +1409,14 @@
     "conditions": [
       "Sarpa Yoga: If three quadrants from lagna are occupied by natural malefics,"
     ],
-    "function": "sarpa_yoga_from_planet_positions"
+    "function": "sarpa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "sasa_yoga",
@@ -743,7 +1427,14 @@
       "he should be in 1st, 4th, 7th",
       "10th from lagna."
     ],
-    "function": "sasa_yoga_from_planet_positions"
+    "function": "sasa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "siva_yoga",
@@ -754,7 +1445,8 @@
       "the 9th lord is in the 10th house",
       "the 10th lord is in the 5th house"
     ],
-    "function": "siva_yoga_from_planet_positions"
+    "function": "siva_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "soola_yoga",
@@ -763,7 +1455,19 @@
     "conditions": [
       "Soola Yoga: If the seven planets occupy exactly 3 distinct signs among them"
     ],
-    "function": "soola_yoga_from_planet_positions"
+    "function": "soola_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "sreenaatha_yoga",
@@ -773,7 +1477,8 @@
       "the 7th lord is exalted in 10th",
       "10th lord is with 9th lord."
     ],
-    "function": "sreenaatha_yoga_from_planet_positions"
+    "function": "sreenaatha_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "sringaataka_yoga",
@@ -783,7 +1488,24 @@
       "Sringaataka Yoga: If all the planets occupy trines (1st, 5th",
       "9th) from lagna"
     ],
-    "function": "sringaataka_yoga_from_planet_positions"
+    "function": "sringaataka_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "subha_yoga",
@@ -793,7 +1515,14 @@
       "Subha Yoga: If lagna has benefics",
       "has “subha kartari – benefics in 12th"
     ],
-    "function": "subha_yoga_from_planet_positions"
+    "function": "subha_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "sunaphaa_yoga",
@@ -802,7 +1531,19 @@
     "conditions": [
       "Sunaphaa Yoga - There are planets other than Sun in the 2nd house from Moon"
     ],
-    "function": "sunaphaa_yoga_from_planet_positions"
+    "function": "sunaphaa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "trilochana_yoga",
@@ -812,7 +1553,8 @@
       "Trilochana Yoga: If Sun, Moon",
       "Mars are in mutual trines"
     ],
-    "function": "trilochana_yoga_from_planet_positions"
+    "function": "trilochana_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "ubhayachara_yoga",
@@ -822,7 +1564,8 @@
       "Ubhayachara  Yoga - There is a planet other than Moon in the 2nd",
       "12th house from Sun."
     ],
-    "function": "ubhayachara_yoga_from_planet_positions"
+    "function": "ubhayachara_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "vaapi_yoga",
@@ -832,7 +1575,19 @@
       "Vaapi Yoga: If all the planets are panaparas",
       "in apoklimas"
     ],
-    "function": "vaapi_yoga_from_planet_positions"
+    "function": "vaapi_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "vajra_yoga",
@@ -843,7 +1598,19 @@
       "the 7th houses are occupied by natural benefics",
       "10th houses are occupied by natural malefics"
     ],
-    "function": "vajra_yoga_from_planet_positions"
+    "function": "vajra_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "vasumati_yoga",
@@ -852,7 +1619,8 @@
     "conditions": [
       "Vasumati Yoga: benefics occupy upachayas"
     ],
-    "function": "vasumati_yoga_from_planet_positions"
+    "function": "vasumati_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "veenaa_yoga",
@@ -861,7 +1629,19 @@
     "conditions": [
       "Veenaa Yoga: If the seven planets occupy exactly 7 distinct signs among them"
     ],
-    "function": "veenaa_yoga_from_planet_positions"
+    "function": "veenaa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "vesi_yoga",
@@ -870,7 +1650,8 @@
     "conditions": [
       "Vesi Yoga - There is a planet other than Moon in the 2nd house from Sun."
     ],
-    "function": "vesi_yoga_from_planet_positions"
+    "function": "vesi_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "vidyut_yoga",
@@ -881,7 +1662,14 @@
       "he joins Venus",
       "the two of them are in a quadrant from lagna lor"
     ],
-    "function": "vidyut_yoga_from_planet_positions"
+    "function": "vidyut_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "vihanga_yoga",
@@ -891,7 +1679,29 @@
       "Vihanga Yoga: If all the planets occupy 4th",
       "10th houses from lagna"
     ],
-    "function": "vihanga_yoga_from_planet_positions"
+    "function": "vihanga_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "vimala_yoga",
@@ -900,7 +1710,8 @@
     "conditions": [
       "Vimala Yoga: If the 12th lord occupies the 12th house"
     ],
-    "function": "vimala_yoga_from_planet_positions"
+    "function": "vimala_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "vishnu_yoga",
@@ -910,7 +1721,19 @@
       "the 9th",
       "the lord of the         sign occupied in navamsa by the 9th lord in rasi chart is also in the 2nd house"
     ],
-    "function": "vishnu_yoga_from_planet_positions"
+    "function": "vishnu_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      },
+      {
+        "part": "Part 4",
+        "feature": "27. Tajaka Chart Basics",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "vosi_yoga",
@@ -919,7 +1742,8 @@
     "conditions": [
       "Vosi Yoga - There is a planet other than Moon in the 12th house from Sun."
     ],
-    "function": "vosi_yoga_from_planet_positions"
+    "function": "vosi_yoga_from_planet_positions",
+    "related_features": []
   },
   {
     "id": "yava_yoga",
@@ -930,7 +1754,19 @@
       "the 7th houses are occupied by natural malefics",
       "10th houses are occupied by natural benefics,"
     ],
-    "function": "yava_yoga_from_planet_positions"
+    "function": "yava_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "yoopa_yoga",
@@ -940,7 +1776,29 @@
       "Yoopa Yoga: all the planets are in 1st, 2nd, 3rd",
       "4th houses from lagna"
     ],
-    "function": "yoopa_yoga_from_planet_positions"
+    "function": "yoopa_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "7. Houses",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      },
+      {
+        "part": "Part 2",
+        "feature": "19. Lagna Kendradi Rasi Dasa",
+        "file_path": ""
+      }
+    ]
   },
   {
     "id": "yuga_yoga",
@@ -949,6 +1807,18 @@
     "conditions": [
       "Yuga Yoga: If the seven planets occupy exactly 2 distinct signs among them"
     ],
-    "function": "yuga_yoga_from_planet_positions"
+    "function": "yuga_yoga_from_planet_positions",
+    "related_features": [
+      {
+        "part": "Part 1",
+        "feature": "3. Planets",
+        "file_path": ""
+      },
+      {
+        "part": "Part 1",
+        "feature": "15. Strength of Planets and Rasis",
+        "file_path": ""
+      }
+    ]
   }
 ]

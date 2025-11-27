@@ -8,6 +8,46 @@
 - **With Detailed Descriptions**: 95
 - **Source File Lines**: 1,142
 
+## PyJHora Feature Integration
+
+This analysis incorporates information from PyJHora library, which includes:
+
+### Part 1
+- 1. Basic Concepts
+- 2. Rasis
+- 3. Planets
+- 4. Upagrahas
+- 5. Special Lagnas
+- 6. Divisional Charts
+- 7. Houses
+- 8. Karakas
+- 9. Arudha Padas
+- 10. Aspects and Argalas
+- 11. Yogas
+- 12. Ashtakavarga
+- 15. Strength of Planets and Rasis
+
+### Part 2
+- 16. Vimsottari Dasa
+- 17. Ashtottari Dasa
+- 18. Narayana Dasa
+- 19. Lagna Kendradi Rasi Dasa
+- 20. Sudasa
+- 21. Drigdasa
+- 22. Niryaana Shoola Dasa
+- 23. Shoola Dasa
+- 24. Kalachakra Dasa
+
+### Part 3
+- 25. Transits and Natal References
+
+### Part 4
+- 27. Tajaka Chart Basics
+- 28. Techniques of Tajaka Charts
+- 29. Tajaka Yogas
+- 30. Annual Dasas
+- 31. Sudarsana Chakra Dasa
+
 ## Yoga Categories
 
 ### Auspicious Yogas (4 yogas)
@@ -22,7 +62,52 @@
 - Chaapa Yoga
 - Chakra Yoga
 - Chapa Yoga
-- *...and 46 more*
+- Chatra Yoga
+- Daama Yoga
+- Danda Yoga
+- Devendra Yoga
+- Gadaa Yoga
+- Gola Yoga
+- Gouri Yoga
+- Hala Yoga
+- Hara Yoga
+- Hari Yoga
+- Harsha Yoga
+- Jaya Yoga
+- Kalpadruma Yoga
+- Kedaara Yoga
+- Khadga Yoga
+- Koorma Yoga
+- Koota Yoga
+- Lagnaadhi Yoga
+- Maalaa Yoga
+- Matsya Yoga
+- Mridanga Yoga
+- Musala Yoga
+- Nala Yoga
+- Naukaa Yoga
+- Paasa Yoga
+- Rajju Yoga
+- Sakata Yoga
+- Sakti Yoga
+- Samudra Yoga
+- Sankha Yoga
+- Sara Yoga
+- Sarala Yoga
+- Siva Yoga
+- Soola Yoga
+- Sreenaatha Yoga
+- Sringaataka Yoga
+- Vaapi Yoga
+- Vajra Yoga
+- Vasumati Yoga
+- Veenaa Yoga
+- Vihanga Yoga
+- Vimala Yoga
+- Vishnu Yoga
+- Yava Yoga
+- Yoopa Yoga
+- Yuga Yoga
 
 ### Jupiter Yogas (7 yogas)
 - Amsaavatara Yoga
@@ -30,7 +115,8 @@
 - Chaamara Yoga
 - Go Yoga
 - Hamsa Yoga
-- *...and 2 more*
+- Kaahala Yoga
+- Makuta Yoga
 
 ### Malefic Yogas (1 yogas)
 - Sarpa Yoga
@@ -50,7 +136,9 @@
 - Ardha Chandra Yoga
 - Chandra Mangala Yoga
 - Gaja Kesari Yoga
-- *...and 3 more*
+- Indra Yoga
+- Kusuma Yoga
+- Pushkala Yoga
 
 ### Saturn Yogas (1 yogas)
 - Sasa Yoga
@@ -61,7 +149,16 @@
 - Chandikaa Yoga
 - Duradhara Yoga
 - Gandharva Yoga
-- *...and 10 more*
+- Kemadruma Yoga
+- Kulavardhana Yoga
+- Nipuna Yoga
+- Ravi Yoga
+- Saarada Yoga
+- Sunaphaa Yoga
+- Trilochana Yoga
+- Ubhayachara Yoga
+- Vesi Yoga
+- Vosi Yoga
 
 ### Venus Yogas (2 yogas)
 - Maalavya Yoga
@@ -100,6 +197,9 @@ Amala Yoga: If there are only natural benefics in the 10th house from lagna or M
 **Conditions**:
 1. Amala Yoga: If there are only natural benefics in the 10th house from lagna
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 579-586
 
 ---
@@ -126,6 +226,10 @@ Amsaavatara Yoga: If Jupiter, Venus and exalted Saturn are in quadrants
 **Description**:
 Anaphaa Yoga - There are planets other than Sun in the 12th house from Moon
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+
 **Source Location**: Lines 152-162
 
 ---
@@ -141,6 +245,10 @@ Ardha Chandra Yoga: If all the planets occupy the 7 signs starting from a panapa
 1. Ardha Chandra Yoga: If all the planets occupy the 7 signs starting from a panapara
 2. an apoklima
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+
 **Source Location**: Lines 444-458
 
 ---
@@ -155,6 +263,9 @@ Asubha Yoga: If lagna has malefics or has “paapa kartari” – malefics in 12
 **Conditions**:
 1. Asubha Yoga: If lagna has malefics
 2. has “paapa kartari” – malefics in 12th
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 534-541
 
@@ -204,6 +315,9 @@ Bhadra Yoga - Mercury should be in Ge or Vi and he should be in 1st, 4th, 7th or
 2. he should be in 1st, 4th, 7th
 3. 10th from lagna.
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 210-217
 
 ---
@@ -221,6 +335,12 @@ Bheri Yoga: If (1) the 9th lord is strong and (2) 1st, 2nd, 7th and 12th houses 
 3. the 9th lord is strong
 4. Jupiter, Venus
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 650-662
 
 ---
@@ -235,6 +355,10 @@ Brahma Yoga: If benefics occupy the 4th, 10th and 11th houses counted from lagna
 **Conditions**:
 1. Brahma Yoga: If benefics occupy the 4th, 10th
 2. 11th houses counted from lagna lord.
+
+**Related PyJHora Features**:
+- 7. Houses (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 826-841
 
@@ -251,6 +375,9 @@ Chaamara Yoga: If the lagna lord is exalted in a quadrant with Jupiter’s aspec
 1. Chaamara Yoga: If the lagna lord is exalted in a quadrant with Jupiter’s aspect
 2. two benefics join in 7th, 9th
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 618-632
 
 ---
@@ -261,6 +388,10 @@ Chaamara Yoga: If the lagna lord is exalted in a quadrant with Jupiter’s aspec
 
 **Description**:
 Chaapa Yoga: If all the planets occupy the 7 signs from the 10th house
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 435-443
 
@@ -277,6 +408,12 @@ Chakra Yoga: If all the planets occupy 1st, 3rd, 5th, 7th, 9th and 11th houses
 1. Chakra Yoga: If all the planets occupy 1st, 3rd, 5th, 7th, 9th
 2. 11th houses
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 31. Sudarsana Chakra Dasa (Part 4)
+
 **Source Location**: Lines 459-467
 
 ---
@@ -291,6 +428,9 @@ Chandikaa Yoga: If (1) lagna is in a fixed sign aspected by 6th lord and (2) Sun
 **Conditions**:
 1. lagna is in a fixed sign aspected by 6th lor
 2. Sun         joins the lords of the signs occupied in navamsa by 6th
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 883-898
 
@@ -322,6 +462,9 @@ Chapa Yoga: If (1) the 4th and 10th lords have an exchange and (2) lagna lord is
 1. the 4th
 2. lagna lord is exalted.
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 1076-1084
 
 ---
@@ -333,6 +476,10 @@ Chapa Yoga: If (1) the 4th and 10th lords have an exchange and (2) lagna lord is
 **Description**:
 Chatra Yoga: If all the planets occupy the 7 signs from the 7th house,
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+
 **Source Location**: Lines 426-434
 
 ---
@@ -343,6 +490,10 @@ Chatra Yoga: If all the planets occupy the 7 signs from the 7th house,
 
 **Description**:
 Daama Yoga: If the seven planets occupy exactly 6 distinct signs among them
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 484-490
 
@@ -359,6 +510,12 @@ Danda Yoga: If all the planets are in 10th, 11th, 12th and 1st houses from lagna
 1. Danda Yoga: If all the planets are in 10th, 11th, 12th
 2. 1st houses from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 399-407
 
 ---
@@ -372,6 +529,9 @@ Devendra Yoga: If (1) lagna is in a fixed sign, (2) 2nd and 10th lords have an  
 
 **Conditions**:
 1. lagna is in a fixed sig
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 964-977
 
@@ -399,6 +559,11 @@ Duradhara Yoga - There is a planet other than Sun in the 2nd and 12th house from
 **Description**:
 Gadaa Yoga: all the planets occupy two successive quadrants from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 279-288
 
 ---
@@ -414,6 +579,9 @@ Gaja-Kesari Yoga: If (1) Jupiter is in a quadrant from Moon, (2) a benefic plane
 1. Jupiter is in a quadrant from Moo
 2. a benefic planet conjoins or aspects Jupiter
 3. Jupiter is not debilitated or combust or in an         enemy’s house
+
+**Related PyJHora Features**:
+- 10. Aspects and Argalas (Part 1)
 
 **Source Location**: Lines 542-571
 
@@ -432,6 +600,9 @@ Gandharva Yoga: If (1) the 10th lord is in a trine from the 7th house, (2) lagna
 3. Sun is exalte
 4. Moon is in         the 9th house
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 1024-1044
 
 ---
@@ -448,6 +619,9 @@ Go Yoga: If (1) Jupiter is strong in his moolatrikona, (2) the lord of the 2nd h
 2. the lord of the 2nd house is         with Jupiter
 3. lagna lord is exalte
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 1045-1059
 
 ---
@@ -458,6 +632,10 @@ Go Yoga: If (1) Jupiter is strong in his moolatrikona, (2) the lord of the 2nd h
 
 **Description**:
 Gola Yoga: If the seven planets are in one sign
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 519-525
 
@@ -473,6 +651,9 @@ Gouri Yoga: If the lord of the sign occupied in navamsa by the 10th lord is exal
 **Conditions**:
 1. Gouri Yoga: If the lord of the sign occupied in navamsa by the 10th lord is exalted in         the 10th house
 2. lagna lord joins him
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 873-882
 
@@ -501,6 +682,11 @@ Guru-Mangala Yoga: If Jupiter and Mars are together or in the 7th house from eac
 **Description**:
 Hala Yoga: If all the planets occupy mutual trines but not trines from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 316-327
 
 ---
@@ -517,6 +703,9 @@ Hamsa Yoga - Jupiter should be in Sg, Pi or Cn and he should be in 1st, 4th, 7th
 2. he should be in 1st, 4th, 7th
 3. 10th from lagna.
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 234-241
 
 ---
@@ -532,6 +721,9 @@ Hara Yoga: If benefics occupy the 4th, 9th and 8th houses counted from the 7th l
 1. Hara Yoga: If benefics occupy the 4th, 9th
 2. 8th houses counted from the 7th lord.
 
+**Related PyJHora Features**:
+- 7. Houses (Part 1)
+
 **Source Location**: Lines 817-825
 
 ---
@@ -546,6 +738,9 @@ Hari Yoga: If benefics occupy the 2nd, 12th and 8th houses counted from the 2nd 
 **Conditions**:
 1. Hari Yoga: If benefics occupy the 2nd, 12th
 2. 8th houses counted from the 2nd lord
+
+**Related PyJHora Features**:
+- 7. Houses (Part 1)
 
 **Source Location**: Lines 808-816
 
@@ -603,6 +798,9 @@ Kaahala Yoga: If (1) the 4th lord and Jupiter are in mutual quadrants and (2) la
 1. the 4th lor
 2. lagna lord is strong
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 604-617
 
 ---
@@ -635,6 +833,11 @@ Kalpadruma Yoga: Consider (1) lagna lord, (2) his dispositor, (3) the latter’s
 3. the latter’s dispositor in rasi
 4. in navamsa. If all the four planets are all in quadrants, trines         or exaltation signs.
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 762-796
 
 ---
@@ -646,6 +849,11 @@ Kalpadruma Yoga: Consider (1) lagna lord, (2) his dispositor, (3) the latter’s
 **Description**:
 Kamala Yoga: If all the planets are in quadrants from lagna,
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 352-360
 
 ---
@@ -656,6 +864,10 @@ Kamala Yoga: If all the planets are in quadrants from lagna,
 
 **Description**:
 Kedaara Yoga: If the seven planets occupy exactly 4 distinct signs among them
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 498-504
 
@@ -673,6 +885,12 @@ Kemadruma Yoga - there are no planets other than Sun in the 1st, 2nd and 12th ho
 2. 12th houses from         Moon
 3. if there are no planets other than Moon in the quadrants from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 167-186
 
 ---
@@ -689,6 +907,9 @@ Khadga Yoga: If (1) the 2nd lord is in the 9th house, (2) the 9th lord is in the
 2. the 9th lord is in the 2nd         house
 3. lagna lord is in a quadrant or a trine.
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 720-732
 
 ---
@@ -704,6 +925,9 @@ Koorma Yoga: If (1) the 5th, 6th and 7th houses are occupied by benefics who are
 1. the 5th, 6th
 2. the 1st, 3r
 
+**Related PyJHora Features**:
+- 7. Houses (Part 1)
+
 **Source Location**: Lines 701-719
 
 ---
@@ -714,6 +938,10 @@ Koorma Yoga: If (1) the 5th, 6th and 7th houses are occupied by benefics who are
 
 **Description**:
 Koota Yoga: If all the planets occupy the 7 signs from the 4th house
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 417-425
 
@@ -728,6 +956,9 @@ Kulavardhana Yoga: If each planet occupies the 5th house from either lagna or Mo
 
 **Conditions**:
 1. Kulavardhana Yoga: If each planet occupies the 5th house from either lagna
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 1012-1017
 
@@ -746,6 +977,9 @@ Kusuma Yoga: If (1) lagna is in a fixed sign, (2) Venus is in a quadrant, (3) Mo
 3. Moon is         in a trine with a benefic
 4. Saturn is in the 10th house.
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 733-749
 
 ---
@@ -760,6 +994,12 @@ Lagnaadhi Yoga: If (1) the 7th and 8th houses from lagna are occupied by benefic
 **Conditions**:
 1. the 7th
 2. no malefics conjoin or aspect these planets.
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 797-807
 
@@ -776,6 +1016,9 @@ Lakshmi Yoga: If (1) the 9th lord is in an own sign or in his exaltation sign th
 1. the 9th lord is in an own sign or in his exaltation sign that         happens to be quadrant from lag
 2. lagna lord is strong
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 899-909
 
 ---
@@ -786,6 +1029,9 @@ Lakshmi Yoga: If (1) the 9th lord is in an own sign or in his exaltation sign th
 
 **Description**:
 Maalaa Yoga: If three quadrants from Lagna are occupied by natural benefics,
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 260-267
 
@@ -802,6 +1048,9 @@ Maalavya Yoga - Venus should be in Ta, Li or Pi and he should be in 1st, 4th, 7t
 1. Maalavya Yoga - Venus should be in Ta, Li
 2. he should be in 1st, 4th, 7th
 3. 10th from lagna.
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 226-233
 
@@ -835,6 +1084,12 @@ Matsya Yoga: If (1) benefics are in lagna and 9th, (2) some planets are in 5th, 
 2. some planets are in 5th
 3. malefics are in chaturasras
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 685-700
 
 ---
@@ -850,6 +1105,11 @@ Mridanga Yoga: If (1) there are planets in own and exaltation signs in quadrants
 1. there are planets in ow
 2. lagna lord is strong.
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 663-673
 
 ---
@@ -860,6 +1120,10 @@ Mridanga Yoga: If (1) there are planets in own and exaltation signs in quadrants
 
 **Description**:
 Musala Yoga: all the planets are exclusively in fixed signs
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 248-253
 
@@ -872,6 +1136,10 @@ Musala Yoga: all the planets are exclusively in fixed signs
 **Description**:
 Nala Yoga: all the planets are exclusively in dual signs,
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+
 **Source Location**: Lines 254-259
 
 ---
@@ -882,6 +1150,11 @@ Nala Yoga: all the planets are exclusively in dual signs,
 
 **Description**:
 Naukaa Yoga: If all the planets occupy the 7 signs from lagna
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 408-416
 
@@ -909,6 +1182,10 @@ Budha-Aaditya Yoga (Nipuna Yoga)- If Sun and Mercury are together (in one sign),
 **Description**:
 Paasa Yoga: If the seven planets occupy exactly 5 distinct signs among them
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+
 **Source Location**: Lines 491-497
 
 ---
@@ -923,6 +1200,9 @@ Parvata Yoga: If (1) quadrants are occupied only by benefics and (2) the 7th and
 **Conditions**:
 1. quadrants are occupied only by benefics
 2. the 7th
+
+**Related PyJHora Features**:
+- 7. Houses (Part 1)
 
 **Source Location**: Lines 587-603
 
@@ -941,6 +1221,10 @@ Pushkala Yoga: If (1) lagna lord is with Moon, (2) dispositor of Moon is in a qu
 3. dispositor of Moon         aspects lag
 4. there is a planet in lag
 
+**Related PyJHora Features**:
+- 10. Aspects and Argalas (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 1085-1102
 
 ---
@@ -951,6 +1235,10 @@ Pushkala Yoga: If (1) lagna lord is with Moon, (2) dispositor of Moon is in a qu
 
 **Description**:
 Rajju Yoga: all the planets are exclusively in movable signs
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 242-247
 
@@ -982,6 +1270,9 @@ Ruchaka Yoga - Mars should be in 0 or 7 or 9th rasi and he should be in 1, 4, 7 
 1. Ruchaka Yoga - Mars should be in 0
 2. he should be in 1, 4, 7
 3. 10th from lagna
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 202-209
 
@@ -1016,6 +1307,12 @@ Sakata Yoga: If all the planets occupy 1st and 7th houses from lagna
 1. Sakata Yoga: If all the planets occupy 1st
 2. 7th houses from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 289-297
 
 ---
@@ -1031,6 +1328,12 @@ Sakti Yoga: If all the planets are in 7th, 8th, 9th and 10th houses from lagna
 1. Sakti Yoga: If all the planets are in 7th, 8th, 9th
 2. 10th houses from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 390-398
 
 ---
@@ -1045,6 +1348,11 @@ Samudra Yoga: If all the planets occupy 2nd, 4th, 6th, 8th, 10th and 12th houses
 **Conditions**:
 1. Samudra Yoga: If all the planets occupy 2nd, 4th, 6th, 8th, 10th
 2. 12th houses
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 468-476
 
@@ -1062,6 +1370,9 @@ Sankha Yoga: If (1) lagna lord is strong and (2) 5th and 6th lords are in mutual
 2. lagna lor
 3. the 9th lord is strong.
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 633-649
 
 ---
@@ -1076,6 +1387,12 @@ Sara Yoga: all the planets are in 4th, 5th, 6th and 7th houses from lagna,
 **Conditions**:
 1. Sara Yoga: all the planets are in 4th, 5th, 6th
 2. 7th houses from lagna,
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 381-389
 
@@ -1114,6 +1431,9 @@ Saraswathi Yoga: If (1) each of Mercury, Jupiter and Venus occupies a quadrant o
 **Description**:
 Sarpa Yoga: If three quadrants from lagna are occupied by natural malefics,
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 268-278
 
 ---
@@ -1129,6 +1449,9 @@ Saturn should be in Cp, Aq or Li and he should be in 1st, 4th, 7th or 10th from 
 1. Saturn should be in Cp, Aq
 2. he should be in 1st, 4th, 7th
 3. 10th from lagna.
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 218-225
 
@@ -1156,6 +1479,10 @@ Siva Yoga: If (1) the 5th lord is in the 9th house, (2) the 9th lord is in the 1
 
 **Description**:
 Soola Yoga: If the seven planets occupy exactly 3 distinct signs among them
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 505-511
 
@@ -1187,6 +1514,11 @@ Sringaataka Yoga: If all the planets occupy trines (1st, 5th and 9th) from lagna
 1. Sringaataka Yoga: If all the planets occupy trines (1st, 5th
 2. 9th) from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 307-315
 
 ---
@@ -1202,6 +1534,9 @@ Subha Yoga: If lagna has benefics or has “subha kartari – benefics in 12th a
 1. Subha Yoga: If lagna has benefics
 2. has “subha kartari – benefics in 12th
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 526-533
 
 ---
@@ -1212,6 +1547,10 @@ Subha Yoga: If lagna has benefics or has “subha kartari – benefics in 12th a
 
 **Description**:
 Sunaphaa Yoga - There are planets other than Sun in the 2nd house from Moon
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 141-151
 
@@ -1258,6 +1597,10 @@ Vaapi Yoga: If all the planets are panaparas or in apoklimas
 1. Vaapi Yoga: If all the planets are panaparas
 2. in apoklimas
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+
 **Source Location**: Lines 361-371
 
 ---
@@ -1273,6 +1616,10 @@ Vajra Yoga: If lagna and the 7th houses are occupied by natural benefics and the
 1. Vajra Yoga: If lagna
 2. the 7th houses are occupied by natural benefics
 3. 10th houses are occupied by natural malefics
+
+**Related PyJHora Features**:
+- 7. Houses (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 328-339
 
@@ -1295,6 +1642,10 @@ Vasumati Yoga: benefics occupy upachayas
 
 **Description**:
 Veenaa Yoga: If the seven planets occupy exactly 7 distinct signs among them
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 477-483
 
@@ -1323,6 +1674,9 @@ Vidyut Yoga: If (1) the 11th lord is in deep exaltation, (2) he joins Venus, and
 2. he joins Venus
 3. the two of them are in a quadrant from lagna lor
 
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 1060-1075
 
 ---
@@ -1337,6 +1691,12 @@ Vihanga Yoga: If all the planets occupy 4th and 10th houses from lagna
 **Conditions**:
 1. Vihanga Yoga: If all the planets occupy 4th
 2. 10th houses from lagna
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
 
 **Source Location**: Lines 298-306
 
@@ -1363,6 +1723,10 @@ Vishnu Yoga: If (1) the 9th and 10th lords are in the 2nd house and (2) the lord
 **Conditions**:
 1. the 9th
 2. the lord of the         sign occupied in navamsa by the 9th lord in rasi chart is also in the 2nd house
+
+**Related PyJHora Features**:
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+- 27. Tajaka Chart Basics (Part 4)
 
 **Source Location**: Lines 842-854
 
@@ -1391,6 +1755,10 @@ Yava Yoga: If lagna and the 7th houses are occupied by natural malefics and the 
 2. the 7th houses are occupied by natural malefics
 3. 10th houses are occupied by natural benefics,
 
+**Related PyJHora Features**:
+- 7. Houses (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 340-351
 
 ---
@@ -1406,6 +1774,12 @@ Yoopa Yoga: all the planets are in 1st, 2nd, 3rd and 4th houses from lagna
 1. Yoopa Yoga: all the planets are in 1st, 2nd, 3rd
 2. 4th houses from lagna
 
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 7. Houses (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
+- 19. Lagna Kendradi Rasi Dasa (Part 2)
+
 **Source Location**: Lines 372-380
 
 ---
@@ -1416,6 +1790,10 @@ Yoopa Yoga: all the planets are in 1st, 2nd, 3rd and 4th houses from lagna
 
 **Description**:
 Yuga Yoga: If the seven planets occupy exactly 2 distinct signs among them
+
+**Related PyJHora Features**:
+- 3. Planets (Part 1)
+- 15. Strength of Planets and Rasis (Part 1)
 
 **Source Location**: Lines 512-518
 

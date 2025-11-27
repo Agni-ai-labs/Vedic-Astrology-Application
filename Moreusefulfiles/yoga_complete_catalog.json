@@ -121,6 +121,128 @@
       "Wealth Yogas": [
         "lakshmi_yoga"
       ]
+    },
+    "pyjhora_features": {
+      "Part 1": [
+        {
+          "name": "1. Basic Concepts",
+          "file_path": ""
+        },
+        {
+          "name": "2. Rasis",
+          "file_path": ""
+        },
+        {
+          "name": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "name": "4. Upagrahas",
+          "file_path": ""
+        },
+        {
+          "name": "5. Special Lagnas",
+          "file_path": ""
+        },
+        {
+          "name": "6. Divisional Charts",
+          "file_path": ""
+        },
+        {
+          "name": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "name": "8. Karakas",
+          "file_path": ""
+        },
+        {
+          "name": "9. Arudha Padas",
+          "file_path": ""
+        },
+        {
+          "name": "10. Aspects and Argalas",
+          "file_path": ""
+        },
+        {
+          "name": "11. Yogas",
+          "file_path": ""
+        },
+        {
+          "name": "12. Ashtakavarga",
+          "file_path": ""
+        },
+        {
+          "name": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ],
+      "Part 2": [
+        {
+          "name": "16. Vimsottari Dasa",
+          "file_path": ""
+        },
+        {
+          "name": "17. Ashtottari Dasa",
+          "file_path": ""
+        },
+        {
+          "name": "18. Narayana Dasa",
+          "file_path": ""
+        },
+        {
+          "name": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        },
+        {
+          "name": "20. Sudasa",
+          "file_path": ""
+        },
+        {
+          "name": "21. Drigdasa",
+          "file_path": ""
+        },
+        {
+          "name": "22. Niryaana Shoola Dasa",
+          "file_path": ""
+        },
+        {
+          "name": "23. Shoola Dasa",
+          "file_path": ""
+        },
+        {
+          "name": "24. Kalachakra Dasa",
+          "file_path": ""
+        }
+      ],
+      "Part 3": [
+        {
+          "name": "25. Transits and Natal References",
+          "file_path": ""
+        }
+      ],
+      "Part 4": [
+        {
+          "name": "27. Tajaka Chart Basics",
+          "file_path": ""
+        },
+        {
+          "name": "28. Techniques of Tajaka Charts",
+          "file_path": ""
+        },
+        {
+          "name": "29. Tajaka Yogas",
+          "file_path": ""
+        },
+        {
+          "name": "30. Annual Dasas",
+          "file_path": ""
+        },
+        {
+          "name": "31. Sudarsana Chakra Dasa",
+          "file_path": ""
+        }
+      ]
     }
   },
   "yogas": {
@@ -134,7 +256,8 @@
       "source_lines": {
         "start": 115,
         "end": 122
-      }
+      },
+      "related_features": []
     },
     "vosi_yoga": {
       "name": "Vosi Yoga",
@@ -146,7 +269,8 @@
       "source_lines": {
         "start": 123,
         "end": 130
-      }
+      },
+      "related_features": []
     },
     "ubhayachara_yoga": {
       "name": "Ubhayachara Yoga",
@@ -159,7 +283,8 @@
       "source_lines": {
         "start": 131,
         "end": 134
-      }
+      },
+      "related_features": []
     },
     "nipuna_yoga": {
       "name": "Nipuna Yoga",
@@ -172,7 +297,8 @@
       "source_lines": {
         "start": 135,
         "end": 140
-      }
+      },
+      "related_features": []
     },
     "sunaphaa_yoga": {
       "name": "Sunaphaa Yoga",
@@ -184,7 +310,19 @@
       "source_lines": {
         "start": 141,
         "end": 151
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "anaphaa_yoga": {
       "name": "Anaphaa Yoga",
@@ -196,7 +334,19 @@
       "source_lines": {
         "start": 152,
         "end": 162
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "duradhara_yoga": {
       "name": "Duradhara Yoga",
@@ -209,7 +359,8 @@
       "source_lines": {
         "start": 163,
         "end": 166
-      }
+      },
+      "related_features": []
     },
     "kemadruma_yoga": {
       "name": "Kemadruma Yoga",
@@ -223,7 +374,29 @@
       "source_lines": {
         "start": 167,
         "end": 186
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "chandra_mangala_yoga": {
       "name": "Chandra Mangala Yoga",
@@ -236,7 +409,8 @@
       "source_lines": {
         "start": 187,
         "end": 191
-      }
+      },
+      "related_features": []
     },
     "adhi_yoga": {
       "name": "Adhi Yoga",
@@ -249,7 +423,8 @@
       "source_lines": {
         "start": 192,
         "end": 201
-      }
+      },
+      "related_features": []
     },
     "ruchaka_yoga": {
       "name": "Ruchaka Yoga",
@@ -263,7 +438,14 @@
       "source_lines": {
         "start": 202,
         "end": 209
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "bhadra_yoga": {
       "name": "Bhadra Yoga",
@@ -277,7 +459,14 @@
       "source_lines": {
         "start": 210,
         "end": 217
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sasa_yoga": {
       "name": "Sasa Yoga",
@@ -291,7 +480,14 @@
       "source_lines": {
         "start": 218,
         "end": 225
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "maalavya_yoga": {
       "name": "Maalavya Yoga",
@@ -305,7 +501,14 @@
       "source_lines": {
         "start": 226,
         "end": 233
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "hamsa_yoga": {
       "name": "Hamsa Yoga",
@@ -319,7 +522,14 @@
       "source_lines": {
         "start": 234,
         "end": 241
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "rajju_yoga": {
       "name": "Rajju Yoga",
@@ -331,7 +541,19 @@
       "source_lines": {
         "start": 242,
         "end": 247
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "musala_yoga": {
       "name": "Musala Yoga",
@@ -343,7 +565,19 @@
       "source_lines": {
         "start": 248,
         "end": 253
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "nala_yoga": {
       "name": "Nala Yoga",
@@ -355,7 +589,19 @@
       "source_lines": {
         "start": 254,
         "end": 259
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "maalaa_yoga": {
       "name": "Maalaa Yoga",
@@ -367,7 +613,14 @@
       "source_lines": {
         "start": 260,
         "end": 267
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sarpa_yoga": {
       "name": "Sarpa Yoga",
@@ -379,7 +632,14 @@
       "source_lines": {
         "start": 268,
         "end": 278
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "gadaa_yoga": {
       "name": "Gadaa Yoga",
@@ -391,7 +651,24 @@
       "source_lines": {
         "start": 279,
         "end": 288
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sakata_yoga": {
       "name": "Sakata Yoga",
@@ -404,7 +681,29 @@
       "source_lines": {
         "start": 289,
         "end": 297
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "vihanga_yoga": {
       "name": "Vihanga Yoga",
@@ -417,7 +716,29 @@
       "source_lines": {
         "start": 298,
         "end": 306
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sringaataka_yoga": {
       "name": "Sringaataka Yoga",
@@ -430,7 +751,24 @@
       "source_lines": {
         "start": 307,
         "end": 315
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "hala_yoga": {
       "name": "Hala Yoga",
@@ -442,7 +780,24 @@
       "source_lines": {
         "start": 316,
         "end": 327
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "vajra_yoga": {
       "name": "Vajra Yoga",
@@ -456,7 +811,19 @@
       "source_lines": {
         "start": 328,
         "end": 339
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "yava_yoga": {
       "name": "Yava Yoga",
@@ -470,7 +837,19 @@
       "source_lines": {
         "start": 340,
         "end": 351
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "kamala_yoga": {
       "name": "Kamala Yoga",
@@ -482,7 +861,24 @@
       "source_lines": {
         "start": 352,
         "end": 360
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "vaapi_yoga": {
       "name": "Vaapi Yoga",
@@ -495,7 +891,19 @@
       "source_lines": {
         "start": 361,
         "end": 371
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "yoopa_yoga": {
       "name": "Yoopa Yoga",
@@ -508,7 +916,29 @@
       "source_lines": {
         "start": 372,
         "end": 380
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sara_yoga": {
       "name": "Sara Yoga",
@@ -521,7 +951,29 @@
       "source_lines": {
         "start": 381,
         "end": 389
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sakti_yoga": {
       "name": "Sakti Yoga",
@@ -534,7 +986,29 @@
       "source_lines": {
         "start": 390,
         "end": 398
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "danda_yoga": {
       "name": "Danda Yoga",
@@ -547,7 +1021,29 @@
       "source_lines": {
         "start": 399,
         "end": 407
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "naukaa_yoga": {
       "name": "Naukaa Yoga",
@@ -559,7 +1055,24 @@
       "source_lines": {
         "start": 408,
         "end": 416
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "koota_yoga": {
       "name": "Koota Yoga",
@@ -571,7 +1084,19 @@
       "source_lines": {
         "start": 417,
         "end": 425
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "chatra_yoga": {
       "name": "Chatra Yoga",
@@ -583,7 +1108,19 @@
       "source_lines": {
         "start": 426,
         "end": 434
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "chaapa_yoga": {
       "name": "Chaapa Yoga",
@@ -595,7 +1132,19 @@
       "source_lines": {
         "start": 435,
         "end": 443
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "ardha_chandra_yoga": {
       "name": "Ardha Chandra Yoga",
@@ -608,7 +1157,19 @@
       "source_lines": {
         "start": 444,
         "end": 458
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "chakra_yoga": {
       "name": "Chakra Yoga",
@@ -621,7 +1182,29 @@
       "source_lines": {
         "start": 459,
         "end": 467
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 4",
+          "feature": "31. Sudarsana Chakra Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "samudra_yoga": {
       "name": "Samudra Yoga",
@@ -634,7 +1217,24 @@
       "source_lines": {
         "start": 468,
         "end": 476
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "veenaa_yoga": {
       "name": "Veenaa Yoga",
@@ -646,7 +1246,19 @@
       "source_lines": {
         "start": 477,
         "end": 483
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "daama_yoga": {
       "name": "Daama Yoga",
@@ -658,7 +1270,19 @@
       "source_lines": {
         "start": 484,
         "end": 490
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "paasa_yoga": {
       "name": "Paasa Yoga",
@@ -670,7 +1294,19 @@
       "source_lines": {
         "start": 491,
         "end": 497
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "kedaara_yoga": {
       "name": "Kedaara Yoga",
@@ -682,7 +1318,19 @@
       "source_lines": {
         "start": 498,
         "end": 504
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "soola_yoga": {
       "name": "Soola Yoga",
@@ -694,7 +1342,19 @@
       "source_lines": {
         "start": 505,
         "end": 511
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "yuga_yoga": {
       "name": "Yuga Yoga",
@@ -706,7 +1366,19 @@
       "source_lines": {
         "start": 512,
         "end": 518
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "gola_yoga": {
       "name": "Gola Yoga",
@@ -718,7 +1390,19 @@
       "source_lines": {
         "start": 519,
         "end": 525
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        }
+      ]
     },
     "subha_yoga": {
       "name": "Subha Yoga",
@@ -731,7 +1415,14 @@
       "source_lines": {
         "start": 526,
         "end": 533
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "asubha_yoga": {
       "name": "Asubha Yoga",
@@ -744,7 +1435,14 @@
       "source_lines": {
         "start": 534,
         "end": 541
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "gaja_kesari_yoga": {
       "name": "Gaja Kesari Yoga",
@@ -758,7 +1456,14 @@
       "source_lines": {
         "start": 542,
         "end": 571
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "10. Aspects and Argalas",
+          "file_path": ""
+        }
+      ]
     },
     "guru_mangala_yoga": {
       "name": "Guru Mangala Yoga",
@@ -772,7 +1477,8 @@
       "source_lines": {
         "start": 572,
         "end": 578
-      }
+      },
+      "related_features": []
     },
     "amala_yoga": {
       "name": "Amala Yoga",
@@ -784,7 +1490,14 @@
       "source_lines": {
         "start": 579,
         "end": 586
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "parvata_yoga": {
       "name": "Parvata Yoga",
@@ -797,7 +1510,14 @@
       "source_lines": {
         "start": 587,
         "end": 603
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        }
+      ]
     },
     "kaahala_yoga": {
       "name": "Kaahala Yoga",
@@ -810,7 +1530,14 @@
       "source_lines": {
         "start": 604,
         "end": 617
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "chaamara_yoga": {
       "name": "Chaamara Yoga",
@@ -823,7 +1550,14 @@
       "source_lines": {
         "start": 618,
         "end": 632
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sankha_yoga": {
       "name": "Sankha Yoga",
@@ -837,7 +1571,14 @@
       "source_lines": {
         "start": 633,
         "end": 649
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "bheri_yoga": {
       "name": "Bheri Yoga",
@@ -852,7 +1593,29 @@
       "source_lines": {
         "start": 650,
         "end": 662
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "mridanga_yoga": {
       "name": "Mridanga Yoga",
@@ -865,7 +1628,24 @@
       "source_lines": {
         "start": 663,
         "end": 673
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "sreenaatha_yoga": {
       "name": "Sreenaatha Yoga",
@@ -878,7 +1658,8 @@
       "source_lines": {
         "start": 674,
         "end": 684
-      }
+      },
+      "related_features": []
     },
     "matsya_yoga": {
       "name": "Matsya Yoga",
@@ -892,7 +1673,29 @@
       "source_lines": {
         "start": 685,
         "end": 700
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "koorma_yoga": {
       "name": "Koorma Yoga",
@@ -905,7 +1708,14 @@
       "source_lines": {
         "start": 701,
         "end": 719
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        }
+      ]
     },
     "khadga_yoga": {
       "name": "Khadga Yoga",
@@ -919,7 +1729,14 @@
       "source_lines": {
         "start": 720,
         "end": 732
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "kusuma_yoga": {
       "name": "Kusuma Yoga",
@@ -934,7 +1751,14 @@
       "source_lines": {
         "start": 733,
         "end": 749
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "kalaanidhi_yoga": {
       "name": "Kalaanidhi Yoga",
@@ -947,7 +1771,8 @@
       "source_lines": {
         "start": 750,
         "end": 761
-      }
+      },
+      "related_features": []
     },
     "kalpadruma_yoga": {
       "name": "Kalpadruma Yoga",
@@ -962,7 +1787,24 @@
       "source_lines": {
         "start": 762,
         "end": 796
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "lagnaadhi_yoga": {
       "name": "Lagnaadhi Yoga",
@@ -975,7 +1817,29 @@
       "source_lines": {
         "start": 797,
         "end": 807
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "3. Planets",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 1",
+          "feature": "15. Strength of Planets and Rasis",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "hari_yoga": {
       "name": "Hari Yoga",
@@ -988,7 +1852,14 @@
       "source_lines": {
         "start": 808,
         "end": 816
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        }
+      ]
     },
     "hara_yoga": {
       "name": "Hara Yoga",
@@ -1001,7 +1872,14 @@
       "source_lines": {
         "start": 817,
         "end": 825
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        }
+      ]
     },
     "brahma_yoga": {
       "name": "Brahma Yoga",
@@ -1014,7 +1892,19 @@
       "source_lines": {
         "start": 826,
         "end": 841
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "7. Houses",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "vishnu_yoga": {
       "name": "Vishnu Yoga",
@@ -1027,7 +1917,19 @@
       "source_lines": {
         "start": 842,
         "end": 854
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        },
+        {
+          "part": "Part 4",
+          "feature": "27. Tajaka Chart Basics",
+          "file_path": ""
+        }
+      ]
     },
     "siva_yoga": {
       "name": "Siva Yoga",
@@ -1041,7 +1943,8 @@
       "source_lines": {
         "start": 855,
         "end": 865
-      }
+      },
+      "related_features": []
     },
     "trilochana_yoga": {
       "name": "Trilochana Yoga",
@@ -1054,7 +1957,8 @@
       "source_lines": {
         "start": 866,
         "end": 872
-      }
+      },
+      "related_features": []
     },
     "gouri_yoga": {
       "name": "Gouri Yoga",
@@ -1067,7 +1971,14 @@
       "source_lines": {
         "start": 873,
         "end": 882
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "chandikaa_yoga": {
       "name": "Chandikaa Yoga",
@@ -1080,7 +1991,14 @@
       "source_lines": {
         "start": 883,
         "end": 898
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "lakshmi_yoga": {
       "name": "Lakshmi Yoga",
@@ -1093,7 +2011,14 @@
       "source_lines": {
         "start": 899,
         "end": 909
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "saarada_yoga": {
       "name": "Saarada Yoga",
@@ -1109,7 +2034,8 @@
       "source_lines": {
         "start": 910,
         "end": 929
-      }
+      },
+      "related_features": []
     },
     "bhaarathi_yoga": {
       "name": "Bhaarathi Yoga",
@@ -1123,7 +2049,8 @@
       "source_lines": {
         "start": 930,
         "end": 943
-      }
+      },
+      "related_features": []
     },
     "saraswathi_yoga": {
       "name": "Saraswathi Yoga",
@@ -1136,7 +2063,8 @@
       "source_lines": {
         "start": 944,
         "end": 956
-      }
+      },
+      "related_features": []
     },
     "amsaavatara_yoga": {
       "name": "Amsaavatara Yoga",
@@ -1149,7 +2077,8 @@
       "source_lines": {
         "start": 957,
         "end": 963
-      }
+      },
+      "related_features": []
     },
     "devendra_yoga": {
       "name": "Devendra Yoga",
@@ -1161,7 +2090,14 @@
       "source_lines": {
         "start": 964,
         "end": 977
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "indra_yoga": {
       "name": "Indra Yoga",
@@ -1174,7 +2110,8 @@
       "source_lines": {
         "start": 978,
         "end": 988
-      }
+      },
+      "related_features": []
     },
     "ravi_yoga": {
       "name": "Ravi Yoga",
@@ -1187,7 +2124,8 @@
       "source_lines": {
         "start": 989,
         "end": 998
-      }
+      },
+      "related_features": []
     },
     "bhaaskara_yoga": {
       "name": "Bhaaskara Yoga",
@@ -1201,7 +2139,8 @@
       "source_lines": {
         "start": 999,
         "end": 1011
-      }
+      },
+      "related_features": []
     },
     "kulavardhana_yoga": {
       "name": "Kulavardhana Yoga",
@@ -1213,7 +2152,14 @@
       "source_lines": {
         "start": 1012,
         "end": 1017
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "vasumati_yoga": {
       "name": "Vasumati Yoga",
@@ -1225,7 +2171,8 @@
       "source_lines": {
         "start": 1018,
         "end": 1023
-      }
+      },
+      "related_features": []
     },
     "gandharva_yoga": {
       "name": "Gandharva Yoga",
@@ -1240,7 +2187,14 @@
       "source_lines": {
         "start": 1024,
         "end": 1044
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "go_yoga": {
       "name": "Go Yoga",
@@ -1254,7 +2208,14 @@
       "source_lines": {
         "start": 1045,
         "end": 1059
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "vidyut_yoga": {
       "name": "Vidyut Yoga",
@@ -1268,7 +2229,14 @@
       "source_lines": {
         "start": 1060,
         "end": 1075
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "chapa_yoga": {
       "name": "Chapa Yoga",
@@ -1281,7 +2249,14 @@
       "source_lines": {
         "start": 1076,
         "end": 1084
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "pushkala_yoga": {
       "name": "Pushkala Yoga",
@@ -1296,7 +2271,19 @@
       "source_lines": {
         "start": 1085,
         "end": 1102
-      }
+      },
+      "related_features": [
+        {
+          "part": "Part 1",
+          "feature": "10. Aspects and Argalas",
+          "file_path": ""
+        },
+        {
+          "part": "Part 2",
+          "feature": "19. Lagna Kendradi Rasi Dasa",
+          "file_path": ""
+        }
+      ]
     },
     "makuta_yoga": {
       "name": "Makuta Yoga",
@@ -1310,7 +2297,8 @@
       "source_lines": {
         "start": 1103,
         "end": 1112
-      }
+      },
+      "related_features": []
     },
     "jaya_yoga": {
       "name": "Jaya Yoga",
@@ -1323,7 +2311,8 @@
       "source_lines": {
         "start": 1113,
         "end": 1122
-      }
+      },
+      "related_features": []
     },
     "harsha_yoga": {
       "name": "Harsha Yoga",
@@ -1335,7 +2324,8 @@
       "source_lines": {
         "start": 1123,
         "end": 1128
-      }
+      },
+      "related_features": []
     },
     "sarala_yoga": {
       "name": "Sarala Yoga",
@@ -1347,7 +2337,8 @@
       "source_lines": {
         "start": 1129,
         "end": 1134
-      }
+      },
+      "related_features": []
     },
     "vimala_yoga": {
       "name": "Vimala Yoga",
@@ -1359,7 +2350,8 @@
       "source_lines": {
         "start": 1135,
         "end": 1142
-      }
+      },
+      "related_features": []
     }
   }
 }
