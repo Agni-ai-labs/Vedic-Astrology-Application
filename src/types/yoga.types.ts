@@ -18,7 +18,9 @@ export type YogaCategory =
     | 'vipareeta'            // Reversal yogas (Harsha, Sarala, Vimala)
     | 'artistic'             // Arts/music yogas
     | 'malefic'              // Negative/inauspicious yogas
-    | 'special';             // Special yogas
+    | 'special'              // Special yogas
+    | 'miscellaneous';       // Miscellaneous yogas
+
 
 export type YogaStrength =
     | 'very_strong'           // Maximum benefic results

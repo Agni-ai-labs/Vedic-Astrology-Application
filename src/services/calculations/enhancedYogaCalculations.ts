@@ -2471,7 +2471,8 @@ export function analyzeYogas(chart: VedicChart): YogaAnalysisResult {
         vipareeta: 0,
         artistic: 0,
         malefic: 0,
-        special: 0
+        special: 0,
+        miscellaneous: 0
     };
 
     let strongYogasCount = 0;

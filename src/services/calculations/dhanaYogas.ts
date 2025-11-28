@@ -5,11 +5,7 @@
 
 import { VedicChart } from '../../types/vedic.types';
 import { Yoga } from '../../types/yoga.types';
-import {
-    PLANET_INDICES,
-    EXALTATION_HOUSES,
-    OWN_HOUSES
-} from '../../types/yoga.types';
+
 
 // Helper functions (duplicated for module independence)
 function getAscendantSignIndex(chart: VedicChart): number {
@@ -46,21 +42,7 @@ function isInKendra(fromHouse: number, toHouse: number): boolean {
     return [0, 3, 6, 9].includes(diff);
 }
 
-function isInTrine(fromHouse: number, toHouse: number): boolean {
-    const diff = (toHouse - fromHouse + 12) % 12;
-    return [0, 4, 8].includes(diff);
-}
 
-function isExalted(chart: VedicChart, planetName: string, planetIndex: number): boolean {
-    const house = getPlanetHouse(chart, planetName);
-    return house === EXALTATION_HOUSES[planetIndex as keyof typeof EXALTATION_HOUSES];
-}
-
-function isInOwnSign(chart: VedicChart, planetName: string, planetIndex: number): boolean {
-    const house = getPlanetHouse(chart, planetName);
-    const ownHouses = OWN_HOUSES[planetIndex];
-    return ownHouses?.includes(house) ?? false;
-}
 
 function planetsInSameHouse(chart: VedicChart, planet1: string, planet2: string): boolean {
     const p1House = getPlanetHouse(chart, planet1);
@@ -68,15 +50,7 @@ function planetsInSameHouse(chart: VedicChart, planet1: string, planet2: string)
     return p1House !== -1 && p1House === p2House;
 }
 
-function getPlanetsInHouse(chart: VedicChart, houseIndex: number): string[] {
-    return chart.d1.planets
-        .filter(p => getPlanetHouse(chart, p.planet) === houseIndex)
-        .map(p => p.planet);
-}
 
-function isNaturalBenefic(planetName: string): boolean {
-    return ['Jupiter', 'Venus', 'Mercury', 'Moon'].includes(planetName);
-}
 
 /**
  * Dhana Yoga 1 - Lord of 2nd in 11th
