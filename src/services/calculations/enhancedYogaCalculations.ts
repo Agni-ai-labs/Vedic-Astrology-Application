@@ -22,6 +22,7 @@ import {
     DEBILITATION_HOUSES
 } from '@/types/yoga.types';
 
+
 /**
  * Helper: Get house index (0-11) for a planet
  */
