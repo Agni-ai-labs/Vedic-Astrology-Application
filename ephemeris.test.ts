@@ -1,19 +1,39 @@
-import { getSiderealChart } from "./fixed-chart";
+import { describe, it, expect } from 'vitest';
+import { calculatePlanets, calculateHouses, SIGNS, NAKSHATRAS } from './src/services/calculations/astronomy';
 
-async function test() {
-  const date = new Date(Date.UTC(2025, 10, 28, /* choose appropriate UTC time */ 1, 22, 0));  // e.g. convert 6:52 IST to UTC
-  const lat = 28.6139;
-  const lng = 77.2090;
+describe('Ephemeris Calculations', () => {
+  it('should calculate sidereal planetary positions', () => {
+    const date = new Date(Date.UTC(2025, 10, 28, 1, 22, 0));
+    const lat = 28.6139;
+    const lng = 77.2090;
+    const timezoneOffset = 5.5; // IST
 
-  const chart = await getSiderealChart(date, lat, lng);
-  console.log("===== Sidereal Chart =====");
-  chart.planets.forEach(p => {
-    console.log(`${p.name.padEnd(8)} : ${p.longitude.toFixed(2)}°`);
+    const planets = calculatePlanets(date, lat, lng, timezoneOffset);
+
+    expect(planets.length).toBeGreaterThan(0);
+    planets.forEach(p => {
+      expect(p.longitude).toBeGreaterThanOrEqual(0);
+      expect(p.longitude).toBeLessThan(360);
+      expect(SIGNS).toContain(p.sign);
+      expect(NAKSHATRAS).toContain(p.nakshatra);
+    });
   });
-  console.log("Cusps:");
-  chart.houses.forEach(h => {
-    console.log(`House ${h.house}: ${h.cusp.toFixed(2)}°`);
-  });
-}
 
-test().catch(console.error);
+  it('should calculate house cusps', () => {
+    const date = new Date(Date.UTC(2025, 10, 28, 1, 22, 0));
+    const lat = 28.6139;
+    const lng = 77.2090;
+    const timezoneOffset = 5.5;
+
+    const houses = calculateHouses(date, lat, lng, timezoneOffset);
+
+    expect(houses.length).toBe(12);
+    houses.forEach(h => {
+      expect(h.longitude).toBeGreaterThanOrEqual(0);
+      expect(h.longitude).toBeLessThan(360);
+      expect(h.number).toBeGreaterThanOrEqual(1);
+      expect(h.number).toBeLessThanOrEqual(12);
+    });
+  });
+});
+

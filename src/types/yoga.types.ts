@@ -39,6 +39,18 @@ export interface Yoga {
     planetInvolved?: string[];  // Planets creating this yoga
 }
 
+/**
+ * YogaRule - Rule definition for yoga detection
+ * Based on B.V. Raman's "Three Hundred Important Combinations"
+ */
+export interface YogaRule {
+    name: string;
+    type: 'Raj Yoga' | 'Dhana Yoga' | 'Arista Yoga' | 'General';
+    requiredPlanets: string[];
+    condition: string;
+    result: string;
+}
+
 export interface YogaAnalysisResult {
     yogas: Yoga[];
     totalCount: number;

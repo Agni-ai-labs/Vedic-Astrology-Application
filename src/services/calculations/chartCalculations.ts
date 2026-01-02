@@ -1,4 +1,9 @@
-import * as Astronomy from 'astronomy-engine';
+import {
+    calculatePlanets,
+    calculateAscendant,
+    calculateHouses,
+    House as AstroHouse
+} from './astronomy';
 import { getZodiacSignData } from '@/data/zodiacSigns';
 import { ZodiacSign } from '@/types/western.types';
 
@@ -17,6 +22,8 @@ export interface PlanetaryPosition {
     sign: ZodiacSign;
     degree: number;
     house: number;
+    isRetrograde: boolean;
+    speed: number;
 }
 
 export interface BirthChart {
@@ -30,6 +37,8 @@ export interface BirthChart {
     uranus: PlanetaryPosition;
     neptune: PlanetaryPosition;
     pluto: PlanetaryPosition;
+    rahu: PlanetaryPosition;
+    ketu: PlanetaryPosition;
     ascendant: {
         sign: ZodiacSign;
         degree: number;
@@ -37,19 +46,18 @@ export interface BirthChart {
     houses: number[]; // 12 house cusps in degrees
 }
 
-
-
-const ZODIAC_SIGNS = [
-    'Aries', 'Taurus', 'Gemini', 'Cancer',
-    'Leo', 'Virgo', 'Libra', 'Scorpio',
-    'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces'
-];
-
-function getZodiacPosition(eclipticLongitude: number): { sign: ZodiacSign; degree: number } {
-    const normalizedLon = ((eclipticLongitude % 360) + 360) % 360;
+function getZodiacPosition(siderealLon: number): { sign: ZodiacSign; degree: number } {
+    const normalizedLon = ((siderealLon % 360) + 360) % 360;
     const signIndex = Math.floor(normalizedLon / 30);
     const degree = normalizedLon % 30;
-    const signName = ZODIAC_SIGNS[signIndex];
+
+    // Map to Sign Name (0 = Aries, etc.)
+    const signNames = [
+        'Aries', 'Taurus', 'Gemini', 'Cancer',
+        'Leo', 'Virgo', 'Libra', 'Scorpio',
+        'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces'
+    ];
+    const signName = signNames[signIndex];
 
     return {
         sign: getZodiacSignData(signName),
@@ -57,29 +65,30 @@ function getZodiacPosition(eclipticLongitude: number): { sign: ZodiacSign; degre
     };
 }
 
-function calculateHouseCusp(ascendantDegree: number, houseNumber: number): number {
-    // Simple Placidus-style calculation (simplified for now)
-    const cuspDegree = (ascendantDegree + (houseNumber - 1) * 30) % 360;
-    return cuspDegree;
-}
-
-function getHouseForPlanet(planetDegree: number, houses: number[]): number {
-    for (let i = 0; i < 12; i++) {
+function getHouseForPlanet(planetLon: number, houses: AstroHouse[]): number {
+    for (let i = 0; i < houses.length; i++) {
         const currentHouse = houses[i];
-        const nextHouse = houses[(i + 1) % 12];
+        const nextHouse = houses[(i + 1) % houses.length];
 
-        if (nextHouse > currentHouse) {
-            if (planetDegree >= currentHouse && planetDegree < nextHouse) {
-                return i + 1;
-            }
-        } else {
-            // Handle wrap-around at 360 degrees
-            if (planetDegree >= currentHouse || planetDegree < nextHouse) {
-                return i + 1;
-            }
+        let start = currentHouse.longitude;
+        let end = nextHouse.longitude;
+
+        // Handle wrap around
+        if (end < start) {
+            end += 360;
+        }
+
+        let pLon = planetLon;
+        if (pLon < start) {
+            pLon += 360;
+        }
+
+        if (pLon >= start && pLon < end) {
+            return currentHouse.number;
         }
     }
-    return 1; // Default to 1st house if calculation fails
+    // Fallback
+    return 1;
 }
 
 export function calculateBirthChart(details: BirthDetails): BirthChart {
@@ -88,71 +97,63 @@ export function calculateBirthChart(details: BirthDetails): BirthChart {
     const birthDateTime = new Date(details.date);
     birthDateTime.setHours(hours, minutes, 0, 0);
 
-    // Calculate Sun position (SunPosition returns ecliptic coordinates)
-    const sunPos = Astronomy.SunPosition(birthDateTime);
-    const sun = getZodiacPosition(sunPos.elon);
+    // Get time zone offset (simplified, ideally usage of timezone string)
+    // For now assuming the date object already handles UTC or we need to pass numeric offset if available.
+    // The details.timezone is a string (e.g. "Asia/Kolkata").
+    // We'll trust the Date object construction if it's correct, OR we might need logic if 'details.date' is just YYYY-MM-DD.
+    // Assuming birthDateTime is effectively Local Time.
+    // calculatingPlanets in astronomy.ts takes (date, ...). 
+    // It converts to UTC internally if we pass local date? No, it expects Date object which is absolute time.
+    // So if birthDateTime is "2023-01-01T10:00:00" in Local, we need to ensure it represents the correct absolute time.
 
-    // Calculate Moon position  
-    const moonLon = Astronomy.EclipticLongitude(Astronomy.Body.Moon, birthDateTime);
-    const moon = getZodiacPosition(moonLon);
+    // Let's rely on standard Date behavior for now.
 
-    // Calculate other planets using GeoVector
-    const mercuryVec = Astronomy.GeoVector(Astronomy.Body.Mercury, birthDateTime, false);
-    const mercuryEcl = Astronomy.Ecliptic(mercuryVec);
-    const mercury = getZodiacPosition(mercuryEcl.elon);
+    // 1. Calculate Planets
+    const planets = calculatePlanets(birthDateTime, details.latitude, details.longitude);
 
-    const venusVec = Astronomy.GeoVector(Astronomy.Body.Venus, birthDateTime, false);
-    const venusEcl = Astronomy.Ecliptic(venusVec);
-    const venus = getZodiacPosition(venusEcl.elon);
+    // 2. Calculate Houses
+    const housesData = calculateHouses(birthDateTime, details.latitude, details.longitude);
+    const houseCusps = housesData.map(h => h.longitude);
 
-    const marsVec = Astronomy.GeoVector(Astronomy.Body.Mars, birthDateTime, false);
-    const marsEcl = Astronomy.Ecliptic(marsVec);
-    const mars = getZodiacPosition(marsEcl.elon);
+    // 3. Calculate Ascendant
+    const ascendantLon = calculateAscendant(birthDateTime, details.latitude, details.longitude);
+    const ascendant = getZodiacPosition(ascendantLon);
 
-    const jupiterVec = Astronomy.GeoVector(Astronomy.Body.Jupiter, birthDateTime, false);
-    const jupiterEcl = Astronomy.Ecliptic(jupiterVec);
-    const jupiter = getZodiacPosition(jupiterEcl.elon);
+    // Helper to map AstroPlanet to PlanetaryPosition
+    const mapPlanet = (planetName: string): PlanetaryPosition => {
+        const p = planets.find(pl => pl.name === planetName);
+        if (!p) {
+            // Should not happen if astronomy.ts covers all
+            // Return dummy or throw
+            throw new Error(`Planet ${planetName} not found in calculation results`);
+        }
 
-    const saturnVec = Astronomy.GeoVector(Astronomy.Body.Saturn, birthDateTime, false);
-    const saturnEcl = Astronomy.Ecliptic(saturnVec);
-    const saturn = getZodiacPosition(saturnEcl.elon);
+        const pos = getZodiacPosition(p.longitude);
+        const house = getHouseForPlanet(p.longitude, housesData);
 
-    const uranusVec = Astronomy.GeoVector(Astronomy.Body.Uranus, birthDateTime, false);
-    const uranusEcl = Astronomy.Ecliptic(uranusVec);
-    const uranus = getZodiacPosition(uranusEcl.elon);
-
-    const neptuneVec = Astronomy.GeoVector(Astronomy.Body.Neptune, birthDateTime, false);
-    const neptuneEcl = Astronomy.Ecliptic(neptuneVec);
-    const neptune = getZodiacPosition(neptuneEcl.elon);
-
-    const plutoVec = Astronomy.GeoVector(Astronomy.Body.Pluto, birthDateTime, false);
-    const plutoEcl = Astronomy.Ecliptic(plutoVec);
-    const pluto = getZodiacPosition(plutoEcl.elon);
-
-    // Calculate Ascendant (Rising Sign)
-    // Using sidereal time and latitude to approximate ascendant
-    const lst = Astronomy.SiderealTime(birthDateTime);
-    const ascendantDegree = ((lst * 15 + details.longitude) % 360 + 360) % 360;
-    const ascendant = getZodiacPosition(ascendantDegree);
-
-    // Calculate house cusps
-    const houses: number[] = [];
-    for (let i = 1; i <= 12; i++) {
-        houses.push(calculateHouseCusp(ascendantDegree, i));
-    }
+        return {
+            sign: pos.sign, // Full ZodiacSign object
+            degree: parseFloat(p.degreeInSign.toFixed(2)),
+            house: house,
+            isRetrograde: p.isRetrograde,
+            speed: parseFloat(p.speed.toFixed(4))
+        };
+    };
 
     return {
-        sun: { ...sun, house: getHouseForPlanet(sunPos.elon, houses) },
-        moon: { ...moon, house: getHouseForPlanet(moonLon, houses) },
-        mercury: { ...mercury, house: getHouseForPlanet(mercuryEcl.elon, houses) },
-        venus: { ...venus, house: getHouseForPlanet(venusEcl.elon, houses) },
-        mars: { ...mars, house: getHouseForPlanet(marsEcl.elon, houses) },
-        jupiter: { ...jupiter, house: getHouseForPlanet(jupiterEcl.elon, houses) },
-        saturn: { ...saturn, house: getHouseForPlanet(saturnEcl.elon, houses) },
-        uranus: { ...uranus, house: getHouseForPlanet(uranusEcl.elon, houses) },
-        neptune: { ...neptune, house: getHouseForPlanet(neptuneEcl.elon, houses) },
-        pluto: { ...pluto, house: getHouseForPlanet(plutoEcl.elon, houses) },
+        sun: mapPlanet('Sun'),
+        moon: mapPlanet('Moon'),
+        mercury: mapPlanet('Mercury'),
+        venus: mapPlanet('Venus'),
+        mars: mapPlanet('Mars'),
+        jupiter: mapPlanet('Jupiter'),
+        saturn: mapPlanet('Saturn'),
+        uranus: mapPlanet('Uranus'),
+        neptune: mapPlanet('Neptune'),
+        pluto: mapPlanet('Pluto'),
+        rahu: mapPlanet('Rahu'),
+        ketu: mapPlanet('Ketu'),
         ascendant,
-        houses
+        houses: houseCusps
     };
 }

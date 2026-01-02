@@ -34,7 +34,7 @@ export interface DashaPeriod {
 
 export interface Yoga {
     name: string;
-    type: 'Raj' | 'Dhana' | 'Spiritual' | 'Negative';
+    type: 'Raj' | 'Dhana' | 'Spiritual' | 'Negative' | 'Arista' | 'General';
     planets: string[];
     description: string;
     effects: string;
@@ -42,7 +42,7 @@ export interface Yoga {
 }
 
 export interface Dosha {
-    name: 'Manglik' | 'Kaal Sarp' | 'Pitra' | 'Shani' | 'Rahu-Ketu';
+    name: 'Manglik' | 'Kaal Sarp' | 'Pitra' | 'Shani' | 'Rahu-Ketu' | 'Sade Sati';
     present: boolean;
     severity: 'High' | 'Medium' | 'Low' | 'None';
     details: string;

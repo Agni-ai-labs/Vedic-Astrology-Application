@@ -130,7 +130,7 @@ function App() {
                 {/* Footer */}
                 <footer className="bg-bg-secondary border-t border-border-primary mt-16">
                     <div className="container mx-auto px-4 py-6 text-center text-text-tertiary text-sm">
-                        Session 5 Complete: Combined Analysis (Holistic Insights) • Next: Testing
+                        Vedic Astrology Application - Powered by Classical Jyotish Principles
                     </div>
                 </footer>
             </div>

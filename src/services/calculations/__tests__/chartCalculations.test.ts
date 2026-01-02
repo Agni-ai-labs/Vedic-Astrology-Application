@@ -14,7 +14,8 @@ describe('calculateBirthChart', () => {
     it('should calculate sun sign correctly', () => {
         const chart = calculateBirthChart(mockBirthDetails);
         expect(chart.sun).toBeDefined();
-        expect(chart.sun.sign.name).toBe('Capricorn'); // Sun is in Capricorn on Jan 1st
+        // Sidereal sun sign on Jan 1st is Sagittarius (tropical Capricorn minus ~24 degree ayanamsa)
+        expect(chart.sun.sign.name).toBe('Sagittarius');
     });
 
     it('should calculate moon position', () => {

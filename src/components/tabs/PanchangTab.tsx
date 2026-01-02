@@ -39,7 +39,7 @@ export function PanchangTab() {
                     onClick={() => setCurrentDate(new Date(currentDate.setDate(currentDate.getDate() - 1)))}
                     className="text-text-tertiary hover:text-text-primary"
                 >
-                    ← Previous Day
+                    Previous Day
                 </button>
                 <div className="flex items-center gap-2 font-semibold text-text-primary">
                     <Calendar className="w-5 h-5 text-status-warning" />
@@ -49,7 +49,7 @@ export function PanchangTab() {
                     onClick={() => setCurrentDate(new Date(currentDate.setDate(currentDate.getDate() + 1)))}
                     className="text-text-tertiary hover:text-text-primary"
                 >
-                    Next Day →
+                    Next Day
                 </button>
             </div>
 
